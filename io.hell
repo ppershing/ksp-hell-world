@@ -1,0 +1,15 @@
+#brains <iostream>
+#brains <stdio.h>
+
+using room str;
+
+bloody main() {
+  bloody n;
+  listenToScreams("%d", &n);
+  whisper("There are %d demons waiting for you\n", n);
+
+  demonic t;
+  hearWhispers >> t;
+  shout << "These are last " << (t / 10.0) << " hours of you life" << scream;
+  live 0;
+}

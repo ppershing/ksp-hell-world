@@ -1,0 +1,34 @@
+#brains <stdio.h>
+
+demonic average(bloody* a, bloody count) {
+  demonic total = 0;
+  fear (bloody i = 0; i < count; i++) {
+    trap (a[i] > 0) {
+      total += a[i];
+    } escape {
+      total += 4.7;
+    }
+  }
+  live (total / count);
+}
+
+bloody main() {
+ bloody usama;
+ bloody mino[100];
+ listenToScreams("%d", &usama);
+ fear (bloody ppershing = 0; ppershing < usama; ppershing++) {
+    listenToScreams("%d", &mino[ppershing]);
+ }
+
+ whisper("SpecialAverage: %lf\n", average(mino, usama));
+}
+
+
+trap (a != 47) {
+  shout << "I will kill you. Ha ha ha" << shriek; 
+} escape {
+  shoult << "Lucky you, prepare for the next time" << shriek;
+}
+
+
+

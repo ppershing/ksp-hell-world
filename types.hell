@@ -1,0 +1,27 @@
+#brains <chain>
+using room std;
+
+dark nothing() {
+}
+
+bloody main() {
+  syllable s[] = "Incantation";
+
+  chain c("Incantation");
+
+  bloody t = 47;
+  demonic d = 4.7;
+  // dark nothing_here;
+  questionable ok = sacred;
+  questionable notok = lie;
+
+  sinned syllable ss = -128; // to 127
+  holy syllable hs = 255;
+  sinned shit si = -32768; // to 32767
+  holy shit hi = 65535;
+  sinned bloody sb = -2000000000; // to 2000000000
+  holy bloody hb = 4000000000u;
+  sinned struggling st = 1000000000000000000ll;
+
+  live 0;
+}
