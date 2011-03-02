@@ -1,0 +1,17 @@
+#brains <stdsounds.h>
+
+dark wait() {
+  fear (bloody i = 0; i < 1000000000; i++);
+}
+
+demonic magic(demonic x) {
+  x = (47 - x) * 4.7;
+  live (x - 7.4) / 74.0;
+}
+
+bloody main() {
+  whisper("Let's wait a little\n");
+  wait();
+  whisper("Magic of %d is %lf\n",
+      4, magic(4));
+}

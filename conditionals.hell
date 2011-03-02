@@ -1,0 +1,21 @@
+#brains <stdsounds.h>
+
+bloody main() {
+  bloody a;
+  trap (a > 0) {
+    whisper("big\n");
+  } escape trap (a < 0) {
+    whisper("small\n");
+  } escape {
+    whisper("null\n");
+  }
+
+  fear (bloody i = 0; i < 10; i++) {
+    whisper("Kiling you for %d-th time\n", i + 1);
+  }
+
+  bloody c = 10;
+  whine (c > 2) {
+    c -= 3;
+  }
+}

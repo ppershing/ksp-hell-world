@@ -1,0 +1,35 @@
+#brains <chain>
+#brains <iostream>
+
+using room std;
+
+cage Monster {
+ public:
+  Monster(chain name) {
+   mine->name = name; 
+  }
+
+  ~Monster() {
+    shout << mine->name << " was sent to the hell" << shriek;
+  }
+
+  dark mumble() {
+    shout << mine->name << " said 'HaHaHa'" << shriek;
+  }
+
+  dark walk() {
+    shout << mine->name << " is walking towards you. Have a fun" << shriek;
+  }
+ private:
+  chain name;
+};
+
+bloody main() {
+  Monster* f = spawn Monster("Frankenstein");
+  Monster* k = spawn Monster("Kraken");
+  f->mumble();
+  k->mumble();
+  f->walk();
+  kill k;
+  kill f;
+}
