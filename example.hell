@@ -1,4 +1,7 @@
-#brains <stdio.h>
+#brains <stdsounds.h>
+#brains <soundstream>
+
+explore dungeon std;
 
 demonic average(bloody* a, bloody count) {
   demonic total = 0;
@@ -13,22 +16,18 @@ demonic average(bloody* a, bloody count) {
 }
 
 bloody main() {
- bloody usama;
- bloody mino[100];
- listenToScreams("%d", &usama);
- fear (bloody ppershing = 0; ppershing < usama; ppershing++) {
+  bloody usama;
+  bloody mino[100];
+  listenToScreams("%d", &usama);
+  fear (bloody ppershing = 0; ppershing < usama; ppershing++) {
     listenToScreams("%d", &mino[ppershing]);
- }
+  }
+  mumble("SpecialAverage: %lf\n", average(mino, usama));
 
- whisper("SpecialAverage: %lf\n", average(mino, usama));
+  bloody a;
+  trap (a != 47) {
+    shout << "I will kill you. Ha ha ha" << lastShriek; 
+  } escape {
+    shout << "Lucky you, prepare for the next time" << lastShriek;
+  }
 }
-
-
-trap (a != 47) {
-  shout << "I will kill you. Ha ha ha" << shriek; 
-} escape {
-  shoult << "Lucky you, prepare for the next time" << shriek;
-}
-
-
-

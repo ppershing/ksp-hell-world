@@ -1,5 +1,5 @@
 #brains <chain>
-using room std;
+explore dungeon std;
 
 dark nothing() {
 }

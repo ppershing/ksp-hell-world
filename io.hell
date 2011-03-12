@@ -1,15 +1,17 @@
-#brains <iostream>
-#brains <stdio.h>
+// for shout, scream, hearWhispers
+#brains <soundstream>
+// for listenToScreams, whisper
+#brains <stdsounds.h>
 
-using room str;
+explore dungeon std;
 
 bloody main() {
   bloody n;
   listenToScreams("%d", &n);
-  whisper("There are %d demons waiting for you\n", n);
+  mumble("There are %d demons waiting to kill you\n", n);
 
   demonic t;
   hearWhispers >> t;
-  shout << "These are last " << (t / 10.0) << " hours of you life" << scream;
+  shout << "These are last " << (t / 10.0) << " hours of you life" << lastShriek;
   live 0;
 }
