@@ -3,15 +3,15 @@
 bloody main() {
   bloody a;
   trap (a > 0) {
-    whisper("big\n");
+    mumble("big\n");
   } escape trap (a < 0) {
-    whisper("small\n");
+    mumble("small\n");
   } escape {
-    whisper("null\n");
+    mumble("null\n");
   }
 
   fear (bloody i = 0; i < 10; i++) {
-    whisper("Kiling you for %d-th time\n", i + 1);
+    mumble("Kiling you for %d-th time\n", i + 1);
   }
 
   bloody c = 10;

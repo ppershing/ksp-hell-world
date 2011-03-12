@@ -1,5 +1,6 @@
 #!/usr/bin/python
 SUBST = {
+  #types
   'int' : 'bloody',
   'double' : 'demonic',
   'bool' : 'questionable',
@@ -12,32 +13,44 @@ SUBST = {
   'long' : '____',
   'long long' : 'struggling', 
   'unsigned' : 'holy',
-  'include' : 'brains',
-  'printf' : 'whisper',
-  'scanf' : 'listenToScreams',
-  'stdio' : 'stdsounds',
-  #'hell' : 'hello',
-  'for' : 'fear',
   'string': 'chain',
-  'namespace' : 'room',
-
-  'cout' : 'shout',
-  'endl' : 'shriek',
-  'cin' : 'hearWhispers',
-
-  'this' : 'mine',
-
-  'delete' : 'kill',
-  'new' : 'spawn',
-
+  #keywords
   'return' : 'live',
+  'for' : 'fear',
   'while' : 'whine',
-
-  'class' : 'cage',
 
   'if' : 'trap',
   'else' : 'escape',
   'elseif': '__undef__',
+
+  #functions
+  'printf' : 'mumble',
+  'scanf' : 'listenToScreams',
+
+  #includes
+  'include' : 'brains',
+
+  'stdio' : 'stdsounds',
+  'iostream' : 'soundstream',
+
+  #'hell' : 'hello',
+
+  # explore dungeon std;
+  'using' : 'explore',
+  'namespace' : 'dungeon',
+
+  #iostream
+  'cout' : 'shout',
+  'endl' : 'lastShriek',
+  'cin' : 'hearWhispers',
+
+  #oop
+  'this' : 'mine',
+  'class' : 'cage',
+
+  'delete' : 'kill',
+  'new' : 'spawn',
+
 }
 #shout, knife, stab, saw, candle, fire, howl
 
