@@ -2,8 +2,20 @@
 # @param $1 path_to_source_code
 # @param $2 task_name
 
+function die {
+    echo $@
+    exit 1
+}
+
+if [ $# -ne 2 ]; then
+    die "Usage: testovac.sh path_to_source_code task_name"
+fi
+TASKNAME="$2"
+SOURCE="$1"
 TESTDIR=`dirname $0`
 TESTDIR=`readlink -f "$TESTDIR"`
+
+# default constants
 BACKUPDIR="$TESTDIR/backup";
 SANDBOXDIR="$TESTDIR/sandbox";
 TASKDIR="$TESTDIR/tasks";
@@ -11,10 +23,6 @@ BINARY="$SANDBOXDIR/hell.bin";
 WRAPPERDIR="$TESTDIR"
 COMPILESCRIPTDIR="$TESTDIR/compiler"
 
-function die {
-    echo $@
-    exit 1
-}
 
 function backup_sandbox {
     tmpdir=$BACKUPDIR/`date "+%F-%T"`
@@ -53,8 +61,9 @@ function run_tests {
     cd $SANDBOXDIR || die
     MEMORY=25600
     TIME=2000
+    FULLLOG="" # "--fulllog" to enable full diff
     wrapper_args=" -a0 -f -m$MEMORY -t$TIME"
-    ./test.sh --fulllog $wrapper_args || die
+    ./test.sh $FULLLOG $wrapper_args || die
 
 }
 
@@ -62,9 +71,7 @@ backup_sandbox
 clean_sandbox
 copy_wrapper_to_sandbox
 copy_compile_script
-copy_test_data "10_srnka"
-compile "$1"
+copy_test_data "$TASKNAME"
+compile "$SOURCE"
 run_tests
-die "koniec"
-
-
+exit 0
