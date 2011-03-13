@@ -17,7 +17,7 @@ for infile in *.in; do
     tstfile=$base.tst
     difffile=$base.diff
     echo -n "<font color='yellow'> running... </font> <pre>"
-    ./wrapper $* ./program -i$infile -o$outfile &>tmp
+    ./wrapper $* ./hell -i$infile -o$outfile &>tmp
     RETVAL=$?
     cat tmp
     echo "</pre>"
