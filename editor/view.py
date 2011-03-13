@@ -79,6 +79,11 @@ class ViewData:
 		"""
 		Moves cursor relatively to specified coords
 		"""
+		
+		oldpos = self.cursor
+		(blockno, blockoffset)  = self.get_block_offset (self.cursor[0], self.cursor[1])
+		oldblock = self.lines[self.cursor[1]][blockno]
+		
 		if dy < 0:
 			if self.cursor[1] > 0:
 				self.cursor[1] += dy
@@ -106,6 +111,16 @@ class ViewData:
 				self.cursor[0] += dx
 			if self.cursor[0] - self.offset[0] >= self.width:
 				self.offset[0] += self.cursor[0] - self.offset[0] - self.width
+		
+		(blockno, blockoffset)  = self.get_block_offset (self.cursor[0], self.cursor[1])
+		newblock = self.lines[self.cursor[1]][blockno]
+
+		if oldblock.manager is not None:
+			oldblock.manager.move_cursor (oldpos, (dx, dy))
+		
+		if newblock.manager is not None:
+			newblock.manager.move_cursor (oldpos, (dx, dy))
+
 
 	
 	def get_block_offset (self, x, y):
@@ -125,6 +140,19 @@ class ViewData:
 			return (len(self.lines[y])-1, len(lastblock.text))
 
 		return None
+
+	def get_coord_from_block_offset (self, blockno, line, offset=0):
+		assert line < len (self.lines)
+		assert blockno < len (self.lines[line])
+		assert offset < len(self.lines[line][blockno].text) or offset == 0
+
+		ret = 0
+
+		for i in self.lines[line][0:blockno]:
+			ret += len (i.text)
+		ret += offset
+
+		return ret
 
 	def break_line (self, x = None, y = None):
 		"""
@@ -205,6 +233,7 @@ class ViewData:
 		if y is None:
 			y = self.cursor[1]
 		line = self.lines[y]
+		deleted = False
 
 		# don't delete last block
 
@@ -220,13 +249,15 @@ class ViewData:
 		else:
 			if (len(self.lines) != 1) and (len(self.lines[0]) != 1):
 				del self.lines[y][blockno]
+				deleted = True
 			else:
 				self.lines[y][blockno] = newblock
 		
 		if block.manager == None:
-			for plugin in self.plugins:
-				if plugin.updated_unbound_block (self, blockno, y):
-					break
+			if not deleted:
+				for plugin in self.plugins:
+					if plugin.updated_unbound_block (self, blockno, y):
+						break
 		else:
 			block.manager.delete (self, blockno, y, blockoffset, deleted_char)
 
