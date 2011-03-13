@@ -10,7 +10,7 @@ from view import *
 ### main
 pygame.init ()
 pygame.key.set_repeat (200, 25)
-wp = Viewport (320,240)
+wp = Viewport (640, 480)
 clock = pygame.time.Clock ()
 max_width = wp.screen.get_width()/wp.char_width
 max_height = wp.screen.get_height()/wp.char_height
@@ -19,6 +19,8 @@ view = ViewData (max_width, max_height)
 
 view.plugins.append(Burn)
 view.plugins.append(HelloWorld)
+view.plugins.append(Trap)
+view.plugins.append(StaticWordHighlight)
 
 while 1:
 	clock.tick (25)
@@ -77,6 +79,15 @@ while 1:
 				view.move_cursor (-1, 0)
 			elif event.key == K_RIGHT:
 				view.move_cursor (1, 0)
+			elif event.key == K_HOME:
+				view.move_cursor (-view.cursor[0], 0)
+			elif event.key == K_END:
+				view.move_cursor (view.line_length(view.cursor[1]) - view.cursor[0], 0)
+			elif event.key == K_TAB:
+				tabsize = 4
+				for i in range (0,tabsize):
+					view.insert(' ')
+				view.move_cursor(tabsize, 0)
 			elif event.key == K_DELETE:
 				if view.cursor[0] < view.line_length (view.cursor[1]):
 					view.delete ()
@@ -86,14 +97,16 @@ while 1:
 			elif event.key == K_BACKSPACE:
 				if view.cursor[0] > 0:
 					#delete a char
-					view.delete (x = view.cursor[0]-1)
 					view.move_cursor (-1, 0)
+					view.delete ()
+
 				else:
 					#delete newline
 					if view.cursor[1] > 0:
 						newpos = view.line_length (view.cursor[1]-1)
-						view.delete_newline(view.cursor[1]-1)
 						view.move_cursor(newpos-view.cursor[0], -1)
+						view.delete_newline(view.cursor[1])
+
 			elif event.key == K_RETURN:
 				view.break_line ()
 				view.move_cursor(0, 1)

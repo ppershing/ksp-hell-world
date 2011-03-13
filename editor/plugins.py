@@ -45,6 +45,13 @@ class Plugin:
 	def render (self, view, blockno, line, viewport, rect):
 		pass
 
+	@abstractmethod 
+	def move_cursor (self, oldpos, delta):
+		"""
+		Called when cursor moves in bound block
+		"""
+		pass
+
 	def disown (self, view, blockno, line):
 		view.lines[line][blockno].manager = None
 		view.new_block (blockno, line)
@@ -87,13 +94,14 @@ class Burn(WordMatchPlugin):
 
 	def render (self,view, blockno, line, wp, rect):
 		block = view.lines[line][blockno]
-		text = wp.font.render (block.text, 0, (randint(128, 255), randint (64, 96), randint(64, 96)) )
+		c = (float(self.burnt)/float(wp.char_height))*64
+		text = wp.font.render (block.text, 0, (randint(128, 255) - c , randint (64, 96) - c , randint(64, 96) - c) )
 		pygame.draw.rect(text, (0, 0, 0), (0, 0, text.get_width() - 1, self.burnt))
 		blit_clipped (wp.screen, text, rect)
 
 		# tick
 
-		self.burnt += 0.2
+		self.burnt += 0.1
 		if self.burnt >= text.get_height():
 			block.text = '.'*len(block.text)
 			self.disown (view, blockno, line)
@@ -106,16 +114,22 @@ class HelloWorld(WordMatchPlugin):
 	
 	
 	def delete (self, view, blockno, line, offset, char):
-		self.disown (view, blockno, line)
+		block = view.lines[line][blockno]
+		if block.text == '' or self.anim_time > 254:
+			self.disown (view, blockno, line)
 
 	def insert (self, view, blockno, line, offset):
-		self.disown (view, blockno, line)
+		if self.anim_time > 254:
+			self.disown (view, blockno, line)
 
-	def render (self,view, blockno, line, wp, rect):
-		
+	def tick (self, view, blockno, line, wp):
 		if self.anim_time < 254:
 			self.anim_time += 2
 		else: self.anim_time = 255	
+	
+	def render (self, view, blockno, line, wp, rect):
+		self.tick (view, blockno, line, wp)		
+
 		c = max (0, self.anim_time)
 
 		color = (255, 255 - c, 255 - c)
@@ -125,10 +139,125 @@ class HelloWorld(WordMatchPlugin):
 		
 		if self.anim_time < 0:
 			return
-		
 
 		if self.anim_time <= 254:
 			block.text = 'Hell   world'
 			ocomma = wp.font.render ('o,', 0, (255- self.anim_time, 255-self.anim_time, 255-self.anim_time))
 			ocomma_rect = (rect[0]+wp.char_width*4, rect[1]+self.anim_time/2, rect[2], rect[3])
 			blit_clipped (wp.screen, ocomma, ocomma_rect)
+
+class Trap(WordMatchPlugin):
+	my_string = 'trap'
+
+	def __init__ (self):
+		self.momentum = 0
+		self.yoffset = 0
+		self.direction = 1.2
+	
+	def delete (self, view, blockno, line, offset, char):
+		self.disown(view, blockno, line)
+	
+	def insert (self, view, blockno, line, offset):
+		self.disown(view, blockno, line)
+
+	def move_cursor (self, oldpos, delta):
+		if delta[1] != 0:
+			self.momentum += 6
+		else:
+			self.momentum += 4
+
+	def tick (self, view, blockno, line, wp):
+		if (self.momentum == 0) and (self.yoffset == 0):
+			return True
+
+		self.yoffset += self.direction 
+
+		# returning to normal position
+		if self.yoffset <= 0:
+			self.yoffset = 0
+			self.momentum /= 2
+			self.direction =- self.direction
+		
+		# if we have not reached critical momentum, switch direction and
+		# return
+		if self.yoffset > self.momentum and self.momentum < 12:
+			self.direction = -self.direction
+		else:
+			# critical momentum reached, fall on the line below
+			if self.yoffset < wp.char_height:
+				return True
+
+			# make the letters fall one line below
+
+			# if there's no line, create one
+			if len(view.lines) <= line+1:
+				view.lines += [[Block('', None)]]
+
+			# pad line to the position below us
+			block_start = view.get_coord_from_block_offset(blockno,line)
+
+			view.lines[line+1][-1].text += ' '*(len(self.my_string) + block_start - view.line_length(line+1))
+			for i in range(0, len(self.my_string)):
+				view.insert (self.my_string[i], block_start + i, line + 1)
+				view.delete (1, block_start + i + 1, line + 1)
+			view.lines[line][blockno].text = ' '*len(self.my_string)
+			view.new_block (blockno, line)
+			self.disown(view, blockno, line)
+			view.move_cursor (0, 1)
+			return False
+		return True
+			
+
+	def render (self, view, blockno, line, wp, rect):
+		if not self.tick (view, blockno, line, wp):
+			return
+
+		block = view.lines[line][blockno]
+		color = (0, 0, 255)
+		text = wp.font.render (block.text, 0, color)
+		myrect = (rect[0], rect[1] + self.yoffset, rect[2], rect[3])
+		blit_clipped (wp.screen, text, myrect)
+		
+class StaticWordHighlight(Plugin):
+	word_colors = {
+		'bloody': (255, 0, 0),
+		'#brains': (0, 255, 0),
+	}
+
+	def __init__ (self, word):
+		self.word = word
+
+	@classmethod
+	def updated_unbound_block (cls, view, blockno, line):
+		block = view.lines[line][blockno]
+		
+		for word in cls.word_colors:
+
+			pos = block.text.find(word)
+			if pos == -1:
+				return False
+			
+			# Split block into my new block, two remaining blocks 
+			replacement = filter (lambda x: x.text != '', [block [0:pos], Block(word, cls(word)), block[pos + len(word):]])
+
+			view.lines[line] = view.lines[line][0:blockno] + replacement + view.lines[line][blockno+1:]
+			if block[0:pos].text != '':
+				view.new_block(blockno, line)
+
+			if block[pos + len(word):].text != '':
+				add = 1
+				if len(replacement)>2:
+					add = 2
+				view.new_block(blockno + add, line)
+		return True
+
+	def delete (self, view, blockno, line, offset, char):
+		self.disown (view, blockno, line)
+
+	def insert (self, view, blockno, line, offset):
+		self.disown (view, blockno, line)
+
+	def render (self,view, blockno, line, wp, rect):
+		block = view.lines[line][blockno]
+		text = wp.font.render (block.text, 0, self.word_colors[self.word] )
+		blit_clipped (wp.screen, text, rect)
