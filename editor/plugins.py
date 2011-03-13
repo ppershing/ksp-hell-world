@@ -15,7 +15,7 @@ def blit_clipped (dest, src, (x, y, w, h) ):
 		area[3] -= y
 		y=0
 	
-	dest.blit (src, (x, y), area = tuple(area))
+	dest.blit (src, (x, y), tuple(area))
 
 
 class Plugin:
