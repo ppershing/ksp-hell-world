@@ -1,5 +1,5 @@
 #!/usr/bin/python
-SUBST = {
+SUBST_CPP = {
   #types
   'int' : 'bloody',
   'double' : 'demonic',
@@ -56,24 +56,30 @@ SUBST = {
 
 
 NON_ALPHA = '[^a-zA-Z0-9]'
-f = open("preprocess.sh", "w")
-print >>f, "#!/bin/bash"
-print >>f, "sed 's/\\(.*\\)/ \\1 /' | \\"
-for k in SUBST.keys():
-  # undefine original
-  print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-    k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__\\2/g' | \\"
-  # replace alias
-  print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-    SUBST[k] + "\\(" + NON_ALPHA + "\\)/\\1"+ k +"\\2/g' | \\"
 
-print >>f, "  cat"
 
-f = open("recover_errormsg.sh", "w");
-print >>f, "sed 's/\\(.*\\)/ \\1 /' | \\"
-for k in SUBST.keys():
-  # replace alias
-  print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-    k + "\\(" + NON_ALPHA + "\\)/\\1"+ SUBST[k] +"\\2/g' | \\"
+def write_substitution_script(filename, SUBST):
+    f = open(filename, "w")
+    print >>f, "#!/bin/bash"
+    print >>f, "sed 's/\\(.*\\)/ \\1 /' | \\"
+    for k in SUBST.keys():
+      # undefine original
+      print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
+        k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__\\2/g' | \\"
+      # replace alias
+      print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
+        SUBST[k] + "\\(" + NON_ALPHA + "\\)/\\1"+ k +"\\2/g' | \\"
+    print >>f, "  cat"
 
-print >>f, "  cat"
+
+def write_reverse_substitution_script(filename, SUBST):
+    f = open("recover_errormsg.sh", "w");
+    print >>f, "sed 's/\\(.*\\)/ \\1 /' | \\"
+    for k in SUBST.keys():
+      # replace alias
+      print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
+        k + "\\(" + NON_ALPHA + "\\)/\\1"+ SUBST[k] +"\\2/g' | \\"
+    print >>f, "  cat"
+
+write_substitution_script("preprocess_cpp.sh", SUBST_CPP)
+write_reverse_substitution_script("recover_errormsg.sh", SUBST_CPP);
