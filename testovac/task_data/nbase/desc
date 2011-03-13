@@ -1,0 +1,16 @@
+<html>
+<h1> Úloha: Bázové cifry </h1>
+
+Na vstupe sú dané čísla <var> 2 ≤ N,B ≤ 1 000 000 </var>.
+Vypíšte, koľko cifier má číslo <var>N</var> zapísané v sústave so základom
+<var> B </var>.
+<br>
+<br>
+Príklad:
+<pre>
+Vstup:
+10 10
+
+Výstup:
+2
+<pre>

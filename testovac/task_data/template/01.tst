@@ -1,0 +1,1 @@
+Riesenie tohto problemu.

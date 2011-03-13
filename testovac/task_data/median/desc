@@ -1,0 +1,17 @@
+<html>
+<h1> Úloha: Stredný prvok. </h1>
+Na vstupe je na prvom riadku dané číslo <var>1 ≤ N ≤ 800 000</var>.
+Na druhom riadku sa nachádza <var>N</var> čísiel <var>1 ≤ x<sub>i</sub> ≤ 10 000 000</var>.
+Vašou úlohou je vypísať medián.
+V prípade párneho počtu prvkov je to ten vpravo od stredu.
+<br>
+<br>
+Príklad:
+<pre>
+Vstup:
+4
+47 42 8 1337
+
+Výstup:
+47
+<pre>
