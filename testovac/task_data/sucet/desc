@@ -1,0 +1,21 @@
+<!-- tunak su utf8 znaky pouzitelne namiesto
+    <= ≤
+    >= ≥
+    < ≺
+    > ≻
+-->
+<html>
+<h1> Úloha: dva a dva je tri </h1>
+
+Na vstupe sú 2 čísla <var> -1 000 000 000 ≤ n,m ≤ 1 000 000 000 </var>.
+Vypíšte jeden riadok a na ňom číslo jediné číslo <var>n+m</var>.
+<br>
+<br>
+Príklad:
+<pre>
+Vstup:
+-2 49
+
+Výstup:
+47
+<pre>

@@ -1,0 +1,4 @@
+<html>
+<h1> Úloha: Väčšie sčítavanie. </h1>
+Na vstupe je dané jedno číslo <var>1 ≤ N ≤ 1 000 000 000</var>.
+Vašou úlohou je vypísať súčet všetkých čísel od 1 po <var>N</var>.

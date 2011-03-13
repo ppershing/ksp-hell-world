@@ -1,0 +1,65 @@
+<html>
+<h1> Úloha: (in,pre)order </h1>
+
+Určite to poznáte. Máte strom, kde každý vrchol má najviac dvoch synov,
+nazveme ich ľavý a pravý. No a tento strom môžete vypísať v rôznom poradí.
+Tradične existujú 3 typy výpisu in-order, pre-order a post-order.
+Tieto výpisy môžeme definovať nasledovne rekurzívne:
+Nech <var> v </var> má synov <var> l,r </var>. A nech
+<var> S(x) </var> označuje výpis stromu z vrcholu <var> x </var> nadol.
+Potom
+<ul>
+<li> inorder: <var> S(v) = '(' S(l) v S(r) ')' </var> </li>
+<li> preorder: <var> S(v) = '(' v S(l) S(r) ')' </var> </li>
+<li> postorder: <var> S(v) = '(' S(l) S(r) v ')' </var> </li>
+</ul>
+kde <var> S(l) </var> je '( )' v prípade že ľavý syn neexistuje (a takisto
+s pravým)
+Vašou úlohou je napísať program, ktorý bude prevádzať medzi týmito
+notáciami. Presnejšie povedané, vstup, ktorý dostane bude v in-order
+a výstup má byť v pre-order.
+<br>
+Aby sme vám to uľahčili, každý 'token' vstupu je na samostatnom riadku.
+<br>
+<br>
+Príklad:
+<pre>
+Vstup:
+(
+(
+(
+)
+0
+(
+)
+)
+3
+(
+(
+)
+9
+(
+)
+)
+)
+
+Výstup:
+3
+(
+0
+(
+)
+(
+)
+)
+(
+9
+(
+)
+(
+)
+)
+<pre>
+Poznámka: vstup sa dá znázorniť ako
+{ [ () 0 () ] 3 [ () 9 () ] }, čiže strom s 3 vrcholmi, koreň je
+3, ľavý syn je 0, pravý syn je 9
