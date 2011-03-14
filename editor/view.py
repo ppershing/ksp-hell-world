@@ -285,6 +285,8 @@ class ViewData:
 			for plugin in self.plugins:
 				if plugin.updated_unbound_block (self, blockno, line):
 					break
+		else:
+			block.manager.disown (self, blockno, line)
 
 
 			
