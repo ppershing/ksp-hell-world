@@ -60,7 +60,7 @@ class WordMatchPlugin(Plugin):
 	@classmethod
 	def updated_unbound_block (cls, view, blockno, line):
 		block = view.lines[line][blockno]
-
+		print "updating ", blockno, line
 		
 		pos = block.text.find(cls.my_string)
 		if pos == -1:
@@ -115,11 +115,11 @@ class HelloWorld(WordMatchPlugin):
 	
 	def delete (self, view, blockno, line, offset, char):
 		block = view.lines[line][blockno]
-		if block.text == '' or self.anim_time > 254:
+		if block.text == '' or self.anim_time > 254 or self.anim_time <0:
 			self.disown (view, blockno, line)
 
 	def insert (self, view, blockno, line, offset):
-		if self.anim_time > 254:
+		if self.anim_time > 254 or self.anim_time < 0:
 			self.disown (view, blockno, line)
 
 	def tick (self, view, blockno, line, wp):
@@ -231,11 +231,12 @@ class StaticWordHighlight(Plugin):
 	def updated_unbound_block (cls, view, blockno, line):
 		block = view.lines[line][blockno]
 		
+		pos = -1
 		for word in cls.word_colors:
 
 			pos = block.text.find(word)
 			if pos == -1:
-				return False
+				continue
 			
 			# Split block into my new block, two remaining blocks 
 			replacement = filter (lambda x: x.text != '', [block [0:pos], Block(word, cls(word)), block[pos + len(word):]])
@@ -249,6 +250,8 @@ class StaticWordHighlight(Plugin):
 				if len(replacement)>2:
 					add = 2
 				view.new_block(blockno + add, line)
+		if (pos == -1):
+			return False
 		return True
 
 	def delete (self, view, blockno, line, offset, char):
