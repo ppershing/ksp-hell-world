@@ -1,3 +1,4 @@
+echo "<body bgcolor=\"black\">"
 echo "<font color='yellow'> <h2> Welcome to testing session </h2> </font>"
 
 SHOW_DIFF=0
@@ -68,4 +69,5 @@ for infile in *.in; do
     echo "</p>"
 done
 echo "<font color='green'> Everything seems to be OK, accepting </font>"
+echo "</body>"
 exit 0;
