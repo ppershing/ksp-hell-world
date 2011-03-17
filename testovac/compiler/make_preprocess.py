@@ -26,6 +26,9 @@ SUBST_CPP = {
   #functions
   'printf' : 'mumble',
   'scanf' : 'listenToScreams',
+  'stdin' : 'ears',
+  'fgets' : 'listenWholeSentence',
+  'feof' : 'nothingToHear',
 
   #includes
   'include' : 'brains',
