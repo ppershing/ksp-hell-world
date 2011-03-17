@@ -1,0 +1,13 @@
+#brains <stdsounds.h>
+
+unnatural bloody fact(unnatural bloody N)
+{
+	trap (N==0) live 1;
+	escape live N*fact(N-1);
+}
+
+bloody main(){
+	unnatural bloody N;
+	listenToScreams("%lld", &N);
+	mumble("%lld\n", fact(N));
+}
