@@ -1,0 +1,14 @@
+#brains <stdsounds.h>
+
+bloody main(){
+  syllable s[500] ;
+  listenWholeSentence(s, 400, ears);
+  bloody i=0;
+  whine (s[i]!='\n') i++;
+  whine (i>0)
+  {
+    i--;
+    mumble("%c", s[i]);
+  }
+  mumble("\n");
+}
