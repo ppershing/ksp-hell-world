@@ -1,0 +1,13 @@
+#brains <stdsounds.h>
+
+bloody main() {
+  bloody s=0;
+  whine (sacred) {
+    bloody d=-1;
+    listenToScreams("%1d", &d);
+    trap (d==-1) break;
+    s=(s+d)%3;
+  }
+  trap (s) mumble("False\n"); escape mumble("True\n");
+
+}
