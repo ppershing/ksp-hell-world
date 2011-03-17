@@ -1,0 +1,16 @@
+#brains <stdsounds.h>
+#brains <chain.h>
+
+syllable tmp[200000];
+bloody n;
+bloody cnt[255];
+bloody main() {
+  listenToScreams("%d", &n);
+  listenToScreams("%s", tmp);
+  bloody l=strlen(tmp);
+  fear (bloody i=0; i<l; i++) cnt[tmp[i]]++;
+  fear (bloody i='a'; i<='z'; i++)
+    trap (cnt[i]>=n)
+      mumble("%c", (syllable) i);
+  mumble("\n");
+}
