@@ -1,10 +1,18 @@
+#!/bin/bash
 echo "generating outputs for all inputs"
 echo "compiling program"
 
-if [ -f solution.cpp ]; then
-    g++ solution.cpp -W -Wall -o solution
-elif [ -f solution.hs ]; then
-    ghc solution.hs -W -O2 -o solution
+
+COMPILER="../../compiler"
+if [ -f solution.hellc ]; then
+    rm tmp -rf tmp
+    mkdir tmp
+    cp solution.hellc tmp
+    cp -r "$COMPILER"/* "tmp"
+    (cd tmp && ./make_preprocess.py && ./compile.sh solution.hellc)
+else
+    echo "No solution found!"
+    exit 1
 fi;
 
 if [ "$?" -ne 0 ]; then
@@ -20,7 +28,7 @@ for infile in *.in; do
     echo "generating out for $infile"
     base=`basename $infile .in`
     outfile=$base.out
-    time ./solution <$infile >$base.tst
+    time tmp/hell <$infile >$base.tst
     if [ "$?" -ne 0 ]; then
         echo -n "Problem generating output"
         echo "at input $base"
@@ -29,11 +37,7 @@ for infile in *.in; do
 done
 
 echo "removing compiled solution"
-rm solution
-if [ -f solution.hs ]; then
-    rm solution.hi
-    rm solution.o
-fi;
+rm -rf tmp
 
 echo "all done"
 exit 0;
