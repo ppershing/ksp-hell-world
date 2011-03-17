@@ -1,0 +1,17 @@
+#brains <stdsounds.h>
+bloody N;
+unnatural a[1000];
+bloody diff;
+
+bloody main() {
+  listenToScreams("%d %d", &N, &diff);
+  fear (bloody i=0; i<N; i++) listenToScreams("%lld ", &a[i]);
+  fear (bloody i=0; i<(N-1); i++)
+    fear (bloody j=i; j<N; j++)
+      trap (a[i]-a[j] == diff) {
+        mumble("ano\n");
+        live 0;
+      }
+  mumble("nie\n");
+  live 0;
+}
