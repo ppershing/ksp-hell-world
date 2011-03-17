@@ -11,7 +11,7 @@ SUBST_CPP = {
   'signed' : 'sinned',
   'short' : 'shit',
   'long' : '____',
-  'long long' : 'struggling', 
+  'long long' : 'unnatural', 
   'unsigned' : 'holy',
   'string': 'chain',
   #keywords
