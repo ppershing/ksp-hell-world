@@ -51,6 +51,8 @@ class Block:
 
 	def __repr__ (self):
 		return "('%s', %s)" % (self.text, repr(self.manager))
+	def __str__ (self):
+		return self.text
 
 class Viewport:
 	def __init__ (self, width, height):
@@ -68,6 +70,10 @@ class ViewData:
 		self.plugins = []
 		self.width = width
 		self.height = height
+
+	def __str__ (self):
+		ret = ''.join([''.join(map(lambda s: str(s), x)+ [ '\n' ]) for x in self.lines])
+		return ret
 
 	def line_length (self, line):
 		return sum (len (x.text) for x in self.lines[line])

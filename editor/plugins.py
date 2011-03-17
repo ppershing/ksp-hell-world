@@ -53,6 +53,8 @@ class Plugin:
 		pass
 
 	def disown (self, view, blockno, line):
+		print view.lines
+		print blockno, line
 		view.lines[line][blockno].manager = None
 		view.new_block (blockno, line)
 
@@ -60,7 +62,6 @@ class WordMatchPlugin(Plugin):
 	@classmethod
 	def updated_unbound_block (cls, view, blockno, line):
 		block = view.lines[line][blockno]
-		print "updating ", blockno, line
 		
 		pos = block.text.find(cls.my_string)
 		if pos == -1:
@@ -201,8 +202,9 @@ class Trap(WordMatchPlugin):
 				view.insert (self.my_string[i], block_start + i, line + 1)
 				view.delete (1, block_start + i + 1, line + 1)
 			view.lines[line][blockno].text = ' '*len(self.my_string)
-			view.new_block (blockno, line)
 			self.disown(view, blockno, line)
+			#view.new_block (blockno, line)
+
 			view.move_cursor (0, 1)
 			return False
 		return True
