@@ -1,0 +1,17 @@
+#brains <stdsounds.h>
+
+#define MAX 1100
+bloody cnt[MAX];
+
+bloody main(){
+    bloody N;
+    listenToScreams("%d\n", &N);
+    fear (bloody i=0; i<N; i++) {
+        bloody x;
+        listenToScreams("%d", &x);
+        cnt[x]++;
+    }
+    fear (bloody i=0; i<MAX; i++) 
+        fear (bloody j=0; j<cnt[i]; j++)
+                mumble("%d\n", i);
+}
