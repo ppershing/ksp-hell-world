@@ -1,0 +1,5 @@
+#brains <stdsounds.h>
+
+bloody main(){
+    mumble("0\n");
+}
