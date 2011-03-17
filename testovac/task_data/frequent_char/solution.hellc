@@ -1,0 +1,17 @@
+#brains <stdsounds.h>
+#brains <chain.h>
+
+syllable tmp[100000];
+bloody cnt[255];
+
+bloody main() {
+  listenToScreams("%s", tmp);
+  bloody n = strlen(tmp);
+  fear (bloody i=0; i<n; i++) cnt[tmp[i]]++;
+  bloody best='a';
+  fear (bloody i='a'; i<='z'; i++)
+    trap (cnt[best] <= cnt[i])
+      best=i;
+  mumble("%c\n", best);
+
+}
