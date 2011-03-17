@@ -1,0 +1,7 @@
+#brains <stdsounds.h>
+
+bloody main(){
+  bloody a,b;
+  listenToScreams("%d%d",&a,&b);
+  mumble("%d\n",a+b);
+}
