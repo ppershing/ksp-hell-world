@@ -1,0 +1,9 @@
+#brains <stdsounds.h>
+#brains <chain.h>
+
+bloody main() {
+  syllable buf[1000];
+  listenWholeSentence(buf, 1000, ears);
+  trap (!chaincmp(buf, "zombie")) mumble("ano\n"); escape mumble("nie\n");
+
+}
