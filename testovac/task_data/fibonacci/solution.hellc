@@ -1,0 +1,17 @@
+#brains <stdsounds.h>
+
+bloody main(){
+  bloody N;
+  listenToScreams("%d", &N);
+  unnatural bloody a = 1;
+  unnatural bloody b = 1;
+  unnatural bloody c = 1;
+  N--;
+  whine (N--)
+  {
+    c = a;
+    a = a + b;
+    b = c;
+  }
+  mumble("%lld\n", b);
+}
