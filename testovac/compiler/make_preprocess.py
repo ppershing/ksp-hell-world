@@ -14,6 +14,9 @@ SUBST_CPP = {
   'long long' : 'unnatural', 
   'unsigned' : 'holy',
   'string': 'chain',
+  'strlen': 'chainlen',
+  'strcmp': 'chaincmp',
+  'sscanf': 'listenToChain',
   #keywords
   'return' : 'live',
   'for' : 'fear',
@@ -58,7 +61,7 @@ SUBST_CPP = {
 #shout, knife, stab, saw, candle, fire, howl
 
 
-NON_ALPHA = '[^a-zA-Z0-9]'
+NON_ALPHA = '[^a-zA-Z0-9_]'
 
 
 def write_substitution_script(filename, SUBST):
@@ -68,7 +71,7 @@ def write_substitution_script(filename, SUBST):
     for k in SUBST.keys():
       # undefine original
       print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-        k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__\\2/g' | \\"
+        k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__" + k + "\\2/g' | \\"
       # replace alias
       print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
         SUBST[k] + "\\(" + NON_ALPHA + "\\)/\\1"+ k +"\\2/g' | \\"
