@@ -1,11 +1,17 @@
 #!/usr/bin/python
 import pygame
 import sys
+import os
 from pygame.locals import *
 from plugins import *
 from view import *
 
+task = '10_srnka'
 
+def run_test (view):
+	open('%s.hellc' % (task,), 'w+').write(str(view))
+	ret = os.system ('sh ../testovac/testovac.sh %s.hellc %s >log.html' % (task, task, ))
+	#print view, ret
 		
 ### main
 pygame.init ()
@@ -71,6 +77,8 @@ while 1:
 		elif event.type == KEYDOWN:
 			if event.key == K_ESCAPE:
 				sys.exit (0)
+			elif event.key == K_F5:
+				run_test (view)
 			elif event.key == K_UP:
 				view.move_cursor (0, -1)
 			elif event.key == K_DOWN:
@@ -92,7 +100,6 @@ while 1:
 				if view.cursor[0] < view.line_length (view.cursor[1]):
 					view.delete ()
 				else:
-
 					view.delete_newline ()
 			elif event.key == K_BACKSPACE:
 				if view.cursor[0] > 0:
