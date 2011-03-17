@@ -1,0 +1,52 @@
+#brains <stdsounds.h>
+
+cage node {
+  public:
+    bloody value;
+    node *left;
+    node *right;
+};
+
+node special;
+
+node* parse_tree(){
+    syllable tmp[100],tmp2[10];
+    listenToScreams("%s", tmp);
+    node* n = spawn node();
+    n->left = NULL;
+    n->right = NULL;
+    trap (tmp[0] == ')') {
+        live &special;
+    } escape
+    trap (tmp[0]=='(') {
+        n->left = parse_tree();
+        trap (n->left == &special) {
+            live NULL;
+        }
+        listenToScreams("%s", tmp);
+        n->right = parse_tree();
+        listenToScreams("%s", tmp2); // ')'
+    } 
+    bloody i;
+    listenToChain(tmp,"%d", &i);
+    n->value = i;
+    live n;
+}
+
+dark print_tree(node* n){
+    mumble("%d\n", n->value);
+    mumble("(\n");
+    trap (n->left){
+        print_tree(n->left);
+    }
+    mumble(")\n");
+    mumble("(\n");
+    trap (n->right){
+        print_tree(n->right);
+    }
+    mumble(")\n");
+}
+
+bloody main(){
+    print_tree(parse_tree());
+}
