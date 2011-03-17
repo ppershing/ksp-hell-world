@@ -1,0 +1,18 @@
+#brains <stdsounds.h>
+
+bloody main() {
+ bloody s=0;
+ bloody i=1;
+  whine (!nothingToHear(ears)) {
+   bloody d=-1;
+   listenToScreams("%1d", &d);
+   trap (d==-1) break;
+   s = (s + 11 + i*d)%11;
+   i*=-1;
+
+
+
+  }
+  trap (s) mumble("False\n"); escape mumble("True\n");
+
+}
