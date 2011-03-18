@@ -1,0 +1,4717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="peklo.svg">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective2832"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2857"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2882"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2907"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2932"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2957"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective2982"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803-7"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3803-74"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3931"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3956"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3956-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3956-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3956-0"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4066"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-3"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-61"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-37"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4091-5"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0707109"
+     inkscape:cx="329.2694"
+     inkscape:cy="833.60859"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3722"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="696"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Z5"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="355.94843"
+       y="109.04234"
+       id="text2816"><tspan
+         sodipodi:role="line"
+         id="tspan2818"
+         x="355.94843"
+         y="109.04234"
+         style="font-size:32px">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="325.95166"
+       y="405.12863"
+       id="text2820"><tspan
+         sodipodi:role="line"
+         id="tspan2822"
+         x="325.95166"
+         y="405.12863" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="344.82733"
+       y="332.52542"
+       id="text2816-1"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7"
+         x="344.82733"
+         y="332.52542"
+         style="font-size:32px">J</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.86862"
+       y="213.71735"
+       id="text2816-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0"
+         x="497.86862"
+         y="213.71735"
+         style="font-size:32px">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="216.66769"
+       y="208.67757"
+       id="text2816-1-4-9"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0-4"
+         x="216.66769"
+         y="208.67757"
+         style="font-size:32px">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="258.97415"
+       y="145.35583"
+       id="text2816-1-4-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0-4-8"
+         x="258.97415"
+         y="145.35583"
+         style="font-size:32px">SZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="253.80269"
+       y="281.15771"
+       id="text2816-1-4-9-8-2"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0-4-8-4"
+         x="253.80269"
+         y="281.15771"
+         style="font-size:32px">JZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="420.22205"
+       y="304.31134"
+       id="text2816-1-4-9-8-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0-4-8-4-5"
+         x="420.22205"
+         y="304.31134"
+         style="font-size:32px">JV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="460.14438"
+       y="149.27419"
+       id="text2816-1-4-9-8-2-5-1"><tspan
+         sodipodi:role="line"
+         id="tspan2818-7-0-4-8-4-5-7"
+         x="460.14438"
+         y="149.27419"
+         style="font-size:32px">SV</tspan></text>
+    <g
+       id="g4217"
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)">
+      <g
+         transform="translate(15.877319,-151.76833)"
+         id="g3787-27">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3775-7"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777-93" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779-19"><tspan
+             sodipodi:role="line"
+             id="tspan3781-8"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783-65"><tspan
+             sodipodi:role="line"
+             id="tspan3785-0"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919"
+         y="34.346924"
+         x="361.44211"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="34.346924"
+           x="361.44211"
+           id="tspan3921"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <g
+       id="g4206"
+       transform="matrix(0.7,0,0,0.7,180.72106,22.352149)">
+      <g
+         transform="translate(242.82935,-114.40997)"
+         id="g3787-6">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3775-18"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777-9" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779-27"><tspan
+             sodipodi:role="line"
+             id="tspan3781-9"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783-5"><tspan
+             sodipodi:role="line"
+             id="tspan3785-4"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919-2"
+         y="66.190895"
+         x="590.75787"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="66.190895"
+           x="590.75787"
+           id="tspan3921-8"
+           sodipodi:role="line">4</tspan></text>
+    </g>
+    <g
+       id="g4195"
+       transform="matrix(0.7,0,0,0.7,189.96725,64.100113)">
+      <g
+         transform="translate(273.65,24.749911)"
+         id="g3787-2">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3775-3"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777-2" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779-21"><tspan
+             sodipodi:role="line"
+             id="tspan3781-6"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783-8"><tspan
+             sodipodi:role="line"
+             id="tspan3785-5"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919-2-6"
+         y="214.84662"
+         x="623.02814"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="214.84662"
+           x="623.02814"
+           id="tspan3921-8-0"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <g
+       id="g4183"
+       transform="matrix(0.7,0,0,0.7,176.23805,98.002822)">
+      <g
+         transform="translate(227.88601,137.75894)"
+         id="g3787-1">
+        <g
+           id="g4180">
+          <rect
+             ry="0"
+             y="151.91339"
+             x="269.80176"
+             height="74.007484"
+             width="179.54483"
+             id="rect3775-1"
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777-5" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779-2"><tspan
+             sodipodi:role="line"
+             id="tspan3781-7"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783-6"><tspan
+             sodipodi:role="line"
+             id="tspan3785-1"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919-2-4"
+         y="318.51605"
+         x="574.46228"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="318.51605"
+           x="574.46228"
+           id="tspan3921-8-8"
+           sodipodi:role="line">6</tspan></text>
+    </g>
+    <g
+       id="g4239"
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)">
+      <g
+         transform="translate(-3.7358361,204.537)"
+         id="g3787">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3775"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779"><tspan
+             sodipodi:role="line"
+             id="tspan3781"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783"><tspan
+             sodipodi:role="line"
+             id="tspan3785"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919-2-5"
+         y="384.82715"
+         x="341.90646"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="384.82715"
+           x="341.90646"
+           id="tspan3921-8-09"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <g
+       id="g4228"
+       transform="matrix(0.7,0,0,0.7,10.18015,57.749191)">
+      <g
+         transform="translate(-254.03682,0.46697369)"
+         id="g3787-12">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3775-33"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3777-4" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3779-1"><tspan
+             sodipodi:role="line"
+             id="tspan3781-1"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3783-3"><tspan
+             sodipodi:role="line"
+             id="tspan3785-8"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3919-2-0"
+         y="179.35619"
+         x="91.605469"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="179.35619"
+           x="91.605469"
+           id="tspan3921-8-6"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="401.60236"
+       y="41.818596"
+       id="text4006"><tspan
+         sodipodi:role="line"
+         id="tspan4008"
+         x="401.60236"
+         y="41.818596">Azrael</tspan><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="56.818596"
+         id="tspan4010" /><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="71.818596"
+         id="tspan4012" /><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="86.818596"
+         id="tspan4014" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="621.0827"
+       y="82.912796"
+       id="text4016"><tspan
+         sodipodi:role="line"
+         id="tspan4018"
+         x="621.0827"
+         y="82.912796">Belzebub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="652.83728"
+       y="220.20476"
+       id="text4020"><tspan
+         sodipodi:role="line"
+         id="tspan4022"
+         x="652.83728"
+         y="220.20476">Cernobog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="589.32813"
+       y="330.41193"
+       id="text4024"><tspan
+         sodipodi:role="line"
+         id="tspan4026"
+         x="589.32813"
+         y="330.41193">Diabol</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="170.91449"
+       y="310.79877"
+       id="text4032"><tspan
+         sodipodi:role="line"
+         id="tspan4034"
+         x="170.91449"
+         y="310.79877">modrá fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="365.17795"
+       y="394.85507"
+       id="text4036"><tspan
+         sodipodi:role="line"
+         id="tspan4038"
+         x="365.17795"
+         y="394.85507"
+         style="fill:#ff0000">červená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="98.999649"
+       y="199.65765"
+       id="text4040"><tspan
+         sodipodi:role="line"
+         id="tspan4042"
+         x="98.999649"
+         y="199.65765">zelená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="35.490437"
+       y="199.65765"
+       id="text4044"><tspan
+         sodipodi:role="line"
+         id="tspan4046"
+         x="35.490437"
+         y="199.65765">Jablko</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="461.37573"
+       y="297.72333"
+       id="text4048"><tspan
+         sodipodi:role="line"
+         id="tspan4050"
+         x="461.37573"
+         y="297.72333">Samara</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="34.55648"
+       y="43.686516"
+       id="text4052"><tspan
+         sodipodi:role="line"
+         id="tspan4054"
+         x="34.55648"
+         y="43.686516">Koniec kroku</tspan><tspan
+         sodipodi:role="line"
+         x="34.55648"
+         y="58.686516"
+         id="tspan4056">Z5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="345.0365"
+       y="72.530502"
+       id="text3919-2-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3"
+         x="345.0365"
+         y="72.530502"
+         style="font-size:32px">St 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="483.69943"
+       y="119.5828"
+       id="text3919-2-0-1-8"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-9"
+         x="483.69943"
+         y="119.5828"
+         style="font-size:32px">St 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.7088"
+       y="240.06349"
+       id="text3919-2-0-1-4"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-4"
+         x="497.7088"
+         y="240.06349"
+         style="font-size:32px">St 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="441.67123"
+       y="332.52545"
+       id="text3919-2-0-1-0"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-6"
+         x="441.67123"
+         y="332.52545"
+         style="font-size:32px">St 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="323.99243"
+       y="366.14795"
+       id="text3919-2-0-1-84"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-96"
+         x="323.99243"
+         y="366.14795"
+         style="font-size:32px">St 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="191.37024"
+       y="315.7142"
+       id="text3919-2-0-1-88"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-2"
+         x="191.37024"
+         y="315.7142"
+         style="font-size:32px">St 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="152.14395"
+       y="209.24287"
+       id="text3919-2-0-1-1"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-3"
+         x="152.14395"
+         y="209.24287"
+         style="font-size:32px">St 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="186.70045"
+       y="113.0451"
+       id="text3919-2-0-1-9"><tspan
+         sodipodi:role="line"
+         id="tspan3921-8-6-3-8"
+         x="186.70045"
+         y="113.0451"
+         style="font-size:32px">St 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="6.5377121"
+       y="340.68546"
+       id="text4250"><tspan
+         sodipodi:role="line"
+         id="tspan4252"
+         x="6.5377121"
+         y="340.68546">[0,0] modra hrac 6 Diabol</tspan></text>
+  </g>
+  <g
+     id="g4254"
+     inkscape:groupmode="layer"
+     inkscape:label="X1"
+     style="display:none">
+    <text
+       id="text4256"
+       y="109.04234"
+       x="355.94843"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="109.04234"
+         x="355.94843"
+         id="tspan4258"
+         sodipodi:role="line">S</tspan></text>
+    <text
+       id="text4260"
+       y="405.12863"
+       x="325.95166"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan4262"
+         sodipodi:role="line"
+         x="325.95166"
+         y="405.12863" /></text>
+    <text
+       id="text4264"
+       y="332.52542"
+       x="344.82733"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="344.82733"
+         id="tspan4266"
+         sodipodi:role="line">J</tspan></text>
+    <text
+       id="text4268"
+       y="213.71735"
+       x="497.86862"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="213.71735"
+         x="497.86862"
+         id="tspan4270"
+         sodipodi:role="line">V</tspan></text>
+    <text
+       id="text4272"
+       y="208.67757"
+       x="216.66769"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="208.67757"
+         x="216.66769"
+         id="tspan4274"
+         sodipodi:role="line">Z</tspan></text>
+    <text
+       id="text4276"
+       y="145.35583"
+       x="258.97415"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="145.35583"
+         x="258.97415"
+         id="tspan4278"
+         sodipodi:role="line">SZ</tspan></text>
+    <text
+       id="text4280"
+       y="281.15771"
+       x="253.80269"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="281.15771"
+         x="253.80269"
+         id="tspan4282"
+         sodipodi:role="line">JZ</tspan></text>
+    <text
+       id="text4284"
+       y="304.31134"
+       x="420.22205"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="304.31134"
+         x="420.22205"
+         id="tspan4286"
+         sodipodi:role="line">JV</tspan></text>
+    <text
+       id="text4288"
+       y="149.27419"
+       x="460.14438"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="149.27419"
+         x="460.14438"
+         id="tspan4290"
+         sodipodi:role="line">SV</tspan></text>
+    <g
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)"
+       id="g4292">
+      <g
+         id="g4294"
+         transform="translate(15.877319,-151.76833)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4296"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4298"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4300"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4302"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4304"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4306"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="361.44211"
+         y="34.346924"
+         id="text4308"><tspan
+           sodipodi:role="line"
+           id="tspan4310"
+           x="361.44211"
+           y="34.346924"
+           style="font-size:32px">3</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)"
+       id="g4312">
+      <g
+         id="g4314"
+         transform="translate(242.82935,-114.40997)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4316"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4318"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4320"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4322"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4324"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4326"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="590.75787"
+         y="66.190895"
+         id="text4328"><tspan
+           sodipodi:role="line"
+           id="tspan4330"
+           x="590.75787"
+           y="66.190895"
+           style="font-size:32px">4</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,189.96725,64.100113)"
+       id="g4332">
+      <g
+         id="g4334"
+         transform="translate(273.65,24.749911)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4336"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4338"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4340"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4342"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4344"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4346"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="623.02814"
+         y="214.84662"
+         id="text4348"><tspan
+           sodipodi:role="line"
+           id="tspan4350"
+           x="623.02814"
+           y="214.84662"
+           style="font-size:32px">5</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)"
+       id="g4352">
+      <g
+         id="g4354"
+         transform="translate(227.88601,137.75894)">
+        <g
+           id="g4356">
+          <rect
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="rect4358"
+             width="179.54483"
+             height="74.007484"
+             x="269.80176"
+             y="151.91339"
+             ry="0" />
+        </g>
+        <path
+           id="path4360"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4362"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4364"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4366"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4368"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="574.46228"
+         y="318.51605"
+         id="text4370"><tspan
+           sodipodi:role="line"
+           id="tspan4372"
+           x="574.46228"
+           y="318.51605"
+           style="font-size:32px">6</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)"
+       id="g4374">
+      <g
+         id="g4376"
+         transform="translate(-3.7358361,204.537)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4378"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4380"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4382"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4384"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4386"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4388"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="341.90646"
+         y="384.82715"
+         id="text4390"><tspan
+           sodipodi:role="line"
+           id="tspan4392"
+           x="341.90646"
+           y="384.82715"
+           style="font-size:32px">7</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)"
+       id="g4394">
+      <g
+         id="g4396"
+         transform="translate(-254.03682,0.46697369)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4398"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4400"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4402"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4404"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4406"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4408"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="91.605469"
+         y="179.35619"
+         id="text4410"><tspan
+           sodipodi:role="line"
+           id="tspan4412"
+           x="91.605469"
+           y="179.35619"
+           style="font-size:32px">x</tspan></text>
+    </g>
+    <text
+       id="text4414"
+       y="41.818596"
+       x="401.60236"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="41.818596"
+         x="401.60236"
+         id="tspan4416"
+         sodipodi:role="line">Azrael</tspan><tspan
+         id="tspan4418"
+         y="56.818596"
+         x="401.60236"
+         sodipodi:role="line" /><tspan
+         id="tspan4420"
+         y="71.818596"
+         x="401.60236"
+         sodipodi:role="line" /><tspan
+         id="tspan4422"
+         y="86.818596"
+         x="401.60236"
+         sodipodi:role="line" /></text>
+    <text
+       id="text4424"
+       y="363.10046"
+       x="605.20538"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="363.10046"
+         x="605.20538"
+         id="tspan4426"
+         sodipodi:role="line">Belzebub</tspan></text>
+    <text
+       id="text4428"
+       y="220.20476"
+       x="652.83728"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="220.20476"
+         x="652.83728"
+         id="tspan4430"
+         sodipodi:role="line">Cernobog</tspan></text>
+    <text
+       id="text4432"
+       y="97.856148"
+       x="625.7525"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="97.856148"
+         x="625.7525"
+         id="tspan4434"
+         sodipodi:role="line">Diabol</tspan></text>
+    <text
+       id="text4436"
+       y="310.79877"
+       x="170.91449"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="310.79877"
+         x="170.91449"
+         id="tspan4438"
+         sodipodi:role="line">modrá fixka</tspan></text>
+    <text
+       id="text4440"
+       y="394.85507"
+       x="365.17795"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000"
+         y="394.85507"
+         x="365.17795"
+         id="tspan4442"
+         sodipodi:role="line">červená fixka</tspan></text>
+    <text
+       id="text4444"
+       y="199.65765"
+       x="98.999649"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="199.65765"
+         x="98.999649"
+         id="tspan4446"
+         sodipodi:role="line">zelená fixka</tspan></text>
+    <text
+       id="text4448"
+       y="400.4213"
+       x="304.15015"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="400.4213"
+         x="304.15015"
+         id="tspan4450"
+         sodipodi:role="line">Jablko</tspan></text>
+    <text
+       id="text4452"
+       y="297.72333"
+       x="461.37573"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="297.72333"
+         x="461.37573"
+         id="tspan4454"
+         sodipodi:role="line">Samara</tspan></text>
+    <text
+       id="text4456"
+       y="43.686516"
+       x="34.55648"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="43.686516"
+         x="34.55648"
+         id="tspan4458"
+         sodipodi:role="line">Koniec kroku</tspan><tspan
+         id="tspan4460"
+         y="58.686516"
+         x="34.55648"
+         sodipodi:role="line">X1</tspan></text>
+    <text
+       id="text4462"
+       y="72.530502"
+       x="345.0365"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="72.530502"
+         x="345.0365"
+         id="tspan4464"
+         sodipodi:role="line">St 1</tspan></text>
+    <text
+       id="text4466"
+       y="332.52542"
+       x="464.0863"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="464.0863"
+         id="tspan4468"
+         sodipodi:role="line">St 2</tspan></text>
+    <text
+       id="text4470"
+       y="240.06349"
+       x="497.7088"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="240.06349"
+         x="497.7088"
+         id="tspan4472"
+         sodipodi:role="line">St 3</tspan></text>
+    <text
+       id="text4474"
+       y="99.969673"
+       x="478.09564"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="99.969673"
+         x="478.09564"
+         id="tspan4476"
+         sodipodi:role="line">St 4</tspan></text>
+    <text
+       id="text4478"
+       y="366.14795"
+       x="323.99243"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="366.14795"
+         x="323.99243"
+         id="tspan4480"
+         sodipodi:role="line">St 5</tspan></text>
+    <text
+       id="text4482"
+       y="315.7142"
+       x="191.37024"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="315.7142"
+         x="191.37024"
+         id="tspan4484"
+         sodipodi:role="line">St 6</tspan></text>
+    <text
+       id="text4486"
+       y="209.24287"
+       x="152.14395"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="209.24287"
+         x="152.14395"
+         id="tspan4488"
+         sodipodi:role="line">St 7</tspan></text>
+    <text
+       id="text4490"
+       y="113.0451"
+       x="186.70045"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="113.0451"
+         x="186.70045"
+         id="tspan4492"
+         sodipodi:role="line">St 8</tspan></text>
+    <text
+       id="text4494"
+       y="340.68546"
+       x="6.5377121"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="340.68546"
+         x="6.5377121"
+         id="tspan4496"
+         sodipodi:role="line">[0,0] modra hrac 6 Diabol</tspan><tspan
+         y="355.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan4498">hraci 4,6 sa vymenili</tspan><tspan
+         y="370.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan4500">hrac x si odhryzol z jablka</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="X2"
+     inkscape:groupmode="layer"
+     id="g4502">
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="355.94843"
+       y="109.04234"
+       id="text4504"><tspan
+         sodipodi:role="line"
+         id="tspan4506"
+         x="355.94843"
+         y="109.04234"
+         style="font-size:32px">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="325.95166"
+       y="405.12863"
+       id="text4508"><tspan
+         y="405.12863"
+         x="325.95166"
+         sodipodi:role="line"
+         id="tspan4510" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="344.82733"
+       y="332.52542"
+       id="text4512"><tspan
+         sodipodi:role="line"
+         id="tspan4514"
+         x="344.82733"
+         y="332.52542"
+         style="font-size:32px">J</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.86862"
+       y="213.71735"
+       id="text4516"><tspan
+         sodipodi:role="line"
+         id="tspan4518"
+         x="497.86862"
+         y="213.71735"
+         style="font-size:32px">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="216.66769"
+       y="208.67757"
+       id="text4520"><tspan
+         sodipodi:role="line"
+         id="tspan4522"
+         x="216.66769"
+         y="208.67757"
+         style="font-size:32px">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="258.97415"
+       y="145.35583"
+       id="text4524"><tspan
+         sodipodi:role="line"
+         id="tspan4526"
+         x="258.97415"
+         y="145.35583"
+         style="font-size:32px">SZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="253.80269"
+       y="281.15771"
+       id="text4528"><tspan
+         sodipodi:role="line"
+         id="tspan4530"
+         x="253.80269"
+         y="281.15771"
+         style="font-size:32px">JZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="420.22205"
+       y="304.31134"
+       id="text4532"><tspan
+         sodipodi:role="line"
+         id="tspan4534"
+         x="420.22205"
+         y="304.31134"
+         style="font-size:32px">JV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="460.14438"
+       y="149.27419"
+       id="text4536"><tspan
+         sodipodi:role="line"
+         id="tspan4538"
+         x="460.14438"
+         y="149.27419"
+         style="font-size:32px">SV</tspan></text>
+    <g
+       id="g4540"
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)">
+      <g
+         transform="translate(15.877319,-151.76833)"
+         id="g4542">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect4544"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4546" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4548"><tspan
+             sodipodi:role="line"
+             id="tspan4550"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4552"><tspan
+             sodipodi:role="line"
+             id="tspan4554"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4556"
+         y="34.346924"
+         x="361.44211"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="34.346924"
+           x="361.44211"
+           id="tspan4558"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <g
+       id="g4560"
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)">
+      <g
+         transform="translate(242.82935,-114.40997)"
+         id="g4562">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect4564"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4566" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4568"><tspan
+             sodipodi:role="line"
+             id="tspan4570"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4572"><tspan
+             sodipodi:role="line"
+             id="tspan4574"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4576"
+         y="66.190895"
+         x="590.75787"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="66.190895"
+           x="590.75787"
+           id="tspan4578"
+           sodipodi:role="line">4</tspan></text>
+    </g>
+    <g
+       id="g4580"
+       transform="matrix(0.7,0,0,0.7,189.96725,64.100113)">
+      <g
+         transform="translate(273.65,24.749911)"
+         id="g4582">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect4584"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4586" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4588"><tspan
+             sodipodi:role="line"
+             id="tspan4590"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4592"><tspan
+             sodipodi:role="line"
+             id="tspan4594"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4596"
+         y="214.84662"
+         x="623.02814"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="214.84662"
+           x="623.02814"
+           id="tspan4598"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <g
+       id="g4600"
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)">
+      <g
+         transform="translate(227.88601,137.75894)"
+         id="g4602">
+        <g
+           id="g4604">
+          <rect
+             ry="0"
+             y="151.91339"
+             x="269.80176"
+             height="74.007484"
+             width="179.54483"
+             id="rect4606"
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4608" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4610"><tspan
+             sodipodi:role="line"
+             id="tspan4612"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4614"><tspan
+             sodipodi:role="line"
+             id="tspan4616"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4618"
+         y="318.51605"
+         x="574.46228"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="318.51605"
+           x="574.46228"
+           id="tspan4620"
+           sodipodi:role="line">6</tspan></text>
+    </g>
+    <g
+       id="g4622"
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)">
+      <g
+         transform="translate(-3.7358361,204.537)"
+         id="g4624">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect4626"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4628" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4630"><tspan
+             sodipodi:role="line"
+             id="tspan4632"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4634"><tspan
+             sodipodi:role="line"
+             id="tspan4636"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4638"
+         y="384.82715"
+         x="341.90646"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="384.82715"
+           x="341.90646"
+           id="tspan4640"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <g
+       id="g4642"
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)">
+      <g
+         transform="translate(-254.03682,0.46697369)"
+         id="g4644">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect4646"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path4648" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text4650"><tspan
+             sodipodi:role="line"
+             id="tspan4652"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text4654"><tspan
+             sodipodi:role="line"
+             id="tspan4656"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text4658"
+         y="179.35619"
+         x="91.605469"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="179.35619"
+           x="91.605469"
+           id="tspan4660"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="401.60236"
+       y="41.818596"
+       id="text4662"><tspan
+         sodipodi:role="line"
+         id="tspan4664"
+         x="401.60236"
+         y="41.818596">Azrael</tspan><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="56.818596"
+         id="tspan4666" /><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="71.818596"
+         id="tspan4668" /><tspan
+         sodipodi:role="line"
+         x="401.60236"
+         y="86.818596"
+         id="tspan4670" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="605.20538"
+       y="363.10046"
+       id="text4672"><tspan
+         sodipodi:role="line"
+         id="tspan4674"
+         x="605.20538"
+         y="363.10046">Belzebub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="652.83728"
+       y="220.20476"
+       id="text4676"><tspan
+         sodipodi:role="line"
+         id="tspan4678"
+         x="652.83728"
+         y="220.20476">Cernobog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="625.7525"
+       y="97.856148"
+       id="text4680"><tspan
+         sodipodi:role="line"
+         id="tspan4682"
+         x="625.7525"
+         y="97.856148">Diabol</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="170.91449"
+       y="310.79877"
+       id="text4684"><tspan
+         sodipodi:role="line"
+         id="tspan4686"
+         x="170.91449"
+         y="310.79877">modrá fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="365.17795"
+       y="394.85507"
+       id="text4688"><tspan
+         sodipodi:role="line"
+         id="tspan4690"
+         x="365.17795"
+         y="394.85507"
+         style="fill:#ff0000">červená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="98.999649"
+       y="199.65765"
+       id="text4692"><tspan
+         sodipodi:role="line"
+         id="tspan4694"
+         x="98.999649"
+         y="199.65765">zelená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="530.97009"
+       y="358.39313"
+       id="text4696"><tspan
+         sodipodi:role="line"
+         id="tspan4698"
+         x="530.97009"
+         y="358.39313">Jablko</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="255.90477"
+       y="298.65729"
+       id="text4700"><tspan
+         sodipodi:role="line"
+         id="tspan4702"
+         x="255.90477"
+         y="298.65729">Samara</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="34.55648"
+       y="43.686516"
+       id="text4704"><tspan
+         sodipodi:role="line"
+         id="tspan4706"
+         x="34.55648"
+         y="43.686516">Koniec kroku</tspan><tspan
+         sodipodi:role="line"
+         x="34.55648"
+         y="58.686516"
+         id="tspan4708">X2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="345.0365"
+       y="72.530502"
+       id="text4710"><tspan
+         sodipodi:role="line"
+         id="tspan4712"
+         x="345.0365"
+         y="72.530502"
+         style="font-size:32px">St 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="464.0863"
+       y="332.52542"
+       id="text4714"><tspan
+         sodipodi:role="line"
+         id="tspan4716"
+         x="464.0863"
+         y="332.52542"
+         style="font-size:32px">St 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.7088"
+       y="240.06349"
+       id="text4718"><tspan
+         sodipodi:role="line"
+         id="tspan4720"
+         x="497.7088"
+         y="240.06349"
+         style="font-size:32px">St 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="478.09564"
+       y="99.969673"
+       id="text4722"><tspan
+         sodipodi:role="line"
+         id="tspan4724"
+         x="478.09564"
+         y="99.969673"
+         style="font-size:32px">St 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="323.99243"
+       y="366.14795"
+       id="text4726"><tspan
+         sodipodi:role="line"
+         id="tspan4728"
+         x="323.99243"
+         y="366.14795"
+         style="font-size:32px">St 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="191.37024"
+       y="315.7142"
+       id="text4730"><tspan
+         sodipodi:role="line"
+         id="tspan4732"
+         x="191.37024"
+         y="315.7142"
+         style="font-size:32px">St 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="152.14395"
+       y="209.24287"
+       id="text4734"><tspan
+         sodipodi:role="line"
+         id="tspan4736"
+         x="152.14395"
+         y="209.24287"
+         style="font-size:32px">St 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="186.70045"
+       y="113.0451"
+       id="text4738"><tspan
+         sodipodi:role="line"
+         id="tspan4740"
+         x="186.70045"
+         y="113.0451"
+         style="font-size:32px">St 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="6.5377121"
+       y="340.68546"
+       id="text4742"><tspan
+         sodipodi:role="line"
+         id="tspan4744"
+         x="6.5377121"
+         y="340.68546">[0,0] Diabol</tspan><tspan
+         id="tspan4746"
+         sodipodi:role="line"
+         x="6.5377121"
+         y="355.68546">hraci 4,6 sa vymenili</tspan><tspan
+         id="tspan4748"
+         sodipodi:role="line"
+         x="6.5377121"
+         y="370.68546">hrac x si odhryzol z jablka</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="385.68546"
+         id="tspan4750">Samara JV -&gt; JZ</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="400.68546"
+         id="tspan4752">hrac 7 si odhryzol z jablka</tspan></text>
+  </g>
+  <g
+     id="g4754"
+     inkscape:groupmode="layer"
+     inkscape:label="X3"
+     style="display:none">
+    <text
+       id="text4756"
+       y="109.04234"
+       x="355.94843"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="109.04234"
+         x="355.94843"
+         id="tspan4758"
+         sodipodi:role="line">S</tspan></text>
+    <text
+       id="text4760"
+       y="405.12863"
+       x="325.95166"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan4762"
+         sodipodi:role="line"
+         x="325.95166"
+         y="405.12863" /></text>
+    <text
+       id="text4764"
+       y="332.52542"
+       x="344.82733"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="344.82733"
+         id="tspan4766"
+         sodipodi:role="line">J</tspan></text>
+    <text
+       id="text4768"
+       y="213.71735"
+       x="497.86862"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="213.71735"
+         x="497.86862"
+         id="tspan4770"
+         sodipodi:role="line">V</tspan></text>
+    <text
+       id="text4772"
+       y="208.67757"
+       x="216.66769"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="208.67757"
+         x="216.66769"
+         id="tspan4774"
+         sodipodi:role="line">Z</tspan></text>
+    <text
+       id="text4776"
+       y="145.35583"
+       x="258.97415"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="145.35583"
+         x="258.97415"
+         id="tspan4778"
+         sodipodi:role="line">SZ</tspan></text>
+    <text
+       id="text4780"
+       y="281.15771"
+       x="253.80269"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="281.15771"
+         x="253.80269"
+         id="tspan4782"
+         sodipodi:role="line">JZ</tspan></text>
+    <text
+       id="text4784"
+       y="304.31134"
+       x="420.22205"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="304.31134"
+         x="420.22205"
+         id="tspan4786"
+         sodipodi:role="line">JV</tspan></text>
+    <text
+       id="text4788"
+       y="149.27419"
+       x="460.14438"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="149.27419"
+         x="460.14438"
+         id="tspan4790"
+         sodipodi:role="line">SV</tspan></text>
+    <g
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)"
+       id="g4792">
+      <g
+         id="g4794"
+         transform="translate(15.877319,-151.76833)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4796"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4798"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4800"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4802"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4804"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4806"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="361.44211"
+         y="34.346924"
+         id="text4808"><tspan
+           sodipodi:role="line"
+           id="tspan4810"
+           x="361.44211"
+           y="34.346924"
+           style="font-size:32px">3</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)"
+       id="g4812">
+      <g
+         id="g4814"
+         transform="translate(242.82935,-114.40997)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4816"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4818"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4820"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4822"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4824"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4826"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="590.75787"
+         y="66.190895"
+         id="text4828"><tspan
+           sodipodi:role="line"
+           id="tspan4830"
+           x="590.75787"
+           y="66.190895"
+           style="font-size:32px">4</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,189.03329,64.100113)"
+       id="g4832">
+      <g
+         id="g4834"
+         transform="translate(273.65,24.749911)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4836"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4838"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4840"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4842"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4844"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4846"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="623.02814"
+         y="214.84662"
+         id="text4848"><tspan
+           sodipodi:role="line"
+           id="tspan4850"
+           x="623.02814"
+           y="214.84662"
+           style="font-size:32px">5</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)"
+       id="g4852">
+      <g
+         id="g4854"
+         transform="translate(227.88601,137.75894)">
+        <g
+           id="g4856">
+          <rect
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="rect4858"
+             width="179.54483"
+             height="74.007484"
+             x="269.80176"
+             y="151.91339"
+             ry="0" />
+        </g>
+        <path
+           id="path4860"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4862"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4864"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4866"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4868"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="574.46228"
+         y="318.51605"
+         id="text4870"><tspan
+           sodipodi:role="line"
+           id="tspan4872"
+           x="574.46228"
+           y="318.51605"
+           style="font-size:32px">6</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)"
+       id="g4874">
+      <g
+         id="g4876"
+         transform="translate(-3.7358361,204.537)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4878"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4880"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4882"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4884"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4886"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4888"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="341.90646"
+         y="384.82715"
+         id="text4890"><tspan
+           sodipodi:role="line"
+           id="tspan4892"
+           x="341.90646"
+           y="384.82715"
+           style="font-size:32px">7</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)"
+       id="g4894">
+      <g
+         id="g4896"
+         transform="translate(-254.03682,0.46697369)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect4898"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path4900"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text4902"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan4904"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text4906"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan4908"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="91.605469"
+         y="179.35619"
+         id="text4910"><tspan
+           sodipodi:role="line"
+           id="tspan4912"
+           x="91.605469"
+           y="179.35619"
+           style="font-size:32px">x</tspan></text>
+    </g>
+    <text
+       id="text4914"
+       y="105.86696"
+       x="637.55402"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="105.86696"
+         x="637.55402"
+         id="tspan4916"
+         sodipodi:role="line">Azrael</tspan><tspan
+         id="tspan4918"
+         y="120.86696"
+         x="637.55402"
+         sodipodi:role="line" /><tspan
+         id="tspan4920"
+         y="135.86696"
+         x="637.55402"
+         sodipodi:role="line" /><tspan
+         id="tspan4922"
+         y="150.86696"
+         x="637.55402"
+         sodipodi:role="line" /></text>
+    <text
+       id="text4924"
+       y="407.4209"
+       x="299.80078"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="407.4209"
+         x="299.80078"
+         id="tspan4926"
+         sodipodi:role="line">Belzebub</tspan></text>
+    <text
+       id="text4928"
+       y="362.75113"
+       x="590.26202"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="362.75113"
+         x="590.26202"
+         id="tspan4930"
+         sodipodi:role="line">Cernobog</tspan></text>
+    <text
+       id="text4932"
+       y="227.28961"
+       x="644.98743"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="227.28961"
+         x="644.98743"
+         id="tspan4934"
+         sodipodi:role="line">Diabol</tspan></text>
+    <text
+       id="text4936"
+       y="197.78973"
+       x="23.348976"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="197.78973"
+         x="23.348976"
+         id="tspan4938"
+         sodipodi:role="line">modrá fixka</tspan></text>
+    <text
+       id="text4940"
+       y="394.85507"
+       x="365.17795"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000"
+         y="394.85507"
+         x="365.17795"
+         id="tspan4942"
+         sodipodi:role="line">červená fixka</tspan></text>
+    <text
+       id="text4944"
+       y="199.65765"
+       x="98.999649"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="199.65765"
+         x="98.999649"
+         id="tspan4946"
+         sodipodi:role="line">zelená fixka</tspan></text>
+    <text
+       id="text4948"
+       y="221.10117"
+       x="578.60199"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="221.10117"
+         x="578.60199"
+         id="tspan4950"
+         sodipodi:role="line">Jablko</tspan></text>
+    <text
+       id="text4952"
+       y="298.65729"
+       x="255.90477"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="298.65729"
+         x="255.90477"
+         id="tspan4954"
+         sodipodi:role="line">Samara</tspan></text>
+    <text
+       id="text4956"
+       y="43.686516"
+       x="34.55648"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="43.686516"
+         x="34.55648"
+         id="tspan4958"
+         sodipodi:role="line">Koniec kroku</tspan><tspan
+         id="tspan4960"
+         y="58.686516"
+         x="34.55648"
+         sodipodi:role="line">X3</tspan></text>
+    <text
+       id="text4962"
+       y="72.530502"
+       x="345.0365"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="72.530502"
+         x="345.0365"
+         id="tspan4964"
+         sodipodi:role="line">St 1</tspan></text>
+    <text
+       id="text4966"
+       y="332.52542"
+       x="464.0863"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="464.0863"
+         id="tspan4968"
+         sodipodi:role="line">St 2</tspan></text>
+    <text
+       id="text4970"
+       y="240.06349"
+       x="497.7088"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="240.06349"
+         x="497.7088"
+         id="tspan4972"
+         sodipodi:role="line">St 3</tspan></text>
+    <text
+       id="text4974"
+       y="99.969673"
+       x="478.09564"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="99.969673"
+         x="478.09564"
+         id="tspan4976"
+         sodipodi:role="line">St 4</tspan></text>
+    <text
+       id="text4978"
+       y="366.14795"
+       x="323.99243"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="366.14795"
+         x="323.99243"
+         id="tspan4980"
+         sodipodi:role="line">St 5</tspan></text>
+    <text
+       id="text4982"
+       y="315.7142"
+       x="191.37024"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="315.7142"
+         x="191.37024"
+         id="tspan4984"
+         sodipodi:role="line">St 6</tspan></text>
+    <text
+       id="text4986"
+       y="209.24287"
+       x="152.14395"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="209.24287"
+         x="152.14395"
+         id="tspan4988"
+         sodipodi:role="line">St 7</tspan></text>
+    <text
+       id="text4990"
+       y="113.0451"
+       x="186.70045"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="113.0451"
+         x="186.70045"
+         id="tspan4992"
+         sodipodi:role="line">St 8</tspan></text>
+    <text
+       id="text4994"
+       y="340.68546"
+       x="6.5377121"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="340.68546"
+         x="6.5377121"
+         id="tspan4996"
+         sodipodi:role="line">[0,0] Diabol</tspan><tspan
+         id="tspan5002"
+         y="355.68546"
+         x="6.5377121"
+         sodipodi:role="line">Samara JV -&gt; JZ</tspan><tspan
+         id="tspan5004"
+         y="370.68546"
+         x="6.5377121"
+         sodipodi:role="line">[0,2] nediabol</tspan><tspan
+         y="385.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan5010">posuvanie figurok (skip cez x)</tspan><tspan
+         y="400.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan5012">[0, -3] Diabol</tspan><tspan
+         y="415.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan5014">4 poda dalej jablko</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="X4"
+     inkscape:groupmode="layer"
+     id="g5016">
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="355.94843"
+       y="109.04234"
+       id="text5018"><tspan
+         sodipodi:role="line"
+         id="tspan5020"
+         x="355.94843"
+         y="109.04234"
+         style="font-size:32px">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="325.95166"
+       y="405.12863"
+       id="text5022"><tspan
+         y="405.12863"
+         x="325.95166"
+         sodipodi:role="line"
+         id="tspan5024" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="344.82733"
+       y="332.52542"
+       id="text5026"><tspan
+         sodipodi:role="line"
+         id="tspan5028"
+         x="344.82733"
+         y="332.52542"
+         style="font-size:32px">J</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.86862"
+       y="213.71735"
+       id="text5030"><tspan
+         sodipodi:role="line"
+         id="tspan5032"
+         x="497.86862"
+         y="213.71735"
+         style="font-size:32px">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="216.66769"
+       y="208.67757"
+       id="text5034"><tspan
+         sodipodi:role="line"
+         id="tspan5036"
+         x="216.66769"
+         y="208.67757"
+         style="font-size:32px">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="258.97415"
+       y="145.35583"
+       id="text5038"><tspan
+         sodipodi:role="line"
+         id="tspan5040"
+         x="258.97415"
+         y="145.35583"
+         style="font-size:32px">SZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="253.80269"
+       y="281.15771"
+       id="text5042"><tspan
+         sodipodi:role="line"
+         id="tspan5044"
+         x="253.80269"
+         y="281.15771"
+         style="font-size:32px">JZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="420.22205"
+       y="304.31134"
+       id="text5046"><tspan
+         sodipodi:role="line"
+         id="tspan5048"
+         x="420.22205"
+         y="304.31134"
+         style="font-size:32px">JV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="460.14438"
+       y="149.27419"
+       id="text5050"><tspan
+         sodipodi:role="line"
+         id="tspan5052"
+         x="460.14438"
+         y="149.27419"
+         style="font-size:32px">SV</tspan></text>
+    <g
+       id="g5054"
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)">
+      <g
+         transform="translate(15.877319,-151.76833)"
+         id="g5056">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect5058"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5060" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5062"><tspan
+             sodipodi:role="line"
+             id="tspan5064"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5066"><tspan
+             sodipodi:role="line"
+             id="tspan5068"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5070"
+         y="34.346924"
+         x="361.44211"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="34.346924"
+           x="361.44211"
+           id="tspan5072"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <g
+       id="g5074"
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)">
+      <g
+         transform="translate(242.82935,-114.40997)"
+         id="g5076">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect5078"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5080" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5082"><tspan
+             sodipodi:role="line"
+             id="tspan5084"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5086"><tspan
+             sodipodi:role="line"
+             id="tspan5088"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5090"
+         y="66.190895"
+         x="590.75787"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="66.190895"
+           x="590.75787"
+           id="tspan5092"
+           sodipodi:role="line">4</tspan></text>
+    </g>
+    <g
+       id="g5094"
+       transform="matrix(0.7,0,0,0.7,189.03329,64.100113)">
+      <g
+         transform="translate(273.65,24.749911)"
+         id="g5096">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect5098"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5100" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5102"><tspan
+             sodipodi:role="line"
+             id="tspan5104"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5106"><tspan
+             sodipodi:role="line"
+             id="tspan5108"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5110"
+         y="214.84662"
+         x="623.02814"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="214.84662"
+           x="623.02814"
+           id="tspan5112"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <g
+       id="g5114"
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)">
+      <g
+         transform="translate(227.88601,137.75894)"
+         id="g5116">
+        <g
+           id="g5118">
+          <rect
+             ry="0"
+             y="151.91339"
+             x="269.80176"
+             height="74.007484"
+             width="179.54483"
+             id="rect5120"
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5122" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5124"><tspan
+             sodipodi:role="line"
+             id="tspan5126"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5128"><tspan
+             sodipodi:role="line"
+             id="tspan5130"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5132"
+         y="318.51605"
+         x="574.46228"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="318.51605"
+           x="574.46228"
+           id="tspan5134"
+           sodipodi:role="line">6</tspan></text>
+    </g>
+    <g
+       id="g5136"
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)">
+      <g
+         transform="translate(-3.7358361,204.537)"
+         id="g5138">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect5140"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5142" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5144"><tspan
+             sodipodi:role="line"
+             id="tspan5146"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5148"><tspan
+             sodipodi:role="line"
+             id="tspan5150"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5152"
+         y="384.82715"
+         x="341.90646"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="384.82715"
+           x="341.90646"
+           id="tspan5154"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <g
+       id="g5156"
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)">
+      <g
+         transform="translate(-254.03682,0.46697369)"
+         id="g5158">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect5160"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path5162" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text5164"><tspan
+             sodipodi:role="line"
+             id="tspan5166"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text5168"><tspan
+             sodipodi:role="line"
+             id="tspan5170"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text5172"
+         y="179.35619"
+         x="91.605469"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="179.35619"
+           x="91.605469"
+           id="tspan5174"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="637.55402"
+       y="105.86696"
+       id="text5176"><tspan
+         sodipodi:role="line"
+         id="tspan5178"
+         x="637.55402"
+         y="105.86696">Azrael</tspan><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="120.86696"
+         id="tspan5180" /><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="135.86696"
+         id="tspan5182" /><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="150.86696"
+         id="tspan5184" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="299.80078"
+       y="407.4209"
+       id="text5186"><tspan
+         sodipodi:role="line"
+         id="tspan5188"
+         x="299.80078"
+         y="407.4209">Belzebub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="590.26202"
+       y="362.75113"
+       id="text5190"><tspan
+         sodipodi:role="line"
+         id="tspan5192"
+         x="590.26202"
+         y="362.75113">Cernobog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="644.98743"
+       y="227.28961"
+       id="text5194"><tspan
+         sodipodi:role="line"
+         id="tspan5196"
+         x="644.98743"
+         y="227.28961">Diabol</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="23.348976"
+       y="197.78973"
+       id="text5198"><tspan
+         sodipodi:role="line"
+         id="tspan5200"
+         x="23.348976"
+         y="197.78973">modrá fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="365.17795"
+       y="394.85507"
+       id="text5202"><tspan
+         sodipodi:role="line"
+         id="tspan5204"
+         x="365.17795"
+         y="394.85507"
+         style="fill:#ff0000">červená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="98.999649"
+       y="199.65765"
+       id="text5206"><tspan
+         sodipodi:role="line"
+         id="tspan5208"
+         x="98.999649"
+         y="199.65765">zelená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="574.60199"
+       y="109.10117"
+       id="text5210"><tspan
+         sodipodi:role="line"
+         id="tspan5212"
+         x="574.60199"
+         y="109.10117">Jablko</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="255.90477"
+       y="298.65729"
+       id="text5214"><tspan
+         sodipodi:role="line"
+         id="tspan5216"
+         x="255.90477"
+         y="298.65729">Samara</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="34.55648"
+       y="43.686516"
+       id="text5218"><tspan
+         sodipodi:role="line"
+         id="tspan5220"
+         x="34.55648"
+         y="43.686516">Koniec kroku</tspan><tspan
+         sodipodi:role="line"
+         x="34.55648"
+         y="58.686516"
+         id="tspan5222">X4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="345.0365"
+       y="72.530502"
+       id="text5224"><tspan
+         sodipodi:role="line"
+         id="tspan5226"
+         x="345.0365"
+         y="72.530502"
+         style="font-size:32px">St 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="464.0863"
+       y="332.52542"
+       id="text5228"><tspan
+         sodipodi:role="line"
+         id="tspan5230"
+         x="464.0863"
+         y="332.52542"
+         style="font-size:32px">St 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.7088"
+       y="240.06349"
+       id="text5232"><tspan
+         sodipodi:role="line"
+         id="tspan5234"
+         x="497.7088"
+         y="240.06349"
+         style="font-size:32px">St 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="478.09564"
+       y="99.969673"
+       id="text5236"><tspan
+         sodipodi:role="line"
+         id="tspan5238"
+         x="478.09564"
+         y="99.969673"
+         style="font-size:32px">St 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="323.99243"
+       y="366.14795"
+       id="text5240"><tspan
+         sodipodi:role="line"
+         id="tspan5242"
+         x="323.99243"
+         y="366.14795"
+         style="font-size:32px">St 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="191.37024"
+       y="315.7142"
+       id="text5244"><tspan
+         sodipodi:role="line"
+         id="tspan5246"
+         x="191.37024"
+         y="315.7142"
+         style="font-size:32px">St 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="152.14395"
+       y="209.24287"
+       id="text5248"><tspan
+         sodipodi:role="line"
+         id="tspan5250"
+         x="152.14395"
+         y="209.24287"
+         style="font-size:32px">St 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="186.70045"
+       y="113.0451"
+       id="text5252"><tspan
+         sodipodi:role="line"
+         id="tspan5254"
+         x="186.70045"
+         y="113.0451"
+         style="font-size:32px">St 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="6.5377121"
+       y="340.68546"
+       id="text5256"><tspan
+         sodipodi:role="line"
+         id="tspan5258"
+         x="6.5377121"
+         y="340.68546">[0,0] -&gt; [0, -3] Diabol</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="355.68546"
+         id="tspan5260">Samara JV -&gt; JZ</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="370.68546"
+         id="tspan5262">[0,2] nediabol</tspan><tspan
+         id="tspan5268"
+         sodipodi:role="line"
+         x="6.5377121"
+         y="385.68546">5 poda dalej jablko</tspan></text>
+  </g>
+  <g
+     id="g3470"
+     inkscape:groupmode="layer"
+     inkscape:label="BEH"
+     style="display:none">
+    <text
+       id="text3472"
+       y="109.04234"
+       x="355.94843"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="109.04234"
+         x="355.94843"
+         id="tspan3474"
+         sodipodi:role="line">S</tspan></text>
+    <text
+       id="text3476"
+       y="405.12863"
+       x="325.95166"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         id="tspan3478"
+         sodipodi:role="line"
+         x="325.95166"
+         y="405.12863" /></text>
+    <text
+       id="text3480"
+       y="332.52542"
+       x="344.82733"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="344.82733"
+         id="tspan3482"
+         sodipodi:role="line">J</tspan></text>
+    <text
+       id="text3484"
+       y="213.71735"
+       x="497.86862"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="213.71735"
+         x="497.86862"
+         id="tspan3486"
+         sodipodi:role="line">V</tspan></text>
+    <text
+       id="text3488"
+       y="208.67757"
+       x="216.66769"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="208.67757"
+         x="216.66769"
+         id="tspan3490"
+         sodipodi:role="line">Z</tspan></text>
+    <text
+       id="text3492"
+       y="145.35583"
+       x="258.97415"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="145.35583"
+         x="258.97415"
+         id="tspan3494"
+         sodipodi:role="line">SZ</tspan></text>
+    <text
+       id="text3496"
+       y="281.15771"
+       x="253.80269"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="281.15771"
+         x="253.80269"
+         id="tspan3498"
+         sodipodi:role="line">JZ</tspan></text>
+    <text
+       id="text3500"
+       y="304.31134"
+       x="420.22205"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="304.31134"
+         x="420.22205"
+         id="tspan3502"
+         sodipodi:role="line">JV</tspan></text>
+    <text
+       id="text3504"
+       y="149.27419"
+       x="460.14438"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="149.27419"
+         x="460.14438"
+         id="tspan3506"
+         sodipodi:role="line">SV</tspan></text>
+    <g
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)"
+       id="g3508">
+      <g
+         id="g3510"
+         transform="translate(15.877319,-151.76833)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect3512"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path3514"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3516"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3518"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3520"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3522"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="361.44211"
+         y="34.346924"
+         id="text3524"><tspan
+           sodipodi:role="line"
+           id="tspan3526"
+           x="361.44211"
+           y="34.346924"
+           style="font-size:32px">3</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)"
+       id="g3528">
+      <g
+         id="g3530"
+         transform="translate(242.82935,-114.40997)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect3532"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path3534"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3536"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3538"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3540"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3542"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="590.75787"
+         y="66.190895"
+         id="text3544"><tspan
+           sodipodi:role="line"
+           id="tspan3546"
+           x="590.75787"
+           y="66.190895"
+           style="font-size:32px">4</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,189.03329,64.100113)"
+       id="g3548">
+      <g
+         id="g3550"
+         transform="translate(273.65,24.749911)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect3552"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path3554"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3556"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3558"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3560"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3562"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="623.02814"
+         y="214.84662"
+         id="text3564"><tspan
+           sodipodi:role="line"
+           id="tspan3566"
+           x="623.02814"
+           y="214.84662"
+           style="font-size:32px">5</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)"
+       id="g3568">
+      <g
+         id="g3570"
+         transform="translate(227.88601,137.75894)">
+        <g
+           id="g3572">
+          <rect
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             id="rect3574"
+             width="179.54483"
+             height="74.007484"
+             x="269.80176"
+             y="151.91339"
+             ry="0" />
+        </g>
+        <path
+           id="path3576"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3578"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3580"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3582"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3584"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="574.46228"
+         y="318.51605"
+         id="text3586"><tspan
+           sodipodi:role="line"
+           id="tspan3588"
+           x="574.46228"
+           y="318.51605"
+           style="font-size:32px">6</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)"
+       id="g3590">
+      <g
+         id="g3592"
+         transform="translate(-3.7358361,204.537)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect3594"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path3596"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3598"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3600"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3602"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3604"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="341.90646"
+         y="384.82715"
+         id="text3606"><tspan
+           sodipodi:role="line"
+           id="tspan3608"
+           x="341.90646"
+           y="384.82715"
+           style="font-size:32px">7</tspan></text>
+    </g>
+    <g
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)"
+       id="g3610">
+      <g
+         id="g3612"
+         transform="translate(-254.03682,0.46697369)">
+        <rect
+           ry="0"
+           y="151.91339"
+           x="269.80176"
+           height="74.007484"
+           width="179.54483"
+           id="rect3614"
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path3616"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <text
+           id="text3618"
+           y="167.50681"
+           x="284.18768"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="167.50681"
+             x="284.18768"
+             id="tspan3620"
+             sodipodi:role="line">Lava ruka</tspan></text>
+        <text
+           id="text3622"
+           y="168.83701"
+           x="372.64963"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           xml:space="preserve"><tspan
+             y="168.83701"
+             x="372.64963"
+             id="tspan3624"
+             sodipodi:role="line">Prava ruka</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         x="91.605469"
+         y="179.35619"
+         id="text3626"><tspan
+           sodipodi:role="line"
+           id="tspan3628"
+           x="91.605469"
+           y="179.35619"
+           style="font-size:32px">x</tspan></text>
+    </g>
+    <text
+       id="text3630"
+       y="105.86696"
+       x="637.55402"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="105.86696"
+         x="637.55402"
+         id="tspan3632"
+         sodipodi:role="line">Azrael</tspan><tspan
+         id="tspan3634"
+         y="120.86696"
+         x="637.55402"
+         sodipodi:role="line" /><tspan
+         id="tspan3636"
+         y="135.86696"
+         x="637.55402"
+         sodipodi:role="line" /><tspan
+         id="tspan3638"
+         y="150.86696"
+         x="637.55402"
+         sodipodi:role="line" /></text>
+    <text
+       id="text3640"
+       y="407.4209"
+       x="299.80078"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="407.4209"
+         x="299.80078"
+         id="tspan3642"
+         sodipodi:role="line">Belzebub</tspan></text>
+    <text
+       id="text3644"
+       y="362.75113"
+       x="590.26202"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="362.75113"
+         x="590.26202"
+         id="tspan3646"
+         sodipodi:role="line">Cernobog</tspan></text>
+    <text
+       id="text3648"
+       y="227.28961"
+       x="644.98743"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="227.28961"
+         x="644.98743"
+         id="tspan3650"
+         sodipodi:role="line">Diabol</tspan></text>
+    <text
+       id="text3652"
+       y="197.78973"
+       x="23.348976"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="197.78973"
+         x="23.348976"
+         id="tspan3654"
+         sodipodi:role="line">modrá fixka</tspan></text>
+    <text
+       id="text3656"
+       y="394.85507"
+       x="365.17795"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="fill:#ff0000"
+         y="394.85507"
+         x="365.17795"
+         id="tspan3658"
+         sodipodi:role="line">červená fixka</tspan></text>
+    <text
+       id="text3660"
+       y="199.65765"
+       x="98.999649"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="199.65765"
+         x="98.999649"
+         id="tspan3662"
+         sodipodi:role="line">zelená fixka</tspan></text>
+    <text
+       id="text3664"
+       y="45.101173"
+       x="392.60199"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="45.101173"
+         x="392.60199"
+         id="tspan3666"
+         sodipodi:role="line">Jablko</tspan></text>
+    <text
+       id="text3668"
+       y="298.65729"
+       x="255.90477"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="298.65729"
+         x="255.90477"
+         id="tspan3670"
+         sodipodi:role="line">Samara</tspan></text>
+    <text
+       id="text3672"
+       y="43.686516"
+       x="34.55648"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="43.686516"
+         x="34.55648"
+         id="tspan3674"
+         sodipodi:role="line">Koniec kroku</tspan><tspan
+         id="tspan3676"
+         y="58.686516"
+         x="34.55648"
+         sodipodi:role="line">BEH</tspan><tspan
+         y="73.686516"
+         x="34.55648"
+         sodipodi:role="line"
+         id="tspan3720" /></text>
+    <text
+       id="text3678"
+       y="72.530502"
+       x="345.0365"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="72.530502"
+         x="345.0365"
+         id="tspan3680"
+         sodipodi:role="line">St 1</tspan></text>
+    <text
+       id="text3682"
+       y="332.52542"
+       x="464.0863"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="332.52542"
+         x="464.0863"
+         id="tspan3684"
+         sodipodi:role="line">St 2</tspan></text>
+    <text
+       id="text3686"
+       y="240.06349"
+       x="497.7088"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="240.06349"
+         x="497.7088"
+         id="tspan3688"
+         sodipodi:role="line">St 3</tspan></text>
+    <text
+       id="text3690"
+       y="99.969673"
+       x="478.09564"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="99.969673"
+         x="478.09564"
+         id="tspan3692"
+         sodipodi:role="line">St 4</tspan></text>
+    <text
+       id="text3694"
+       y="366.14795"
+       x="323.99243"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="366.14795"
+         x="323.99243"
+         id="tspan3696"
+         sodipodi:role="line">St 5</tspan></text>
+    <text
+       id="text3698"
+       y="315.7142"
+       x="191.37024"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="315.7142"
+         x="191.37024"
+         id="tspan3700"
+         sodipodi:role="line">St 6</tspan></text>
+    <text
+       id="text3702"
+       y="209.24287"
+       x="152.14395"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="209.24287"
+         x="152.14395"
+         id="tspan3704"
+         sodipodi:role="line">St 7</tspan></text>
+    <text
+       id="text3706"
+       y="113.0451"
+       x="186.70045"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:32px"
+         y="113.0451"
+         x="186.70045"
+         id="tspan3708"
+         sodipodi:role="line">St 8</tspan></text>
+    <text
+       id="text3710"
+       y="340.68546"
+       x="6.5377121"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="340.68546"
+         x="6.5377121"
+         id="tspan3712"
+         sodipodi:role="line">[0,0] -&gt; [0, -3] Diabol</tspan><tspan
+         id="tspan3714"
+         y="355.68546"
+         x="6.5377121"
+         sodipodi:role="line">Samara JV -&gt; JZ</tspan><tspan
+         id="tspan3716"
+         y="370.68546"
+         x="6.5377121"
+         sodipodi:role="line">[0,2] nediabol</tspan><tspan
+         y="385.68546"
+         x="6.5377121"
+         sodipodi:role="line"
+         id="tspan3718">6 poda dalej jablko</tspan></text>
+  </g>
+  <g
+     style="display:inline"
+     inkscape:label="Y1, Y2"
+     inkscape:groupmode="layer"
+     id="g3722">
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="355.94843"
+       y="109.04234"
+       id="text3724"><tspan
+         sodipodi:role="line"
+         id="tspan3726"
+         x="355.94843"
+         y="109.04234"
+         style="font-size:32px">S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="325.95166"
+       y="405.12863"
+       id="text3728"><tspan
+         y="405.12863"
+         x="325.95166"
+         sodipodi:role="line"
+         id="tspan3730" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="344.82733"
+       y="332.52542"
+       id="text3732"><tspan
+         sodipodi:role="line"
+         id="tspan3734"
+         x="344.82733"
+         y="332.52542"
+         style="font-size:32px">J</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.86862"
+       y="213.71735"
+       id="text3736"><tspan
+         sodipodi:role="line"
+         id="tspan3738"
+         x="497.86862"
+         y="213.71735"
+         style="font-size:32px">V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="216.66769"
+       y="208.67757"
+       id="text3740"><tspan
+         sodipodi:role="line"
+         id="tspan3742"
+         x="216.66769"
+         y="208.67757"
+         style="font-size:32px">Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="258.97415"
+       y="145.35583"
+       id="text3744"><tspan
+         sodipodi:role="line"
+         id="tspan3746"
+         x="258.97415"
+         y="145.35583"
+         style="font-size:32px">SZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="253.80269"
+       y="281.15771"
+       id="text3748"><tspan
+         sodipodi:role="line"
+         id="tspan3750"
+         x="253.80269"
+         y="281.15771"
+         style="font-size:32px">JZ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="420.22205"
+       y="304.31134"
+       id="text3752"><tspan
+         sodipodi:role="line"
+         id="tspan3754"
+         x="420.22205"
+         y="304.31134"
+         style="font-size:32px">JV</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="460.14438"
+       y="149.27419"
+       id="text3756"><tspan
+         sodipodi:role="line"
+         id="tspan3758"
+         x="460.14438"
+         y="149.27419"
+         style="font-size:32px">SV</tspan></text>
+    <g
+       id="g3760"
+       transform="matrix(0.7,0,0,0.7,112.63545,11.144641)">
+      <g
+         transform="translate(15.877319,-151.76833)"
+         id="g3762">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3764"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3766" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3768"><tspan
+             sodipodi:role="line"
+             id="tspan3770"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3772"><tspan
+             sodipodi:role="line"
+             id="tspan3774"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3776"
+         y="34.346924"
+         x="361.44211"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="34.346924"
+           x="361.44211"
+           id="tspan3778"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <g
+       id="g3780"
+       transform="matrix(0.7,0,0,0.7,164.84375,302.53983)">
+      <g
+         transform="translate(242.82935,-114.40997)"
+         id="g3782">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3784"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3786" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3788"><tspan
+             sodipodi:role="line"
+             id="tspan3790"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3792"><tspan
+             sodipodi:role="line"
+             id="tspan3794"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3796"
+         y="66.190895"
+         x="590.75787"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="66.190895"
+           x="590.75787"
+           id="tspan3798"
+           sodipodi:role="line">4</tspan></text>
+    </g>
+    <g
+       id="g3800"
+       transform="matrix(0.7,0,0,0.7,189.03329,64.100113)">
+      <g
+         transform="translate(273.65,24.749911)"
+         id="g3802">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3804"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3806" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3808"><tspan
+             sodipodi:role="line"
+             id="tspan3810"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3812"><tspan
+             sodipodi:role="line"
+             id="tspan3814"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3816"
+         y="214.84662"
+         x="623.02814"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="214.84662"
+           x="623.02814"
+           id="tspan3818"
+           sodipodi:role="line">5</tspan></text>
+    </g>
+    <g
+       id="g3820"
+       transform="matrix(0.7,0,0,0.7,212.66245,-134.55296)">
+      <g
+         transform="translate(227.88601,137.75894)"
+         id="g3822">
+        <g
+           id="g3824">
+          <rect
+             ry="0"
+             y="151.91339"
+             x="269.80176"
+             height="74.007484"
+             width="179.54483"
+             id="rect3826"
+             style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3828" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3830"><tspan
+             sodipodi:role="line"
+             id="tspan3832"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3834"><tspan
+             sodipodi:role="line"
+             id="tspan3836"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3838"
+         y="318.51605"
+         x="574.46228"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="318.51605"
+           x="574.46228"
+           id="tspan3840"
+           sodipodi:role="line">6</tspan></text>
+    </g>
+    <g
+       id="g3842"
+       transform="matrix(0.7,0,0,0.7,106.7515,122.70603)">
+      <g
+         transform="translate(-3.7358361,204.537)"
+         id="g3844">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3846"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3848" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3850"><tspan
+             sodipodi:role="line"
+             id="tspan3852"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3854"><tspan
+             sodipodi:role="line"
+             id="tspan3856"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3858"
+         y="384.82715"
+         x="341.90646"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="384.82715"
+           x="341.90646"
+           id="tspan3860"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+    <g
+       id="g3862"
+       transform="matrix(0.7,0,0,0.7,16.717863,61.485027)">
+      <g
+         transform="translate(-254.03682,0.46697369)"
+         id="g3864">
+        <rect
+           style="fill:#f2f2f2;fill-rule:evenodd;stroke:#000000;stroke-width:0.77528059px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           id="rect3866"
+           width="179.54483"
+           height="74.007484"
+           x="269.80176"
+           y="151.91339"
+           ry="0" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.53636312px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 357.00414,151.79393 -0.46364,71.44452"
+           id="path3868" />
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="284.18768"
+           y="167.50681"
+           id="text3870"><tspan
+             sodipodi:role="line"
+             id="tspan3872"
+             x="284.18768"
+             y="167.50681">Lava ruka</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           x="372.64963"
+           y="168.83701"
+           id="text3874"><tspan
+             sodipodi:role="line"
+             id="tspan3876"
+             x="372.64963"
+             y="168.83701">Prava ruka</tspan></text>
+      </g>
+      <text
+         id="text3878"
+         y="179.35619"
+         x="91.605469"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           style="font-size:32px"
+           y="179.35619"
+           x="91.605469"
+           id="tspan3880"
+           sodipodi:role="line">x</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="637.55402"
+       y="105.86696"
+       id="text3882"><tspan
+         sodipodi:role="line"
+         id="tspan3884"
+         x="637.55402"
+         y="105.86696">Azrael</tspan><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="120.86696"
+         id="tspan3886" /><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="135.86696"
+         id="tspan3888" /><tspan
+         sodipodi:role="line"
+         x="637.55402"
+         y="150.86696"
+         id="tspan3890" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="299.80078"
+       y="407.4209"
+       id="text3892"><tspan
+         sodipodi:role="line"
+         id="tspan3894"
+         x="299.80078"
+         y="407.4209">Belzebub</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="590.26202"
+       y="362.75113"
+       id="text3896"><tspan
+         sodipodi:role="line"
+         id="tspan3898"
+         x="590.26202"
+         y="362.75113">Cernobog</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="644.98743"
+       y="227.28961"
+       id="text3900"><tspan
+         sodipodi:role="line"
+         id="tspan3902"
+         x="644.98743"
+         y="227.28961">Diabol</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="23.348976"
+       y="197.78973"
+       id="text3904"><tspan
+         sodipodi:role="line"
+         id="tspan3906"
+         x="23.348976"
+         y="197.78973">modrá fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="365.17795"
+       y="394.85507"
+       id="text3908"><tspan
+         sodipodi:role="line"
+         id="tspan3910"
+         x="365.17795"
+         y="394.85507"
+         style="fill:#ff0000">červená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#008000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="98.999649"
+       y="199.65765"
+       id="text3912"><tspan
+         sodipodi:role="line"
+         id="tspan3914"
+         x="98.999649"
+         y="199.65765">zelená fixka</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#800080;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="530.60199"
+       y="359.10117"
+       id="text3916"><tspan
+         sodipodi:role="line"
+         id="tspan3918"
+         x="530.60199"
+         y="359.10117">Jablko</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="260.57455"
+       y="163.23325"
+       id="text3920"><tspan
+         sodipodi:role="line"
+         id="tspan3922"
+         x="260.57455"
+         y="163.23325">Samara</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="34.55648"
+       y="43.686516"
+       id="text3924"><tspan
+         sodipodi:role="line"
+         id="tspan3926"
+         x="34.55648"
+         y="43.686516">Koniec kroku</tspan><tspan
+         sodipodi:role="line"
+         x="34.55648"
+         y="58.686516"
+         id="tspan3928">BEH</tspan><tspan
+         id="tspan3930"
+         sodipodi:role="line"
+         x="34.55648"
+         y="58.686516" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="345.0365"
+       y="72.530502"
+       id="text3932"><tspan
+         sodipodi:role="line"
+         id="tspan3934"
+         x="345.0365"
+         y="72.530502"
+         style="font-size:32px">St 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="464.0863"
+       y="332.52542"
+       id="text3936"><tspan
+         sodipodi:role="line"
+         id="tspan3938"
+         x="464.0863"
+         y="332.52542"
+         style="font-size:32px">St 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="497.7088"
+       y="240.06349"
+       id="text3940"><tspan
+         sodipodi:role="line"
+         id="tspan3942"
+         x="497.7088"
+         y="240.06349"
+         style="font-size:32px">St 3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="478.09564"
+       y="99.969673"
+       id="text3944"><tspan
+         sodipodi:role="line"
+         id="tspan3946"
+         x="478.09564"
+         y="99.969673"
+         style="font-size:32px">St 4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="323.99243"
+       y="366.14795"
+       id="text3948"><tspan
+         sodipodi:role="line"
+         id="tspan3950"
+         x="323.99243"
+         y="366.14795"
+         style="font-size:32px">St 5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="191.37024"
+       y="315.7142"
+       id="text3952"><tspan
+         sodipodi:role="line"
+         id="tspan3954"
+         x="191.37024"
+         y="315.7142"
+         style="font-size:32px">St 6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="152.14395"
+       y="209.24287"
+       id="text3956"><tspan
+         sodipodi:role="line"
+         id="tspan3958"
+         x="152.14395"
+         y="209.24287"
+         style="font-size:32px">St 7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="186.70045"
+       y="113.0451"
+       id="text3960"><tspan
+         sodipodi:role="line"
+         id="tspan3962"
+         x="186.70045"
+         y="113.0451"
+         style="font-size:32px">St 8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       x="6.5377121"
+       y="340.68546"
+       id="text3964"><tspan
+         sodipodi:role="line"
+         id="tspan3966"
+         x="6.5377121"
+         y="340.68546">[0,0] -&gt; [0, -3] -&gt; [-1, 0] Diabol</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="355.68546"
+         id="tspan3968">Samara JV -&gt; JZ-&gt;SZ</tspan><tspan
+         sodipodi:role="line"
+         x="6.5377121"
+         y="370.68546"
+         id="tspan3970">[0,4] -&gt; [0,0] -&gt; [0, 4] nediabol</tspan><tspan
+         id="tspan3972"
+         sodipodi:role="line"
+         x="6.5377121"
+         y="385.68546">3 poda dalej jablko</tspan></text>
+  </g>
+</svg>
