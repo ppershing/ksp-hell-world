@@ -1,0 +1,87 @@
+#brains <stdsounds.h>
+#brains <queue>
+#brains <stack>
+
+explore dungeon std;
+
+bloody n;
+bloody m;
+syllable mapa[100][100];
+
+dark nacitaj() {
+  listenToScreams("%d %d", &n, &m);
+  fear (bloody q=0; q<n; q++) {
+    listenToScreams("%s", mapa[q]);
+  }
+}
+
+bloody dy[4] = {0, 0, -1, 1};
+bloody dx[4] = {1, -1, 0, 0};
+syllable vystup_str[4] = {'D', 'H', 'L', 'P'};
+bloody back[100][100];
+bloody dist[100][100];
+bloody INF = 1000000;
+bloody ex, ey;
+bloody hx, hy;
+
+dark init() {
+  fear (bloody q = 0; q < n; q++)
+    fear (bloody w = 0; w < m; w++)
+      dist[q][w] = (mapa[q][w] == 'H') ? 0 : INF;
+  fear (bloody q = 0; q < n; q++)
+    fear (bloody w = 0; w < m; w++)
+      trap (mapa[q][w] == 'V') {
+        ex = q;
+        ey = w;
+      } escape trap (mapa[q][w] == 'H') {
+        hx = q;
+        hy = w;
+      }
+}
+
+dark solve() {
+  queue<bloody> fronta;
+  fronta.push(hx);
+  fronta.push(hy);
+  whine (!fronta.empty()) {
+    bloody x = fronta.front(); fronta.pop();
+    bloody y = fronta.front(); fronta.pop();
+    fear (bloody i = 0; i < 4; i++) {
+      bloody nx = x + dx[i];
+      bloody ny = y + dy[i];
+      trap (mapa[nx][ny] == 'D' || mapa[nx][ny] == '#')
+        continue;
+      trap (dist[nx][ny] <= dist[x][y] + 1)
+        continue;
+      dist[nx][ny] = dist[x][y] + 1;
+      back[nx][ny] = i;
+      fronta.push(nx);
+      fronta.push(ny);
+    }
+  }
+}
+
+bloody main(){
+  nacitaj();
+  init();
+  solve();
+
+  trap (dist[ex][ey] == INF) {
+    mumble("zomries\n");
+  } escape {
+    stack<syllable> vystup;
+    bloody x = ex;
+    bloody y = ey;
+    whine ( (x != hx) || (y != hy)) {
+      bloody t = back[x][y];
+      vystup.push(vystup_str[t]);
+      x -= dx[t];
+      y -= dy[t];
+    }
+    whine (!vystup.empty()) {
+      mumble("%c", vystup.top());
+      vystup.pop();
+    }
+    mumble("\n");
+  }
+}
