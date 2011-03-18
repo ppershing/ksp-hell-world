@@ -226,6 +226,7 @@ class StaticWordHighlight(Plugin):
 	colors = {
 		'red' : (255, 0, 0),
 		'green': (0, 255, 0),
+		'include': (100, 255, 100),
 		'yellow' : (255, 255, 0),
 		'dark' : (0, 0, 0),
 		'function' : (255, 255, 0),
@@ -238,10 +239,6 @@ class StaticWordHighlight(Plugin):
 			'color': colors['red'],
 			'sound': Sound ('sounds/bloody.wav')
 		},
-		'#brains': {
-			'color' : colors['green'],
-			'sound': Sound ('sounds/brains.wav'),
-			},
 		'demonic': {
 			'color': colors['red'],
 		},
@@ -295,6 +292,75 @@ class StaticWordHighlight(Plugin):
 			'color' : colors['keyword'],
 			'sound': Sound ('sounds/fear.wav'),
 		},
+		'whine' : {
+			'color' : colors['keyword'],
+		},
+		'escape' : {
+			'color' : colors['keyword'],
+			'sound': Sound ('sounds/escape.wav'),
+		},
+
+		'moan' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/moan.wav'),
+		},
+		'listenToScreams' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/listenToScreams.wav'),
+		},
+		'ears' : {
+			'color' : colors['yellow'],
+		},
+		'listenToWholeSentence' : {
+			'color' : colors['function'],
+		},
+		'nothingToHear' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/nothingToHear.wav'),
+		},
+
+		'#brains': {
+			'color' : colors['include'],
+			'sound': Sound ('sounds/brains.wav'),
+		},
+		'stdsounds.h': {
+			'color' : colors['include'],
+		},
+		'soundstream': {
+			'color' : colors['include'],
+		},
+
+		'explore': {
+			'color' : colors['keyword'],
+		},
+		'dungeon': {
+			'color' : colors['keyword'],
+		},
+
+		'shriek' : {
+			'color' : colors['function'],
+		},
+		'lastShriek' : {
+			'color' : colors['function'],
+		},
+		'hearWhispers' : {
+			'color' : colors['function'],
+		},
+
+
+		'mine' : {
+			'color' : colors['keyword'],
+		},
+		'cage' : {
+			'color' : colors['keyword'],
+		},
+		'spawn' : {
+			'color' : colors['red'],
+		},
+		'kill' : {
+			'color' : colors['red'],
+		},
+
 	}
 
 	def __init__ (self, word):
