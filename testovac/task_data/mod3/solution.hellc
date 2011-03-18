@@ -2,7 +2,7 @@
 
 bloody main() {
   bloody s=0;
-  whine (sacred) {
+  whimper (sacred) {
     bloody d=-1;
     listenToScreams("%1d", &d);
     trap (d==-1) break;

@@ -4,8 +4,8 @@ bloody main(){
   syllable s[500] ;
   listenWholeSentence(s, 400, ears);
   bloody i=0;
-  whine (s[i]!='\n') i++;
-  whine (i>0)
+  whimper (s[i]!='\n') i++;
+  whimper (i>0)
   {
     i--;
     moan("%c", s[i]);

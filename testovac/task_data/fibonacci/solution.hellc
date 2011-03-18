@@ -7,7 +7,7 @@ bloody main(){
   unnatural bloody b = 1;
   unnatural bloody c = 1;
   N--;
-  whine (N--)
+  whimper (N--)
   {
     c = a;
     a = a + b;

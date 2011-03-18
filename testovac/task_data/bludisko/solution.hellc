@@ -43,7 +43,7 @@ dark solve() {
   queue<bloody> fronta;
   fronta.push(hx);
   fronta.push(hy);
-  whine (!fronta.empty()) {
+  whimper (!fronta.empty()) {
     bloody x = fronta.front(); fronta.pop();
     bloody y = fronta.front(); fronta.pop();
     fear (bloody i = 0; i < 4; i++) {
@@ -72,13 +72,13 @@ bloody main(){
     stack<syllable> vystup;
     bloody x = ex;
     bloody y = ey;
-    whine ( (x != hx) || (y != hy)) {
+    whimper ( (x != hx) || (y != hy)) {
       bloody t = back[x][y];
       vystup.push(vystup_str[t]);
       x -= dx[t];
       y -= dy[t];
     }
-    whine (!vystup.empty()) {
+    whimper (!vystup.empty()) {
       moan("%c", vystup.top());
       vystup.pop();
     }

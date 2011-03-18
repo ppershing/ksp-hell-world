@@ -15,7 +15,7 @@ bloody main() {
   }
 
   bloody c = 10;
-  whine (c > 2) {
+  whimper (c > 2) {
     c -= 3;
   }
 }
