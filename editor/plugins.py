@@ -1,3 +1,4 @@
+# vim: set noet sw=2 ts=4:
 from abc import abstractmethod
 from view import *
 from random import *
@@ -222,9 +223,78 @@ class Trap(WordMatchPlugin):
 		blit_clipped (wp.screen, text, myrect)
 		
 class StaticWordHighlight(Plugin):
+	colors = {
+		'red' : (255, 0, 0),
+		'green': (0, 255, 0),
+		'yellow' : (255, 255, 0),
+		'dark' : (0, 0, 0),
+		'function' : (255, 255, 0),
+		'type' : (0, 255, 0),
+		'black' : (0, 0, ),
+		'keyword' : (0, 0, 255),
+	} 
 	word_colors = {
-			'bloody': { 'color': (255, 0, 0),'sound': Sound ('sounds/bloody.wav') },
-		'#brains': { 'color': (0, 255, 0), }
+		'bloody': {
+			'color': colors['red'],
+			'sound': Sound ('sounds/bloody.wav')
+		},
+		'#brains': {
+			'color' : colors['green'],
+			'sound': Sound ('sounds/brains.wav'),
+			},
+		'demonic': {
+			'color': colors['red'],
+		},
+		'questionable' : {
+			'color' : colors['type'],
+		},
+		'lie' : {
+			'color' : colors['red'],
+		},
+		'sacred' : {
+			'color' : colors['red'],
+		},
+		'dark' : {
+			'color' : colors['black'],
+		},
+		'syllable' : {
+			'color' : colors['type'],
+		},
+		'sinned' : {
+			'color' : colors['type'],
+		},
+		'shit' : {
+			'color' : colors['type'],
+		},
+		'unnatural' : {
+			'color' : colors['type'],
+		},
+		'holy' : {
+			'color' : colors['type'],
+		},
+		'chainlen' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/chain.wav'),
+		},
+		'chaincmp' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/chain.wav'),
+		},
+		'chain' : {
+			'color' : colors['type'],
+			'sound': Sound ('sounds/chain.wav'),
+		},
+		'listenToChain' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/chain.wav'),
+		},
+		'live' : {
+			'color' : colors['keyword'],
+		},
+		'fear' : {
+			'color' : colors['keyword'],
+			'sound': Sound ('sounds/fear.wav'),
+		},
 	}
 
 	def __init__ (self, word):
