@@ -1,6 +1,6 @@
 #brains <stdsounds.h>
 
 bloody main(){
-  fear (bloody i=22; i<88; i++) mumble("%d ", i);
-  mumble("88\n");
+  fear (bloody i=22; i<88; i++) moan("%d ", i);
+  moan("88\n");
 }

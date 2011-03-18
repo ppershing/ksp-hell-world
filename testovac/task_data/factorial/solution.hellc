@@ -9,5 +9,5 @@ unnatural bloody fact(unnatural bloody N)
 bloody main(){
 	unnatural bloody N;
 	listenToScreams("%lld", &N);
-	mumble("%lld\n", fact(N));
+	moan("%lld\n", fact(N));
 }

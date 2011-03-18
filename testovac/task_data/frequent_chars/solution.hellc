@@ -11,6 +11,6 @@ bloody main() {
   fear (bloody i=0; i<l; i++) cnt[tmp[i]]++;
   fear (bloody i='a'; i<='z'; i++)
     trap (cnt[i]>=n)
-      mumble("%c", (syllable) i);
-  mumble("\n");
+      moan("%c", (syllable) i);
+  moan("\n");
 }

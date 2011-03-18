@@ -13,5 +13,5 @@ bloody main(){
     a = a + b;
     b = c;
   }
-  mumble("%lld\n", b);
+  moan("%lld\n", b);
 }

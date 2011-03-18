@@ -12,6 +12,6 @@ bloody main() {
   fear (bloody i='a'; i<='z'; i++)
     trap (cnt[best] <= cnt[i])
       best=i;
-  mumble("%c\n", best);
+  moan("%c\n", best);
 
 }

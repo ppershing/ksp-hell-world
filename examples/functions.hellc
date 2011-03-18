@@ -10,7 +10,7 @@ demonic magic(demonic x) {
 }
 
 bloody main() {
-  mumble("Let's wait a little\n");
+  moan("Let's wait a little\n");
   wait();
-  mumble("Magic of %d is %lf\n", 4, magic(4));
+  moan("Magic of %d is %lf\n", 4, magic(4));
 }

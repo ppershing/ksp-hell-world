@@ -8,7 +8,7 @@ bloody main(){
   whine (i>0)
   {
     i--;
-    mumble("%c", s[i]);
+    moan("%c", s[i]);
   }
-  mumble("\n");
+  moan("\n");
 }

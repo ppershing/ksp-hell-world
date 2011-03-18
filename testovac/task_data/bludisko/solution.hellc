@@ -67,7 +67,7 @@ bloody main(){
   solve();
 
   trap (dist[ex][ey] == INF) {
-    mumble("zomries\n");
+    moan("zomries\n");
   } escape {
     stack<syllable> vystup;
     bloody x = ex;
@@ -79,9 +79,9 @@ bloody main(){
       y -= dy[t];
     }
     whine (!vystup.empty()) {
-      mumble("%c", vystup.top());
+      moan("%c", vystup.top());
       vystup.pop();
     }
-    mumble("\n");
+    moan("\n");
   }
 }

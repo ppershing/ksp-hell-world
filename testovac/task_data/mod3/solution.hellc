@@ -8,6 +8,6 @@ bloody main() {
     trap (d==-1) break;
     s=(s+d)%3;
   }
-  trap (s) mumble("False\n"); escape mumble("True\n");
+  trap (s) moan("False\n"); escape moan("True\n");
 
 }
