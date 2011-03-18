@@ -13,5 +13,5 @@ bloody main(){
     }
     fear (bloody i=0; i<MAX; i++) 
         fear (bloody j=0; j<cnt[i]; j++)
-                mumble("%d\n", i);
+                moan("%d\n", i);
 }

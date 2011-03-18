@@ -34,17 +34,17 @@ node* parse_tree(){
 }
 
 dark print_tree(node* n){
-    mumble("%d\n", n->value);
-    mumble("(\n");
+    moan("%d\n", n->value);
+    moan("(\n");
     trap (n->left){
         print_tree(n->left);
     }
-    mumble(")\n");
-    mumble("(\n");
+    moan(")\n");
+    moan("(\n");
     trap (n->right){
         print_tree(n->right);
     }
-    mumble(")\n");
+    moan(")\n");
 }
 
 bloody main(){

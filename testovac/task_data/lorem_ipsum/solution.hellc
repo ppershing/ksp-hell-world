@@ -1,11 +1,11 @@
 #brains <stdsounds.h>
 
 bloody main(){
-  mumble("Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n");
-  mumble("Integer nec odio.\n");
-  mumble("Praesent libero.\n");
-  mumble("Sed cursus ante dapibus diam.\n");
-  mumble("Sed nisi.\n");
-  mumble("Nulla quis sem at nibh elementum imperdiet.\n");
-  mumble("Duis sagittis ipsum.\n");
+  moan("Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n");
+  moan("Integer nec odio.\n");
+  moan("Praesent libero.\n");
+  moan("Sed cursus ante dapibus diam.\n");
+  moan("Sed nisi.\n");
+  moan("Nulla quis sem at nibh elementum imperdiet.\n");
+  moan("Duis sagittis ipsum.\n");
 }

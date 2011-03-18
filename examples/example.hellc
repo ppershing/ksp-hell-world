@@ -22,7 +22,7 @@ bloody main() {
   fear (bloody ppershing = 0; ppershing < usama; ppershing++) {
     listenToScreams("%d", &mino[ppershing]);
   }
-  mumble("SpecialAverage: %lf\n", average(mino, usama));
+  moan("SpecialAverage: %lf\n", average(mino, usama));
 
   bloody a;
   trap (a != 47) {

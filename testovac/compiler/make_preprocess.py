@@ -27,7 +27,7 @@ SUBST_CPP = {
   'elseif': '__undef__',
 
   #functions
-  'printf' : 'mumble',
+  'printf' : 'moan',
   'scanf' : 'listenToScreams',
   'stdin' : 'ears',
   'fgets' : 'listenWholeSentence',

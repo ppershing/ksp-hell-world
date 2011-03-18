@@ -8,7 +8,7 @@ explore dungeon std;
 bloody main() {
   bloody n;
   listenToScreams("%d", &n);
-  mumble("There are %d demons waiting to kill you\n", n);
+  moan("There are %d demons waiting to kill you\n", n);
 
   demonic t;
   hearWhispers >> t;

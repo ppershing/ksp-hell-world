@@ -13,7 +13,7 @@ cage Monster {
     shout << mine->name << " was sent to the hell" << lastShriek;
   }
 
-  dark mumble() {
+  dark moan() {
     shout << mine->name << " said 'HaHaHa'" << lastShriek;
   }
 
@@ -27,8 +27,8 @@ cage Monster {
 bloody main() {
   Monster* f = spawn Monster("Frankenstein");
   Monster* k = spawn Monster("Kraken");
-  f->mumble();
-  k->mumble();
+  f->moan();
+  k->moan();
   f->walk();
   kill k;
   kill f;
