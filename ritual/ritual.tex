@@ -114,8 +114,7 @@ nedivte sa, ak budete ma» problémy.
 %Z4
 
 \item Ka¾dı hráè dostane èíslo o 2 väè¹ie ako èíslo stolièky, na ktorej sedí.
-    Vınimkou je hráè, ktorı je medzi dvoma hráèmi, ktorıch súèet èísiel ktoré majú dosta»,
-    je párne dvojciferné èíslo, tento hráè dostane namiesto èísla jablko.
+    Vınimkou je hráè na stolièke 7, tento hráè dostane namiesto èísla jablko.
     Figúrky pomenujeme Azrael, Belzebub, Èernobog, Diabol,
     prièom Azraela dr¾í momentálne hráè 3, Belzebuba hráè 4, atï.
     Hráè s Diablom si zoberie modrú fixku a vyznaèí òou bod $\bf[0,0]$ na
@@ -148,9 +147,9 @@ nedivte sa, ak budete ma» problémy.
 
     Idú sa posúva» figúrky. V¹etci hráèi (aj tí pôvodne bez figúrok) si ich v taktoch
     podávajú proti smeru hodinovıch ruèièiek, kım hráè s èervenou fixkou nemá Belzebuba. 
-    Hráè dr¾iaci Diabla vyznaèí zelenou fixkou bod $\bf[x,y]$,
-    kde $\bf x$ je jeho èíslo mínus poèet hráèov, ktorí doteraz dr¾ali
-    Azraela a $y$ je mínus poèet hráèov, ktorí doteraz dr¾ali jablko.
+    Hráè dr¾iaci Diabla vyznaèí zelenou fixkou bod $\bf[x,-y]$,
+    kde $\bf x$ je èíslo hráèa dr¾iaceho Azraela mínus poèet hráèov, ktorí doteraz dr¾ali
+    Azraela a $\bf y$ je poèet hráèov, ktorí doteraz dr¾ali jablko.
 %X3
 
 \item Ak je svieèka nachádzajúca sa pri rovnakej stolièke ako Samara zapálená,
@@ -160,12 +159,13 @@ V prípade, ¾e by bola na jednom mieste aj Samara aj jablko, svieèka zmení
 svoj stav na opaènı. Od tohoto momentu je potrebné tieto in¹trukcie
 zopakova» pred zaèiatkom ka¾dého kola.
 %som zvedavy, kedy vam dopne, ze to vobec netreba robit!
+%X4
 
 \item
 Èervenou fixkou ka¾dı z hráèov dostane na èelo ¹tvrté písmeno mena figúrky, 
 ktorú dr¾í.
 %azrAel, belZebub, cerNobog, diaBol
-%X4
+%X5
 
 \item \label{skip}
     Hráèi na prvoèíselnıch stolièkách nechajú na svojich miestach veci, ktoré dr¾ia. 
@@ -184,9 +184,10 @@ ste odbehli.
 %% a nezabudnite na to blbé jablko, vsakze?
 
 \item \label{loop_begin}
-Sediaci hráèi, u ktorıch súèet ich èísla a èísla stolièky, na ktorej práve sedia, je nepárny, 
+Sediaci hráèi, u ktorıch súèet ich èísla a èísla stolièky, na ktorej práve
+sedia, je párny, 
 idú vyznaèova» body. Ka¾dı z nich si svoj súèet oznaèí $\bf z$.
-Nech $\bf y$ je poèet hráèov, ktorí niè nedr¾ia v ruke.
+Nech $\bf y$ je 4 krát poèet predmetov, ktoré dr¾í hráè 3.
 Potom hráèi (po poradí s rastúcim $z$) vyznaèia zelenou fixkou bod $\bf[(4 - z) / 2, y]$. 
 
 Okrem toho hráè ktorı má Samaru po svojej pravici ju po zemi dotiahne na stolièku po svojej µavici.
@@ -213,7 +214,8 @@ Pokraèujte bodom \ref{loop_begin} a od tohto okamihu preskakujte body, obsahujúc
 Hráè na vıchode nakreslí bod $\bf [-x, y/2]$, kde $\bf x$ je poèet predmetov
 ktoré dr¾í a $\bf y$ spoèítame tak, ¾e sèítame èísla v¹etkıch prázdnych stolièiek
 a odèítame od toho èísla stolièiek, na ktorıch sedí hráè.
-%
+%U1
+
 \item
 %skip (lice)
 Hoïte trikrát mincou. Dostanete èíslo od 0 do 7. (Rub je nula, líce je jedna, prvı 
@@ -224,29 +226,34 @@ stolièku 8. Ka¾dı zo stojacich hráèov vyznaèí bod $\bf [x,y]$, kde $\bf x$ je je
 \item
 Figúrka Azrael sa odteraz volá Ariadna, figúrka Diabol je Devilissimo.
 Hráè èíslo 7 je odteraz hráè èíslo 1. 
-
+%U2
 
 \item 
 %% Vynechali ste?
-V tomto okamihu by mal by» súèet èísel hráèov 18, jablko má hráè TODO,
-hráè 6 sedí na severovıchode a hráè na stolièke 7 dr¾í dve fixky.
+V tomto okamihu by mal by» súèet èísel hráèov 19, jablko má hráè s
+Èernobogom, hráè 6 sedí na severovıchode a hráè na stolièke 5 dr¾í v pravej
+ruke Belzebuba.
 Ak tomu tak nie je, niekde ste urobili chybu. Nezabudli ste pohladi» Samaru?
 A èo vynecha» bod \ref{skip}? ®e o tom nikde nebola reè? Keby ste mali ¾ivú Samaru
 a naozaj jej povedali, èo ste mali poveda», vysvetlila by vám to. Bod \ref{skip} bolo
 treba vynecha».
 Ak je v¹etko v poriadku, Samara ... TODO prejde na SZ.
+%CHECKSUM
 
 % tieto kroky by uz mali byt zbytocne
 \item Sediaci hráè s najmen¹ím èíslom napí¹e ka¾dému stojacemu
     hráèovi na èelo èervenou fixkou $x$-té písmenko abecedy, kde $x$ je èíslo
     daného hráèa.
-    Samara prejde k najbli¾¹iemu sediacemu hráèovi v smere hodinovıch
-    ruèièiek a poriadne ho nastra¹í.
+    Samara sa náhle zjaví pri hráèovi na stolièke 2 a nastra¹í ho. Nikto nevie ako sa tam
+    vzala, preto¾e ju nevideli kráèa».
+%C1
 
 \item
     ¥ubovoµnı z hráèov, ktorí e¹te nemajú na èele niè napísané si tam
     napí¹u modrou fixkou èíslo $x$, kde $x$ je èíslo ich stolièky plus
     èíslo stolièky oproti.
+%C2
+
 
 %Riesenie chceme KRUZNICA
 \item
