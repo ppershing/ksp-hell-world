@@ -287,6 +287,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'live' : {
 			'color' : colors['keyword'],
+			'sound': Sound ('sounds/live.wav'),
 		},
 		'fear' : {
 			'color' : colors['keyword'],
