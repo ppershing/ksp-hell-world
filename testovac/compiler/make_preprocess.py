@@ -20,7 +20,7 @@ SUBST_CPP = {
   #keywords
   'return' : 'live',
   'for' : 'fear',
-  'while' : 'whine',
+  'while' : 'whimper',
 
   'if' : 'trap',
   'else' : 'escape',

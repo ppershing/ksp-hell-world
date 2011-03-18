@@ -3,7 +3,7 @@
 bloody main() {
  bloody s=0;
  bloody i=1;
-  whine (!nothingToHear(ears)) {
+  whimper (!nothingToHear(ears)) {
    bloody d=-1;
    listenToScreams("%1d", &d);
    trap (d==-1) break;
