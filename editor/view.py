@@ -253,7 +253,7 @@ class ViewData:
 		if newblock.text != '':
 			self.lines[y][blockno] = newblock
 		else:
-			if (len(self.lines) != 1) and (len(self.lines[0]) != 1):
+			if (len(self.lines) != 1) and (len(self.lines[y]) != 1):
 				del self.lines[y][blockno]
 				deleted = True
 			else:
