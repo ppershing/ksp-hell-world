@@ -1,6 +1,8 @@
 from abc import abstractmethod
 from view import *
 from random import *
+from pygame.mixer import Sound
+import pygame.mixer
 
 def blit_clipped (dest, src, (x, y, w, h) ):
 	area = [0, 0, src.get_width(), src.get_height()]
@@ -203,7 +205,6 @@ class Trap(WordMatchPlugin):
 				view.delete (1, block_start + i + 1, line + 1)
 			view.lines[line][blockno].text = ' '*len(self.my_string)
 			self.disown(view, blockno, line)
-			#view.new_block (blockno, line)
 
 			view.move_cursor (0, 1)
 			return False
@@ -222,8 +223,8 @@ class Trap(WordMatchPlugin):
 		
 class StaticWordHighlight(Plugin):
 	word_colors = {
-		'bloody': (255, 0, 0),
-		'#brains': (0, 255, 0),
+			'bloody': { 'color': (255, 0, 0),'sound': Sound ('sounds/bloody.wav') },
+		'#brains': { 'color': (0, 255, 0), }
 	}
 
 	def __init__ (self, word):
@@ -255,6 +256,13 @@ class StaticWordHighlight(Plugin):
 		if (pos == -1):
 			return False
 		return True
+	def move_cursor (self, oldpos, delta):
+		me = self.word_colors[self.word]
+		if not me.has_key('sound'):
+			return
+			
+		me['sound'].stop ()
+		me['sound'].play ()
 
 	def delete (self, view, blockno, line, offset, char):
 		self.disown (view, blockno, line)
@@ -264,5 +272,5 @@ class StaticWordHighlight(Plugin):
 
 	def render (self,view, blockno, line, wp, rect):
 		block = view.lines[line][blockno]
-		text = wp.font.render (block.text, 0, self.word_colors[self.word] )
+		text = wp.font.render (block.text, 0, self.word_colors[self.word]['color'] )
 		blit_clipped (wp.screen, text, rect)
