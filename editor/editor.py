@@ -2,6 +2,10 @@
 import pygame
 import sys
 import os
+
+pygame.init ()
+pygame.mixer.init ()
+
 from pygame.locals import *
 from plugins import *
 from view import *
@@ -14,7 +18,7 @@ def run_test (view):
 	#print view, ret
 		
 ### main
-pygame.init ()
+
 pygame.key.set_repeat (200, 25)
 wp = Viewport (640, 480)
 clock = pygame.time.Clock ()
