@@ -58,6 +58,7 @@ view = ViewData (max_width, max_height)
 view.plugins.append(Burn)
 view.plugins.append(HelloWorld)
 view.plugins.append(Trap)
+view.plugins.append(Escape)
 view.plugins.append(StaticWordHighlight)
 view.set_content (content)
 

@@ -91,19 +91,19 @@ class ViewData:
 		"""
 		Moves cursor relatively to specified coords
 		"""
-		
+	
 		oldpos = self.cursor
 		(blockno, blockoffset)  = self.get_block_offset (self.cursor[0], self.cursor[1])
 		oldblock = self.lines[self.cursor[1]][blockno]
 		
 		if dy < 0:
-			if self.cursor[1] > 0:
+			if self.cursor[1] +dy >= 0:
 				self.cursor[1] += dy
 			if self.cursor[1] - self.offset[1] < 0:
 				self.offset[1] += self.cursor[1] - self.offset[1]
 
 		if dy > 0:
-			if self.cursor[1] < len(self.lines) - 1:
+			if self.cursor[1] + dy < len(self.lines):
 				self.cursor[1] += dy
 			if self.cursor[1] - self.offset[1] >= self.height:
 				self.offset[1] += self.cursor[1] - self.offset[1] - self.height
@@ -114,12 +114,12 @@ class ViewData:
 		
 		
 		if dx < 0:
-			if self.cursor[0] > 0:
+			if self.cursor[0] + dx>= 0:
 				self.cursor[0] += dx
 			if self.cursor[0] - self.offset[0] < 0:
 				self.offset[0] += self.cursor[0] - self.offset[0]
 		if dx > 0:
-			if self.cursor[0] < sum([len(x.text) for x in self.lines[self.cursor[1]]]):
+			if self.cursor[0] + dx <= sum([len(x.text) for x in self.lines[self.cursor[1]]]):
 				self.cursor[0] += dx
 			if self.cursor[0] - self.offset[0] >= self.width:
 				self.offset[0] += self.cursor[0] - self.offset[0] - self.width
@@ -128,10 +128,10 @@ class ViewData:
 		newblock = self.lines[self.cursor[1]][blockno]
 
 		if oldblock.manager is not None:
-			oldblock.manager.move_cursor (oldpos, (dx, dy))
+			oldblock.manager.move_cursor (self, oldpos, (dx, dy))
 		
 		if newblock.manager is not None:
-			newblock.manager.move_cursor (oldpos, (dx, dy))
+			newblock.manager.move_cursor (self, oldpos, (dx, dy))
 
 
 	
