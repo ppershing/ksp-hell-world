@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import string
 import pygame
 import sys
 import os
@@ -10,6 +11,18 @@ pygame.mixer.init ()
 from pygame.locals import *
 from plugins import *
 from view import *
+
+def save (view):
+	open(file_path, 'w+').write(str(view))
+
+def run_test (view):
+	save (view)
+	ret = os.system ('sh ../testovac/testovac.sh %s %s >log.html' % (file_path, task, ))
+	print "Tester returned "+ str(ret)
+	if ret == 0:
+		# we are done
+		#pygame.quit ()
+		sys.exit (1)
 
 if len(sys.argv) >1:
 	file_path = sys.argv[1]
@@ -25,14 +38,6 @@ language = m.group(2)
 task = m.group(1)
 print task, language
 
-def run_test (view):
-	open(file_path, 'w+').write(str(view))
-	ret = os.system ('sh ../testovac/testovac.sh %s %s >log.html' % (file_path, task, ))
-	print "Tester returned "+ str(ret)
-	if ret == 0:
-		# we are done
-		#pygame.quit ()
-		sys.exit (1)
 
 ### main
 
@@ -43,12 +48,18 @@ clock = pygame.time.Clock ()
 max_width = wp.screen.get_width()/wp.char_width
 max_height = wp.screen.get_height()/wp.char_height
 
+try:
+	content = map (string.rstrip, file (file_path).readlines ())
+except:
+	content = ['']
+
 view = ViewData (max_width, max_height)
 
 view.plugins.append(Burn)
 view.plugins.append(HelloWorld)
 view.plugins.append(Trap)
 view.plugins.append(StaticWordHighlight)
+view.set_content (content)
 
 open("log.html","w+").write('')
 
@@ -97,9 +108,11 @@ while 1:
 	# Process events
 	for event in pygame.event.get ():
 		if event.type == QUIT:
+			save (view)
 			sys.exit (0)
 		elif event.type == KEYDOWN:
 			if event.key == K_ESCAPE:
+				save (view)
 				sys.exit (0)
 			elif event.key == K_F5:
 				run_test (view)

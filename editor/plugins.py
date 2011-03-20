@@ -366,6 +366,7 @@ class StaticWordHighlight(Plugin):
 
 	def __init__ (self, word):
 		self.word = word
+		self.channel = None
 
 	@classmethod
 	def updated_unbound_block (cls, view, blockno, line):
@@ -397,9 +398,12 @@ class StaticWordHighlight(Plugin):
 		me = self.word_colors[self.word]
 		if not me.has_key('sound'):
 			return
-			
-		me['sound'].stop ()
-		me['sound'].play ()
+		
+		if self.channel is None:
+			self.channel = me['sound'].play ()
+		else:
+			if not self.channel.get_busy():
+				me['sound'].play ()
 
 	def delete (self, view, blockno, line, offset, char):
 		self.disown (view, blockno, line)
