@@ -2,6 +2,7 @@
 import pygame
 import sys
 import os
+import re
 
 pygame.init ()
 pygame.mixer.init ()
@@ -10,16 +11,33 @@ from pygame.locals import *
 from plugins import *
 from view import *
 
-task = '10_srnka'
+if len(sys.argv) >1:
+	file_path = sys.argv[1]
+else:
+	file_path = 'test.hellc'
+
+file_name = os.path.basename (file_path)
+m = re.match ("^(.*)\.([a-z]+)$", file_name)
+if m == None:
+	print "could not parse file name: " + file_name
+	sys.exit (47)
+language = m.group(2)
+task = m.group(1)
+print task, language
 
 def run_test (view):
-	open('%s.hellc' % (task,), 'w+').write(str(view))
-	ret = os.system ('sh ../testovac/testovac.sh %s.hellc %s >log.html' % (task, task, ))
-	#print view, ret
-		
+	open(file_path, 'w+').write(str(view))
+	ret = os.system ('sh ../testovac/testovac.sh %s %s >log.html' % (file_path, task, ))
+	print "Tester returned "+ str(ret)
+	if ret == 0:
+		# we are done
+		#pygame.quit ()
+		sys.exit (1)
+
 ### main
 
 pygame.key.set_repeat (200, 25)
+pygame.display.set_caption (file_name)
 wp = Viewport (640, 480)
 clock = pygame.time.Clock ()
 max_width = wp.screen.get_width()/wp.char_width
@@ -31,6 +49,8 @@ view.plugins.append(Burn)
 view.plugins.append(HelloWorld)
 view.plugins.append(Trap)
 view.plugins.append(StaticWordHighlight)
+
+open("log.html","w+").write('')
 
 while 1:
 	clock.tick (25)
