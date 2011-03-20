@@ -20,6 +20,17 @@ def blit_clipped (dest, src, (x, y, w, h) ):
 	
 	dest.blit (src, (x, y), tuple(area))
 
+colors = {
+	'red' : (255, 0, 0),
+	'green': (0, 255, 0),
+	'include': (100, 255, 100),
+	'yellow' : (255, 255, 0),
+	'dark' : (0, 0, 0),
+	'function' : (255, 255, 0),
+	'type' : (0, 255, 0),
+	'black' : (0, 0, ),
+	'keyword' : (0, 0, 255),
+} 
 
 class Plugin:
 	@abstractmethod
@@ -49,7 +60,7 @@ class Plugin:
 		pass
 
 	@abstractmethod 
-	def move_cursor (self, oldpos, delta):
+	def move_cursor (self, view, oldpos, delta):
 		"""
 		Called when cursor moves in bound block
 		"""
@@ -62,6 +73,13 @@ class Plugin:
 		view.new_block (blockno, line)
 
 class WordMatchPlugin(Plugin):
+	
+	def delete (self, view, blockno, line, offset, char):
+		self.disown(view, blockno, line)
+	
+	def insert (self, view, blockno, line, offset):
+		self.disown(view, blockno, line)
+	
 	@classmethod
 	def updated_unbound_block (cls, view, blockno, line):
 		block = view.lines[line][blockno]
@@ -89,12 +107,6 @@ class Burn(WordMatchPlugin):
 	my_string = 'burn'
 	def __init__ (self):
 		self.burnt = 0
-
-	def delete (self, view, blockno, line, offset, char):
-		self.disown (view, blockno, line)
-
-	def insert (self, view, blockno, line, offset):
-		self.disown (view, blockno, line)
 
 	def render (self,view, blockno, line, wp, rect):
 		block = view.lines[line][blockno]
@@ -157,14 +169,8 @@ class Trap(WordMatchPlugin):
 		self.momentum = 0
 		self.yoffset = 0
 		self.direction = 1.2
-	
-	def delete (self, view, blockno, line, offset, char):
-		self.disown(view, blockno, line)
-	
-	def insert (self, view, blockno, line, offset):
-		self.disown(view, blockno, line)
 
-	def move_cursor (self, oldpos, delta):
+	def move_cursor (self, view, oldpos, delta):
 		if delta[1] != 0:
 			self.momentum += 6
 		else:
@@ -221,19 +227,23 @@ class Trap(WordMatchPlugin):
 		text = wp.font.render (block.text, 0, color)
 		myrect = (rect[0], rect[1] + self.yoffset, rect[2], rect[3])
 		blit_clipped (wp.screen, text, myrect)
+
+class Escape(WordMatchPlugin):
+	my_string = "escape"
+	
+	def move_cursor (self, view, oldpos, delta):
+		view.move_cursor (randint (-10, 10)+3, randint (-10, 10)+3)
 		
+
+	def render (self, view, blockno, line, wp, rect):
+		block = view.lines[line][blockno]
+		color = colors['keyword']
+		text = wp.font.render (block.text, 0, color)
+		#myrect = (rect[0], rect[1], rect[2], rect[3])
+		blit_clipped (wp.screen, text, rect)
+
+
 class StaticWordHighlight(Plugin):
-	colors = {
-		'red' : (255, 0, 0),
-		'green': (0, 255, 0),
-		'include': (100, 255, 100),
-		'yellow' : (255, 255, 0),
-		'dark' : (0, 0, 0),
-		'function' : (255, 255, 0),
-		'type' : (0, 255, 0),
-		'black' : (0, 0, ),
-		'keyword' : (0, 0, 255),
-	} 
 	word_colors = {
 		'bloody': {
 			'color': colors['red'],
@@ -296,10 +306,11 @@ class StaticWordHighlight(Plugin):
 		'whine' : {
 			'color' : colors['keyword'],
 		},
-		'escape' : {
-			'color' : colors['keyword'],
-			'sound': Sound ('sounds/escape.wav'),
-		},
+#		Handled in separate plugin
+#		'escape' : {
+#			'color' : colors['keyword'],
+#			'sound': Sound ('sounds/escape.wav'),
+#		},
 
 		'moan' : {
 			'color' : colors['function'],
@@ -394,7 +405,7 @@ class StaticWordHighlight(Plugin):
 		if (pos == -1):
 			return False
 		return True
-	def move_cursor (self, oldpos, delta):
+	def move_cursor (self, view, oldpos, delta):
 		me = self.word_colors[self.word]
 		if not me.has_key('sound'):
 			return
