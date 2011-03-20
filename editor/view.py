@@ -65,11 +65,17 @@ class Viewport:
 class ViewData:
 	def __init__ (self, width, height):
 		self.offset = [0,0]
-		self.lines = [[Block(u'testing', None), Block(u' another', None) ]]
+		self.lines = []
 		self.cursor = [0,0]
 		self.plugins = []
 		self.width = width
 		self.height = height
+
+
+	def set_content (self, content):
+		for i in range (0, len(content)):
+			self.lines += [ [Block (content[i], None)] ]
+			self.new_block (0, i)
 
 	def __str__ (self):
 		ret = ''.join([''.join(map(lambda s: str(s), x)+ [ '\n' ]) for x in self.lines])
