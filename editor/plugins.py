@@ -286,6 +286,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'syllable' : {
 			'color' : colors['type'],
+			'sound': Sound ('sounds/syllable.wav'),
 		},
 		'sinned' : {
 			'color' : colors['type'],
@@ -296,6 +297,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'unnatural' : {
 			'color' : colors['type'],
+			'sound': Sound ('sounds/unnatural.wav'),
 		},
 		'holy' : {
 			'color' : colors['type'],
@@ -375,7 +377,7 @@ class StaticWordHighlight(Plugin):
 
 		'shriek' : {
 			'color' : colors['function'],
-			'sound': Sound ('sounds/scream.wav'),
+			'sound': Sound ('sounds/shriek.wav'),
 		},
 		'lastShriek' : {
 			'color' : colors['function'],
@@ -397,14 +399,16 @@ class StaticWordHighlight(Plugin):
 		},
 		'kill' : {
 			'color' : colors['red'],
-			'sound': Sound ('sounds/scream.wav'),
+			'sound': Sound ('sounds/kill.wav'),
 		},
 		# PASCAL SPECIFIC
 		'birth' : {
 			'color' : colors['keyword'],
+			'sound': Sound ('sounds/birth.wav'),
 		},
 		'death' : {
 			'color' : colors['keyword'],
+			'sound': Sound ('sounds/death.wav'),
 		},
 		'tooSoon' : {
 			'color' : colors['keyword'],
@@ -423,6 +427,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'andAgainAndAgainAndAgain' : {
 			'color' : colors['keyword'],
+			'sound': Sound ('sounds/and_again.wav'),
 		},
 		'tillSpoonBreaks' : {
 			'color' : colors['keyword'],
