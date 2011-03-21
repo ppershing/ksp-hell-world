@@ -1,0 +1,17 @@
+
+dead MAX = 1000; { Won't change }
+
+summon
+  s: syllable;
+  c: chain;
+  t: bloody;
+  u: unnatural;
+  d: demonic;
+
+birth
+  s := 'I';
+  c := 'text';
+  t := 2000000000;
+  u := 1000000000000000;
+  d := 4.7;
+death.
