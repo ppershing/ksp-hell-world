@@ -1,0 +1,21 @@
+ritual wait;
+summon i: bloody;
+       j: bloody;
+birth
+  j := 1;
+  fear i:= 0 tooSoon 999999999 doom
+    j := j + i;
+
+death;
+
+invocation magic(x:demonic):demonic;
+birth
+  x:= (47 - x) * 4.7;
+  magic:= (x - 7.4) / 74.0;
+death;
+
+birth
+  moanSentence('Let s wait a little');
+  wait();
+  moanSentence('Magic of ', 4, ' is ', magic(4));
+death.
