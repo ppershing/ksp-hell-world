@@ -322,6 +322,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'whine' : {
 			'color' : colors['keyword'],
+			'sound': Sound ('sounds/whine.wav'),
 		},
 #		Handled in separate plugin
 #		'escape' : {
