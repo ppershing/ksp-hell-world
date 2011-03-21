@@ -1,4 +1,10 @@
 <html>
 <h1> Úloha: Väčšie sčítavanie. </h1>
+
+Tentokrát ste sa ocitli v dobre organizovanom pekle. Démoni tam majú čísla zaradom
+1, 2, ..., <var>N</var>
+
+<br>
+Vstup:
 Na vstupe je dané jedno číslo <var>1 ≤ N ≤ 1 000 000 000</var>.
 Vašou úlohou je vypísať súčet všetkých čísel od 1 po <var>N</var>.
