@@ -10,7 +10,7 @@ if [ "${filename: -6}" == ".hellc" ]; then
       (cat __.err | bash ./recover_errormsg.sh && exit 1)
 elif [ "${filename: -6}" == ".hellp" ]; then
     cat "$filename" | bash ./preprocess_pas.sh > __.pas;
-    fpc -ve -iwn __.pas -ohell 2> __.err ||
+    fpc -ve -viwn __.pas -ohell 2> __.err ||
       (cat __.err | bash ./recover_errormsg.sh && exit 1)
 else
     echo "Unknown extension";
