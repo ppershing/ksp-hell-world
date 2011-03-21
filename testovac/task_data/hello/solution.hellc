@@ -1,5 +1,5 @@
 #brains <stdsounds.h>
 
 bloody main(){
-    moan("\"Hello wor1d!\"\n");
+    moan("\"Hello, world!\"\n");
 }
