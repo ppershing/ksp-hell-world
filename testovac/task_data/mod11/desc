@@ -1,5 +1,6 @@
 <html>
 <h1> Úloha: Deliteľnosť jedenástkou. </h1>
+Móda sa zmenila a teraz sú v móde čísla deliteľné jedenástimi.
 Na vstupe je jedno číslo s maximálne 100 000 ciframi.
 Ak je deliteľné jedenástimi, tak vypíšte "True",
 inak "False".
