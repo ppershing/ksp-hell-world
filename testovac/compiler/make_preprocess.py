@@ -78,7 +78,6 @@ SUBST_PAS = {
   'for' : 'fear',
   'do' : 'doom',
   'case' : 'switch',
-  'class' : '_undef_',
   'var' : 'summon', 
 
   'if' : 'trap',
@@ -92,7 +91,7 @@ SUBST_PAS = {
   'object' : '_undef_',
   'repeat' : 'andAgainAndAgainAndAgain',
   'then' : 'so',
-  'until' : '_undef_',
+  'until' : 'tillSpoonBreaks',
   'uses' : 'explore',
 
   # io
@@ -105,7 +104,7 @@ SUBST_PAS = {
   'and' : 'together',
   'or' : 'split',
   'div' : 'slash',
-  'mod' : 'corpse',
+  'mod' : 'remnants',
   # bool
   'true' : 'sacred',
   'false' : 'lie',
