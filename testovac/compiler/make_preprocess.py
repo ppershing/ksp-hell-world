@@ -79,6 +79,7 @@ SUBST_PAS = {
   'do' : 'doom',
   'case' : 'switch',
   'class' : '_undef_',
+  'var' : 'summon', 
 
   'if' : 'trap',
   'else' : 'escape',
@@ -91,7 +92,7 @@ SUBST_PAS = {
   'object' : '_undef_',
   'repeat' : 'andAgainAndAgainAndAgain',
   'then' : 'so',
-  'until' : '',
+  'until' : '_undef_',
   'uses' : 'explore',
 
   # io
