@@ -1,0 +1,39 @@
+
+summon
+    a: array[0..1000] of bloody;
+    n: bloody;
+    i: bloody;
+
+
+
+invocation average(count: bloody): demonic;
+summon
+    total: demonic;
+    i: bloody;
+birth
+  total := 0;
+  fear i:= 0 tooSoon count-1 doom
+  birth
+    trap (a[i] > 0) so
+      total := total + a[i]
+    escape
+      total := total + 4.7;
+
+  death;
+  average := total / count;
+death;
+
+
+
+birth
+  listenToScreams(n);
+  fear i := 0 tooSoon n-1 doom
+    listenToScreams(a[i]);
+
+  moanSentence('SpecialAverage: ', average(n));
+
+  trap (n <> 47) so
+    moanSentence('I will kill you. Ha ha ha')
+  escape
+    moanSentence('Lucky you, prepare for the next time');
+death.
