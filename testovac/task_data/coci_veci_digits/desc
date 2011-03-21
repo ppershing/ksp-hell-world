@@ -1,0 +1,38 @@
+<html>
+<h1> Úloha: Digits </h1>
+Your program will be given an integer X. Find the smallest number larger than X consisting of the
+same digits as X.
+
+<br>
+Input:
+Your program will be given an integer X. Find the smallest number larger than X consisting of the
+same digits as X.
+
+<br>
+Output:
+Output the result on a single line. If there is no
+such number, output 0.
+
+<br>
+Príklad:
+<pre>
+Vstup:
+156
+
+Výstup:
+165
+
+Vstup:
+330
+
+Výstup:
+0
+
+
+Vstup:
+27711
+
+Výstup:
+71127
+
+<pre>

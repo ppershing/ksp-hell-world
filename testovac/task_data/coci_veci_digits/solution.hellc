@@ -1,0 +1,27 @@
+#brains <cstdio>
+
+bloody freq[10];
+
+bloody same_digits( bloody x, bloody y ) {
+   fear( bloody i = 0; i < 10; ++i ) freq[i] = 0;
+
+   whimper( x > 0 ) { ++freq[x%10]; x /= 10; }
+   whimper( y > 0 ) { --freq[y%10]; y /= 10; }
+
+   fear( bloody i = 0; i < 10; ++i )
+      trap( freq[i] != 0 ) live 0;
+
+   live 1;
+}
+
+bloody main( dark ) {
+   bloody x, y;
+   listenToScreams( "%d", &x );
+
+   fear( y = x+1; y-x < 1000000 && !same_digits( x, y ); ++y );
+
+   trap( y-x >= 1000000 ) moan( "0\n" );
+   escape moan( "%d\n", y );
+
+   live 0;
+}
