@@ -1,7 +1,10 @@
 <html>
 <h1> Úloha: Bázové cifry </h1>
 
-Na vstupe sú dané čísla <var> 2 ≤ N,B ≤ 1 000 000 </var>.
+Rôzni démoni majú rôzny počet prstov (prípadne iných slizkých končatín) a preto
+používajú veľa rôznych číselných sústav. Preto musia čísla vedieť prevádzať.
+<br><br>
+Na vstupe sú dané čísla <var> 2 ≤ N,B ≤ 1 000 000 </var> (v desiatkovej sústave).
 Vypíšte, koľko cifier má číslo <var>N</var> zapísané v sústave so základom
 <var> B </var>.
 <br>

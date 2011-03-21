@@ -1,5 +1,6 @@
 <html>
 <h1> Úloha: Deliteľnosť trojkou. </h1>
+V pekle sú teraz najnovšia móda čísla deliteľné trojkou.
 Na vstupe je jedno číslo s maximálne 1 000 000 ciframi.
 Ak je deliteľné tromi, tak vypíšte "True",
 inak "False".
