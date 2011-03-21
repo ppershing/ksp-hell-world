@@ -3,7 +3,7 @@ summon n:bloody;
 
 birth
   listenToScreams(n);
-  moanSentence('There are ',n,' demons waiting to kill you.');
+  moanSentence('There are ',n,' demons killing you.');
 
   listenToSentence(t);
   moanSentence('These are last ',(t / 10.0),' hours of you life');

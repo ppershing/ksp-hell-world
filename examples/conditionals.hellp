@@ -1,0 +1,27 @@
+summon a: bloody;
+       i: bloody;
+       c: bloody;
+
+birth
+  randomize();
+  a := random(10) - 5;
+
+  moanSentence(a);
+  trap (a > 0) so
+    moanSentence('big\n')
+  escape trap (a < 0) so
+    moanSentence('small\n')
+  escape
+    moanSentence('null\n');
+
+  fear i:= 0 tooSoon 9 doom
+    moanSentence('Kiling you ', i + 1, 'th time');
+  
+
+  whimper (c > 2) doom
+  birth
+    c -= 3;
+    moan('c', c);
+  death
+
+death.
