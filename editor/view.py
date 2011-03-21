@@ -128,10 +128,10 @@ class ViewData:
 		newblock = self.lines[self.cursor[1]][blockno]
 
 		if oldblock.manager is not None:
-			oldblock.manager.move_cursor (self, oldpos, (dx, dy))
+			oldblock.manager.move_cursor (self, blockno, self.cursor[1], oldpos, (dx, dy))
 		
 		if newblock.manager is not None:
-			newblock.manager.move_cursor (self, oldpos, (dx, dy))
+			newblock.manager.move_cursor (self, blockno, self.cursor[1], oldpos, (dx, dy))
 
 
 	
