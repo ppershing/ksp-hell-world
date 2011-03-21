@@ -2,25 +2,25 @@
 <h1> Úloha: Pekelné bludisko </h1>
 
 Náš hrdina sa ocitol v bludisku. Pekelnom bludisku. Potom, ako mu táto informácia prešla hlavou,
-rozhodol sa z bludiska odkráčať (rýchlosťou cca 3 kroky za sekundu) von. A naštastie má aj mapu.
+rozhodol sa z bludiska odkráčať (rýchlosťou cca 3 kroky za sekundu) von. A našťastie má aj mapu.
 Keby však nestratil pri tej panike hlavu ... teraz by sa mu zrovna zišla na nájdenie cesty
 bludiskom.
 
 Popis vstupu:
 Na prvom riadku vstupu sú dve čísla, <i> 0 < n,m < 40 </i>.
 Nasleduje <i> n </i> riadkov po <i> m </i> znakov - mapa bludiska.
-Stena je označená ako '#', voĺné políčko ako '.', 
+Stena je označená ako '#', voľné políčko ako '.', 
 aktuálna poloha hrdinu je 'H' (od slova Help),
-poloha výchdu z bludiska je 'V' a poloha demonov je 'D'. Náš hrdina musí nájsť cestu z bludiska tak,
+poloha východu z bludiska je 'V' a poloha démonov je 'D'. Náš hrdina musí nájsť cestu z bludiska tak,
 aby na nej nestretol démona (ale môže ísť okolo neho).
 Môžete predpokladať, že na krajoch bludiska je vždy stena.
 
 Popis výstupu:
-Na prvý riadok vypíšte postupnosť krokov H (hore), D (dolu), L(vlavo), R(vpravo)
+Na prvý riadok vypíšte postupnosť krokov H (hore), D (dolu), L(vľavo), R(vpravo)
 ako sa má hrdina pohybovať aby vyšiel z bludiska.
 Cesta musí byť najkratšia možná.
 Ak by existovalo takých ciest viac, vyberte lexikograficky najmenšiu.
-Ak by neexistovala žiadna cesta, vypíšťe "zomries!".
+Ak by neexistovala žiadna cesta, vypíšte "zomries!".
 
 <br>
 <br>
