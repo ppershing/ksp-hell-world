@@ -1,8 +1,17 @@
 <html>
 <h1> Úloha: Najčastejšie znaky. </h1>
+Niektoré zaklínadlá sú ťažko vysloviteľné aj pre takú skúsenú bosorku akou je
+Bába Amália. Napríklad také sykavky jej robia problémy.
+
+<br><br>
+Samozrejme, nestačí jej vedieť, ktoré písmeno je v zaklínadle najčastejšie - to
+jej predsa nič nepovie o vhodnosti zaklínadla. Potrebuje program, ktorý jej
+vypíše <b>všetky</b> písmená, ktoré sa v zaklínadle vyskytujú príliš veľa krát.
+
+<br><br>
 Na prvom riadku vstupu je číslo <var>1 ≤ N ≤ 100</var>.
 Na druhom riadku vstupu je reťazec s aspoň jedným a maximálne 10 000 písmenami od "a" po "z".
-Na výstup vypíšte v abecednom poradí tie znaky, ktoré sa v tomto raťazci vyskytujú aspoň <var>N</var>-krát.
+Na výstup vypíšte v abecednom poradí tie znaky, ktoré sa v tomto reťazci vyskytujú aspoň <var>N</var>-krát.
 <br>
 <br>
 Príklad:
