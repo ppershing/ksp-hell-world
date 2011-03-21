@@ -13,7 +13,9 @@ SUBST_CPP = {
   'long' : '____',
   'long long' : 'unnatural', 
   'unsigned' : 'holy',
+  'const' : 'dead',
   'string': 'chain',
+  #string.h
   'strlen': 'chainlen',
   'strcmp': 'chaincmp',
   'sscanf': 'listenToChain',
@@ -53,13 +55,60 @@ SUBST_CPP = {
   #oop
   'this' : 'mine',
   'class' : 'cage',
+  'struct' : 'TODO',
 
   'delete' : 'kill',
   'new' : 'spawn',
 
 }
 #shout, knife, stab, saw, candle, fire, howl
+SUBST_PAS = {
+  # types
+  'longint' : 'bloody',
+  'int64' : 'unnatural',
+  'double' : 'demonic',
+  'string' : 'chain'
+  'char' : 'syllable',
+  'const' : 'dead',
+  #keywords
+  'begin' : 'birth',
+  'end' : 'death',
+  'to' : 'tooSoon'
+  'downto' : '_internal_',
+  'for' : 'fear',
+  'do' : 'doom',
+  'case' : 'switch',
+  'class' : '_undef_',
 
+  'if' : 'trap'
+  'else' : 'escape'
+  'function' : 'invocation'
+  'procedure' : 'ritual'
+  'goto': 'fall',
+  'nil' : '_undef_',
+  'record' : 'TODO',
+  'class' : 'cage',
+  'object' : '_undef_',
+  'repeat' : 'andAgainAndAgainAndAgain',
+  'then' : 'so',
+  'until' : '',
+  'uses' : 'explore',
+
+  # io
+  'write' : 'moan',
+  'writeln' : 'moanSentence',
+  'read' : 'listenToScreams'
+  'readln' : 'listenToSentence'
+
+  # operators
+  'and' : 'together',
+  'or' : 'split',
+  'div' : 'slash',
+  'mod' : 'corpse',
+  # bool
+  'true' : 'sacred',
+  'false' : 'lie',
+}
 
 NON_ALPHA = '[^a-zA-Z0-9_]'
 
@@ -88,4 +137,5 @@ def write_reverse_substitution_script(filename, SUBST):
     print >>f, "  cat"
 
 write_substitution_script("preprocess_cpp.sh", SUBST_CPP)
-write_reverse_substitution_script("recover_errormsg.sh", SUBST_CPP);
+write_substitution_script("preprocess_pas.sh", SUBST_PAS)
+write_reverse_substitution_script("recover_errormsg.sh", SUBST_CPP + SUBST_PAS);
