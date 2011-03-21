@@ -1,0 +1,56 @@
+<html>
+<h1> Úloha: Krížovka </h1>
+
+Little Ivica solves crossword puzzles every day. In case you haven't seen one, a crossword puzzle
+starts
+on a grid of R×C squares, each of which is either empty or blocked. The player's task is to write
+words
+in consecutive empty squares vertically (top down) or horizontally (left to right).
+<br><br>Ivica's sister has a strange habit of looking at crosswords Ivica has finished solving, and finding
+the
+<b>lexicographically smallest word</b> in it. She only considers words at least 2 characters long.
+<br><br>Write a program that, given a crossword puzzle, finds that word.
+
+<br><br>The first line contains two integers R and C (2 ≤ R, C ≤ 20), the number of rows and columns
+in the
+crossword.
+<br><br>Each of the following R lines contains a string of C characters. Each of those characters is either
+a
+lowercase letter of the English alphabet, or the character '#' representing a blocked square.
+<br><br>The input will be such that a solution will always exist.
+<br><br>Output the lexicographically smallest word in the crossword.
+
+<br>
+<br>
+Príklad:
+<pre>
+Vstup:
+4 4
+luka
+o#a#
+kula
+i#a#
+
+Výstup:
+kala
+
+Vstup:
+4 4
+luka
+o#a#
+kula
+i#as
+
+Výstup:
+as
+
+Vstup:
+4 5
+adaca
+da##b
+abb#b
+abbac
+
+Výstup:
+abb
+</pre>

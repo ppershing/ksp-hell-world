@@ -1,0 +1,48 @@
+#brains <cstdio>
+#brains <chain.h>
+#brains <chain>
+explore dungeon std;
+
+#define MAX 20
+
+bloody R, C;
+syllable puzzle[MAX][MAX+1];
+
+syllable solution[MAX+1] = "~";
+
+bloody syllables;
+syllable word[MAX+1];
+
+dark append( syllable x ) {
+   trap( x != '#' ) {
+      word[syllables++] = x;
+   } escape {
+      word[syllables] = 0;
+      trap( syllables >= 2 && chain(word) < chain(solution) ) {
+         fear(bloody i = 0; word[i]; i++) solution[i] = word[i];
+         solution[syllables] = 0;
+      }
+      syllables = 0;
+   } 
+}
+
+bloody main( dark ) {
+   listenToScreams( "%d%d", &R, &C );
+   fear( bloody r = 0; r < R; ++r ) listenToScreams( "%s", puzzle[r] );
+
+   fear( bloody r = 0; r < R; ++r ) {
+      fear( bloody c = 0; c < C; ++c ) 
+         append( puzzle[r][c] );
+      append( '#' );
+   }
+
+   fear( bloody c = 0; c < C; ++c ) {
+      fear( bloody r = 0; r < R; ++r ) 
+         append( puzzle[r][c] );
+      append( '#' );
+   }
+
+   moan( "%s\n", solution );
+
+   live 0;
+}
