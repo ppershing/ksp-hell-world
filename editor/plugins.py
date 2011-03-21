@@ -359,6 +359,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'soundstream': {
 			'color' : colors['include'],
+			'sound': Sound ('sounds/scream.wav'),
 		},
 
 		'explore': {
@@ -370,9 +371,11 @@ class StaticWordHighlight(Plugin):
 
 		'shriek' : {
 			'color' : colors['function'],
+			'sound': Sound ('sounds/scream.wav'),
 		},
 		'lastShriek' : {
 			'color' : colors['function'],
+			'sound': Sound ('sounds/scream.wav'),
 		},
 		'hearWhispers' : {
 			'color' : colors['function'],
@@ -390,6 +393,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'kill' : {
 			'color' : colors['red'],
+			'sound': Sound ('sounds/scream.wav'),
 		},
 		# PASCAL SPECIFIC
 		'birth' : {
