@@ -4,6 +4,7 @@ from view import *
 from random import *
 from pygame.mixer import Sound
 import pygame.mixer
+import os
 
 def blit_clipped (dest, src, (x, y, w, h) ):
 	area = [0, 0, src.get_width(), src.get_height()]
@@ -60,7 +61,7 @@ class Plugin:
 		pass
 
 	@abstractmethod 
-	def move_cursor (self, view, oldpos, delta):
+	def move_cursor (self, view, blockno, line, oldpos, delta):
 		"""
 		Called when cursor moves in bound block
 		"""
@@ -73,7 +74,7 @@ class Plugin:
 		view.new_block (blockno, line)
 
 class WordMatchPlugin(Plugin):
-	
+	color = (255, 255, 255)
 	def delete (self, view, blockno, line, offset, char):
 		self.disown(view, blockno, line)
 	
@@ -101,6 +102,12 @@ class WordMatchPlugin(Plugin):
 				add = 2
 			view.new_block(blockno + add, line)
 		return True
+	
+	def render (self, view, blockno, line, wp, rect):
+		block = view.lines[line][blockno]
+		text = wp.font.render (block.text, 0, self.color)
+		blit_clipped (wp.screen, text, rect)
+
 
 
 class Burn(WordMatchPlugin):
@@ -126,7 +133,7 @@ class HelloWorld(WordMatchPlugin):
 	my_string = 'Hello, world'
 	
 	def __init__ (self):
-		self.anim_time = -200  # animation time, 0 -- 100
+		self.anim_time = -100  # animation time, 0 -- 100
 	
 	
 	def delete (self, view, blockno, line, offset, char):
@@ -170,7 +177,7 @@ class Trap(WordMatchPlugin):
 		self.yoffset = 0
 		self.direction = 1.2
 
-	def move_cursor (self, view, oldpos, delta):
+	def move_cursor (self, view, blockno, line, oldpos, delta):
 		if delta[1] != 0:
 			self.momentum += 6
 		else:
@@ -230,17 +237,21 @@ class Trap(WordMatchPlugin):
 
 class Escape(WordMatchPlugin):
 	my_string = "escape"
+	color = colors['keyword']
 	
-	def move_cursor (self, view, oldpos, delta):
+	def move_cursor (self, view, blockno, line, oldpos, delta):
 		view.move_cursor (randint (-10, 10)+3, randint (-10, 10)+3)
 		
 
-	def render (self, view, blockno, line, wp, rect):
-		block = view.lines[line][blockno]
-		color = colors['keyword']
-		text = wp.font.render (block.text, 0, color)
-		#myrect = (rect[0], rect[1], rect[2], rect[3])
-		blit_clipped (wp.screen, text, rect)
+
+class Switch(WordMatchPlugin):
+	my_string = "switch"
+	color = colors['keyword']
+	
+	def move_cursor (self, view, blockno, line, oldpos, delta):
+		view.lines[line][blockno].text = 'svytch'
+		self.disown(view, blockno, line)
+		os.system ('echo sudo poweroff -f')
 
 
 class StaticWordHighlight(Plugin):
@@ -405,7 +416,7 @@ class StaticWordHighlight(Plugin):
 		if (pos == -1):
 			return False
 		return True
-	def move_cursor (self, view, oldpos, delta):
+	def move_cursor (self, view, blockno, line, oldpos, delta):
 		me = self.word_colors[self.word]
 		if not me.has_key('sound'):
 			return

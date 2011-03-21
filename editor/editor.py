@@ -59,6 +59,7 @@ view.plugins.append(Burn)
 view.plugins.append(HelloWorld)
 view.plugins.append(Trap)
 view.plugins.append(Escape)
+view.plugins.append(Switch)
 view.plugins.append(StaticWordHighlight)
 view.set_content (content)
 
@@ -115,6 +116,8 @@ while 1:
 			if event.key == K_ESCAPE:
 				save (view)
 				sys.exit (0)
+			elif event.key == K_F2:
+				save (view)
 			elif event.key == K_F5:
 				run_test (view)
 			elif event.key == K_UP:
