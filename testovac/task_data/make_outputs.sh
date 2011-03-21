@@ -9,7 +9,7 @@ if [ -f solution.hellc ]; then
     mkdir tmp
     cp solution.hellc tmp
     cp -r "$COMPILER"/* "tmp"
-    (cd tmp && ./make_preprocess.py && ./compile.sh solution.hellc)
+    (cd tmp && python ./make_preprocess.py && ./compile.sh solution.hellc)
 else
     echo "No solution found!"
     exit 1
