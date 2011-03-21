@@ -15,6 +15,8 @@ done_dir = './done/'
 saves_dir = './saves/'
 last_update = 0
 n_choices = 2
+witch_timeout =15*60*1000
+#witch_timeout =10*1000
 
 os.environ['SDL_VIDEO_WINDOW_POS'] = '0,0'
 
@@ -98,14 +100,28 @@ def task_selected (sender):
 	selected_task = sender.get_label()
 	selected_language = tc_language.get_active_text()
 	task_desc = open (os.path.join (tasks_path, selected_task, 'desc')).read()
+	task_desc ='<body bgcolor="black" style="color: white">'+task_desc+'</body>'
 	task_webkit.load_html_string (task_desc, base_uri= '.')
 	file(log_path,'w+').write('')
 
 	print selected_task, selected_language 
 	threading.Thread (target = launch_editor, args = (selected_task, selected_language)).start()
 
+try:
+	os.unlink (log_path)
+except:
+	pass
 
-os.unlink (log_path)
+
+def witch_screen (show):
+	if show:
+		witch.show_all ()
+		glib.timeout_add (2000, witch_screen, False)
+	else:
+		witch.hide_all ()
+		glib.timeout_add (witch_timeout, witch_screen, True)
+	return False
+
 
 # load current state
 
@@ -120,6 +136,11 @@ log_scrollarea = gtk.ScrolledWindow ()
 log_webkit = webkit.WebView ()
 log_scrollarea.add (log_webkit)
 log_window.add (log_scrollarea)
+
+# Now, find out dimensions of the screen; assuming we run on one screen
+screen = log_window.get_screen ()
+width = screen.get_width ()
+height = screen.get_height ()
 
 # task description window
 task_window = gtk.Window ()
@@ -153,26 +174,38 @@ for i in tc_tasks: tc_btnbox.add (i)
 tc_vbox.pack_start (tc_btnbox)
 tc_window.add (tc_vbox)
 
+# Bonus, witch window
+witch = gtk.Window()
+witch_box = gtk.HBox ()
+witch_img = gtk.Image ()
+witch_box.add (witch_img)
+witch.add (witch_box)
+witch.fullscreen ()
+witch_pixbuf = gtk.gdk.Pixbuf (gtk.gdk.COLORSPACE_RGB, True, 8, width, height)
+witch_original = gtk.gdk.pixbuf_new_from_file ('images/bosorka.png')
+witch_original.copy_area (0, 0, 
+		min(witch_original.get_width (), width),
+		min(witch_original.get_height (), height),
+		witch_pixbuf, 0, 0)
+witch_img.set_from_pixbuf (witch_pixbuf)
+witch.set_deletable (False)
+
 log_window.show_all ()
 task_window.show_all ()
 tc_window.show_all ()
 
 update_task_buttons ()
 
-# Now, find out dimensions of the screen; assuming we run on one screen
-screen = log_window.get_screen ()
-width = screen.get_width ()
-height = screen.get_height ()
-
-log_window.resize (width, 240)
-task_window.resize (width-640, height - 320)
+log_window.resize (width-5, 240-5)
+task_window.resize (width-640 -10, height - 320)
 tc_window.resize (640,480)
 
-log_window.move (0, width - 240)
-task_window.move (640, 0)
+log_window.move (5, width - 240+5)
+task_window.move (640+10, 0)
 tc_window.move (0,0)
 
 glib.timeout_add (100, update_view)
+glib.timeout_add (witch_timeout/10, witch_screen, True)
 log_window.connect ('destroy', gtk.main_quit)
 task_window.connect ('destroy', gtk.main_quit)
 tc_window.connect ('destroy', gtk.main_quit )
