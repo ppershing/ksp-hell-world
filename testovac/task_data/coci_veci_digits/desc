@@ -1,17 +1,15 @@
 <html>
 <h1> Úloha: Digits </h1>
-Your program will be given an integer X. Find the smallest number larger than X consisting of the
-same digits as X.
+Démoni číslujú roky zvláštnym spôsobom. Ak má tento rok číslo <i>X</i>, potom
+nasledujúci má najmenšie číslo také, že je väčšie ako <i>X</i> a obsahuje presne
+tie isté cifry ako <i>X</i>.
 
 <br>
-Input:
-Your program will be given an integer X. Find the smallest number larger than X consisting of the
-same digits as X.
+Na vstupe je zadané číslo <i>X</i>.
 
 <br>
-Output:
-Output the result on a single line. If there is no
-such number, output 0.
+Vypíšte na jediný riadok výstupu číslo budúceho roka. Ak riešenie neexistuje,
+vypíšte nulu (0).
 
 <br>
 Príklad:
