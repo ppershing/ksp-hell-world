@@ -93,6 +93,7 @@ SUBST_PAS = {
   'then' : 'so',
   'until' : 'tillSpoonBreaks',
   'uses' : 'explore',
+  'while' : 'whimper',
 
   # io
   'write' : 'moan',

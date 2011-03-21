@@ -402,6 +402,9 @@ class StaticWordHighlight(Plugin):
 			'sound': Sound ('sounds/kill.wav'),
 		},
 		# PASCAL SPECIFIC
+		'so' : {
+			'color' : colors['keyword'],
+		}
 		'birth' : {
 			'color' : colors['keyword'],
 			'sound': Sound ('sounds/birth.wav'),
