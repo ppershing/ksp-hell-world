@@ -339,7 +339,15 @@ class StaticWordHighlight(Plugin):
 #			'sound': Sound ('sounds/escape.wav'),
 #		},
 
-		'moan' : {
+		'moan(' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/moan.wav'),
+		},
+		'moan;' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/moan.wav'),
+		},
+		'moan ' : {
 			'color' : colors['function'],
 			'sound': Sound ('sounds/moan.wav'),
 		},
