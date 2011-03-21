@@ -196,16 +196,16 @@ tc_window.show_all ()
 
 update_task_buttons ()
 
-log_window.resize (width-5, 240-5)
-task_window.resize (width-640 -10, height - 320)
-tc_window.resize (640,480)
-
-log_window.move (5, width - 240+5)
+log_window.move (5, 520)
 task_window.move (640+10, 0)
 tc_window.move (0,0)
 
+log_window.resize (width-5, height-520)
+task_window.resize (width-640 -10, 480)
+tc_window.resize (640,480)
+
 glib.timeout_add (100, update_view)
-glib.timeout_add (witch_timeout/10, witch_screen, True)
+glib.timeout_add (witch_timeout, witch_screen, True)
 log_window.connect ('destroy', gtk.main_quit)
 task_window.connect ('destroy', gtk.main_quit)
 tc_window.connect ('destroy', gtk.main_quit )
