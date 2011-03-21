@@ -67,23 +67,23 @@ SUBST_PAS = {
   'longint' : 'bloody',
   'int64' : 'unnatural',
   'double' : 'demonic',
-  'string' : 'chain'
+  'string' : 'chain',
   'char' : 'syllable',
   'const' : 'dead',
   #keywords
   'begin' : 'birth',
   'end' : 'death',
-  'to' : 'tooSoon'
+  'to' : 'tooSoon',
   'downto' : '_internal_',
   'for' : 'fear',
   'do' : 'doom',
   'case' : 'switch',
   'class' : '_undef_',
 
-  'if' : 'trap'
-  'else' : 'escape'
-  'function' : 'invocation'
-  'procedure' : 'ritual'
+  'if' : 'trap',
+  'else' : 'escape',
+  'function' : 'invocation',
+  'procedure' : 'ritual',
   'goto': 'fall',
   'nil' : '_undef_',
   'record' : 'TODO',
@@ -97,8 +97,8 @@ SUBST_PAS = {
   # io
   'write' : 'moan',
   'writeln' : 'moanSentence',
-  'read' : 'listenToScreams'
-  'readln' : 'listenToSentence'
+  'read' : 'listenToScreams',
+  'readln' : 'listenToSentence',
 
   # operators
   'and' : 'together',
@@ -138,4 +138,4 @@ def write_reverse_substitution_script(filename, SUBST):
 
 write_substitution_script("preprocess_cpp.sh", SUBST_CPP)
 write_substitution_script("preprocess_pas.sh", SUBST_PAS)
-write_reverse_substitution_script("recover_errormsg.sh", SUBST_CPP + SUBST_PAS);
+write_reverse_substitution_script("recover_errormsg.sh", dict(SUBST_CPP, **SUBST_PAS));
