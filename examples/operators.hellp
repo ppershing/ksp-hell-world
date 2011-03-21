@@ -1,0 +1,26 @@
+
+summon
+    n: bloody;
+    i: bloody;
+    a: questionable;
+    b: questionable;
+
+birth
+  n := 10;
+  i := 5;
+  a := n > 0;
+  b := i > 0;
+  trap (a together b) so
+    moanSentence('n > 0 a sucasne i > 0');
+  trap (n > 0) split (i > 0) so
+    moanSentence('n > 0 alebo i > 0');
+
+  a := sacred;
+  b := lie;
+
+  moanSentence(sacred split lie); // ok
+  moanSentence(sacred together lie); // oh no
+
+  moanSentence('n deleno i je ', n slash i);
+  moanSentence('n modulo i je ', n remnants i);
+death.
