@@ -1,22 +1,18 @@
 <html>
 <h1> Úloha: Lorem Ipsum </h1>
 
-Niekedy je potrebné vytvoriť nejaký dlhý text, ktorý by
-približne zodpovedal nejakému skutočnému. Predstavme si napríklad
-testovanie formátovača textu alebo html designu.
-No a v takej chvíli dôjde na rad jednoduchá pomôcka, takzvaný
-<b>Lorem ipsum<b> generátor.
-
-My však nebudeme od vás požadovať až toľko, aby bol schopný
-generovať rôzne dlhé texty, bude nám stačit, ak viete vygenerovať
-nasledujúci text:
+Načiť sa zaklínadlá nie je ľahké. Táto úloha bude však ľahšia.
+Pre archívne účely sa v pekle rozhodli, že si vytvoria programy pre všetky známe zaklínadlá.
+Nuž a vám sa dostala pocta jeden taký program vytvoriť. Niežeby ste to chceli robiť, ale povedzme si
+otvorene ... niektoré veci sa neodmietajú. Nie keď to môže znamenať rozdiel medzi životom a smrťou.
+Démoni by potrebovali prepísať nasledovné zaklínadlo:
 <pre>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Integer nec odio.
-Praesent libero.
+Praesent libero burne.
 Sed cursus ante dapibus diam.
 Sed nisi.
-Nulla quis sem at nibh elementum imperdiet.
+Nulla quis sem at nibh alburn elementum imperdiet.
 Duis sagittis ipsum.
 </pre>
 Poznámka: Text musíte vypísať v pôvodnom formátovaní, čiže každú vetu na samostatný riadok.

@@ -3,9 +3,9 @@
 bloody main(){
   moan("Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n");
   moan("Integer nec odio.\n");
-  moan("Praesent libero.\n");
+  moan("Praesent libero burne.\n");
   moan("Sed cursus ante dapibus diam.\n");
   moan("Sed nisi.\n");
-  moan("Nulla quis sem at nibh elementum imperdiet.\n");
+  moan("Nulla quis sem at nibh alburn elementum imperdiet.\n");
   moan("Duis sagittis ipsum.\n");
 }
