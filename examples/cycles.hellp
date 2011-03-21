@@ -1,0 +1,15 @@
+summon n:bloody;
+
+birth
+  listenToScreams(n);
+  whimper (n > 0) doom
+  birth
+    moanSentence('a ', n);
+    n := n - 3;
+  death;
+
+  andAgainAndAgainAndAgain
+    moanSentence('b ', n);
+    n := n + 5;
+  tillSpoonBreaks (n > 20);
+death.
