@@ -269,6 +269,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'demonic': {
 			'color': colors['red'],
+			'sound': Sound ('sounds/demonic.wav'),
 		},
 		'questionable' : {
 			'color' : colors['type'],
@@ -278,6 +279,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'sacred' : {
 			'color' : colors['red'],
+			'sound' : Sound ('sounds/holy.wav'),
 		},
 		'dark' : {
 			'color' : colors['black'],
@@ -287,6 +289,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'sinned' : {
 			'color' : colors['type'],
+			'sound' : Sound ('sounds/sinned.wav'),
 		},
 		'shit' : {
 			'color' : colors['type'],
@@ -296,6 +299,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'holy' : {
 			'color' : colors['type'],
+			'sound' : Sound ('sounds/holy.wav'),
 		},
 		'chainlen' : {
 			'color' : colors['function'],
@@ -422,7 +426,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'tillSpoonBreaks' : {
 			'color' : colors['keyword'],
-		}
+		},
 		'moanSentence' : {
 			'color' : colors['function'],
 			'sound': Sound ('sounds/moan.wav'),
@@ -433,16 +437,16 @@ class StaticWordHighlight(Plugin):
 		},
 		'together' : {
 			'color' : colors['operator'],
-		}
+		},
 		'split' : {
 			'color' : colors['operator'],
-		}
+		},
 		'slash' : {
 			'color' : colors['operator'],
-		}
+		},
 		'remnants' : {
 			'color' : colors['operator'],
-		}
+		},
 
 	}
 

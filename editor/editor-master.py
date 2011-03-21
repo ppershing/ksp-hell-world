@@ -15,7 +15,7 @@ done_dir = './done/'
 saves_dir = './saves/'
 last_update = 0
 n_choices = 2
-witch_timeout =15*60*1000
+witch_timeout =10*60*1000
 #witch_timeout =10*1000
 
 os.environ['SDL_VIDEO_WINDOW_POS'] = '0,0'
@@ -100,7 +100,7 @@ def task_selected (sender):
 	selected_task = sender.get_label()
 	selected_language = tc_language.get_active_text()
 	task_desc = open (os.path.join (tasks_path, selected_task, 'desc')).read()
-	task_desc ='<body bgcolor="black" style="color: white">'+task_desc+'</body>'
+	task_desc ='<body bgcolor="black" style="color: red">'+task_desc+'</body>'
 	task_webkit.load_html_string (task_desc, base_uri= '.')
 	file(log_path,'w+').write('')
 
