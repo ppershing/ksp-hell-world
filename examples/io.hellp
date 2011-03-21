@@ -1,0 +1,10 @@
+summon n:bloody;
+    t:demonic;
+
+birth
+  listenToScreams(n);
+  moanSentence('There are ',n,' demons waiting to kill you.');
+
+  listenToSentence(t);
+  moanSentence('These are last ',(t / 10.0),' hours of you life');
+death.
