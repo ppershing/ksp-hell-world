@@ -1,4 +1,4 @@
-echo "<body bgcolor=\"black\">"
+echo "<body bgcolor=\"black\" color='white'>"
 echo "<font color='yellow'> <h2> Welcome to testing session </h2> </font>"
 
 SHOW_DIFF=0
