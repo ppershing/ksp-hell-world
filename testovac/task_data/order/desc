@@ -1,7 +1,11 @@
 <html>
 <h1> Úloha: (in,pre)order </h1>
 
-Určite to poznáte. Máte strom, kde každý vrchol má najviac dvoch synov,
+Pekelní byrokrati nasadzujú pri príležitosti prichádzajúcej apokalypsy nový informačný systém.
+Ale nejako im to nechce fungovať, lebo v novom sa všetko robí inak, ako v starom. Jedna
+zo zákernejších zmien sa týka toho, ako sa v systéme ukladajú binárne stromy.
+<br><br>
+Binárny strom je taký, kde každý vrchol má najviac dvoch synov,
 nazveme ich ľavý a pravý. No a tento strom môžete vypísať v rôznom poradí.
 Tradične existujú 3 typy výpisu in-order, pre-order a post-order.
 Tieto výpisy môžeme definovať nasledovne rekurzívne:
@@ -19,7 +23,7 @@ Vašou úlohou je napísať program, ktorý bude prevádzať medzi týmito
 notáciami. Presnejšie povedané, vstup, ktorý dostane bude v in-order
 a výstup má byť v pre-order.
 <br>
-Aby sme vám to uľahčili, každý 'token' vstupu je na samostatnom riadku.
+Aby ste to mali ľahšie, každá zátvorka je na vstupe na samostatnom riadku.
 <br>
 <br>
 Príklad:
