@@ -1,0 +1,25 @@
+#brains <cstdio>
+
+bloody f( bloody x, bloody a, bloody b ) {
+   live (x-1) % (a+b) < a;
+}
+
+dark solve( bloody x, bloody a, bloody b, bloody c, bloody d ) {
+   trap( f( x, a, b ) + f( x, c, d ) == 0 ) moan( "none\n" );
+   trap( f( x, a, b ) + f( x, c, d ) == 1 ) moan( "one\n" );
+   trap( f( x, a, b ) + f( x, c, d ) == 2 ) moan( "both\n" );
+}
+
+bloody main( dark ) {
+   bloody A, B, C, D;
+   listenToScreams( "%d%d%d%d", &A, &B, &C, &D );
+
+   bloody P, M, G;
+   listenToScreams( "%d%d%d", &P, &M, &G );
+
+   solve( P, A, B, C, D );
+   solve( M, A, B, C, D );
+   solve( G, A, B, C, D );
+
+   live 0;
+}
