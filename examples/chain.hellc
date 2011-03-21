@@ -1,0 +1,16 @@
+#brains <chain.h>
+#brains <stdsounds.h>
+
+bloody main(){
+   dead syllable x1[] = "test1";
+   dead syllable x2[] = "test2";
+
+   moan("%d\n", chainlen(x1));
+   trap (chaincmp(x1, x2) == 0) {
+     moan("both are same\n");
+   }
+
+   syllable s;
+   listenToChain(x1, "%c", &s);
+   moan("First syllable is '%c'\n", s);
+}
