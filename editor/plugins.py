@@ -171,6 +171,8 @@ class HelloWorld(WordMatchPlugin):
 
 class Trap(WordMatchPlugin):
 	my_string = 'trap'
+	creak = Sound('sounds/creaking_wood.wav', fade_ms = 100)
+	crash = Sound('sounds/glass_crash.wav')
 
 	def __init__ (self):
 		self.momentum = 0
@@ -182,6 +184,7 @@ class Trap(WordMatchPlugin):
 			self.momentum += 6
 		else:
 			self.momentum += 4
+			self.creak.play ()
 
 	def tick (self, view, blockno, line, wp):
 		if (self.momentum == 0) and (self.yoffset == 0):
@@ -199,11 +202,13 @@ class Trap(WordMatchPlugin):
 		# return
 		if self.yoffset > self.momentum and self.momentum < 12:
 			self.direction = -self.direction
+			self.creak.stop ()
 		else:
 			# critical momentum reached, fall on the line below
 			if self.yoffset < wp.char_height:
 				return True
 
+			self.crash.play ()
 			# make the letters fall one line below
 
 			# if there's no line, create one
@@ -221,6 +226,7 @@ class Trap(WordMatchPlugin):
 			self.disown(view, blockno, line)
 
 			view.move_cursor (0, 1)
+
 			return False
 		return True
 			
