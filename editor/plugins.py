@@ -31,6 +31,7 @@ colors = {
 	'type' : (0, 255, 0),
 	'black' : (0, 0, ),
 	'keyword' : (0, 0, 255),
+	'operator' : (120, 255, 120),
 } 
 
 class Plugin:
@@ -390,6 +391,54 @@ class StaticWordHighlight(Plugin):
 		'kill' : {
 			'color' : colors['red'],
 		},
+		# PASCAL SPECIFIC
+		'birth' : {
+			'color' : colors['keyword'],
+		},
+		'death' : {
+			'color' : colors['keyword'],
+		},
+		'tooSoon' : {
+			'color' : colors['keyword'],
+		},
+		'doom' : {
+			'color' : colors['keyword'],
+		},
+		'summon' : {
+			'color' : colors['keyword'],
+		},
+		'invocation' : {
+			'color' : colors['keyword'],
+		},
+		'ritual' : {
+			'color' : colors['keyword'],
+		},
+		'andAgainAndAgainAndAgain' : {
+			'color' : colors['keyword'],
+		},
+		'tillSpoonBreaks' : {
+			'color' : colors['keyword'],
+		}
+		'moanSentence' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/moan.wav'),
+		},
+		'listenToSentence' : {
+			'color' : colors['function'],
+			'sound': Sound ('sounds/listenToScreams.wav'),
+		},
+		'together' : {
+			'color' : colors['operator'],
+		}
+		'split' : {
+			'color' : colors['operator'],
+		}
+		'slash' : {
+			'color' : colors['operator'],
+		}
+		'remnants' : {
+			'color' : colors['operator'],
+		}
 
 	}
 
