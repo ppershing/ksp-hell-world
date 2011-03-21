@@ -39,10 +39,10 @@ def launch_editor (task, lang):
 		elif ret == 0:
 			# Normal exit
 			pass
-		elif ret == 1:
+		elif ret == 47:
 			# Solution was accepted 
 			os.system ("touch '%s'" % os.path.join (done_dir, task))
-		elif ret == 47:
+		elif ret == 74:
 			# expected failure, return quietly as if it was 0
 			pass
 		else:
