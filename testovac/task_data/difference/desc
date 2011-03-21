@@ -1,12 +1,13 @@
 <html>
 <h1> Úloha: Rozdiel medzi číslami. </h1>
-Na prvom riadku sú dve čísla <var> 1 ≤ N, K ≤ 1000 </var>.
+Na prvom riadku sú dve hustodémonské čísla <var> 1 ≤ N, K ≤ 1000 </var>.
 Potom nasleduje riadok s <var>N</var> číslami,
 každé z nich je väčšie ako 0 a menšie ako 10 000 000.
 Na výstup napíšte "ano", ak sa medzi nimi nachádzajú
-dve s rozdielom práve <var>K</var>.
-V opačnom prípade na výstup vypíšte "nie".
-(Všetko bez uvodzoviek.)
+dve s rozdielom práve <var>K</var> (vtedy je totiž naša planéta odsúdená k
+okamžitej záhube).
+V opačnom prípade na výstup vypíšte "nie" (ale aj tak sa netešte).
+(Všetko bez úvodzoviek.)
 <br>
 <br>
 Príklad:
@@ -16,5 +17,5 @@ Vstup:
 5 20 15
 
 Výstup:
-\n
+ano
 <pre>
