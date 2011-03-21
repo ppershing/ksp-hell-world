@@ -113,17 +113,23 @@ SUBST_PAS = {
 NON_ALPHA = '[^a-zA-Z0-9_]'
 
 
-def write_substitution_script(filename, SUBST):
+def write_substitution_script(filename, SUBST, caseSensitive=True):
     f = open(filename, "w")
+    if caseSensitive:
+      sens = ''
+    else:
+      sens = 'I'
     print >>f, "#!/bin/bash"
     print >>f, "sed 's/\\(.*\\)/ \\1 /' | \\"
     for k in SUBST.keys():
       # undefine original
       print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-        k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__" + k + "\\2/g' | \\"
+        k + "\\(" + NON_ALPHA + "\\)/\\1__UNDEFINED__" + k + \
+        "\\2/g" + sens +  "' | \\"
       # replace alias
       print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-        SUBST[k] + "\\(" + NON_ALPHA + "\\)/\\1"+ k +"\\2/g' | \\"
+        SUBST[k] + "\\(" + NON_ALPHA + "\\)/\\1"+ k +"\\2/g" + \
+         sens + "' | \\"
     print >>f, "  cat"
 
 
@@ -133,9 +139,9 @@ def write_reverse_substitution_script(filename, SUBST):
     for k in SUBST.keys():
       # replace alias
       print >>f, "  sed 's/\\(" + NON_ALPHA +"\\)" + \
-        k + "\\(" + NON_ALPHA + "\\)/\\1"+ SUBST[k] +"\\2/g' | \\"
+        k + "\\(" + NON_ALPHA + "\\)/\\1"+ SUBST[k] +"\\2/gI' | \\"
     print >>f, "  cat"
 
-write_substitution_script("preprocess_cpp.sh", SUBST_CPP)
-write_substitution_script("preprocess_pas.sh", SUBST_PAS)
+write_substitution_script("preprocess_cpp.sh", SUBST_CPP, True)
+write_substitution_script("preprocess_pas.sh", SUBST_PAS, False)
 write_reverse_substitution_script("recover_errormsg.sh", dict(SUBST_CPP, **SUBST_PAS));
