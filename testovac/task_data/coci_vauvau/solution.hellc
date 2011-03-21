@@ -5,9 +5,9 @@ bloody f( bloody x, bloody a, bloody b ) {
 }
 
 dark solve( bloody x, bloody a, bloody b, bloody c, bloody d ) {
-   trap( f( x, a, b ) + f( x, c, d ) == 0 ) moan( "none\n" );
-   trap( f( x, a, b ) + f( x, c, d ) == 1 ) moan( "one\n" );
-   trap( f( x, a, b ) + f( x, c, d ) == 2 ) moan( "both\n" );
+   trap( f( x, a, b ) + f( x, c, d ) == 0 ) moan( "ziaden\n" );
+   trap( f( x, a, b ) + f( x, c, d ) == 1 ) moan( "jeden\n" );
+   trap( f( x, a, b ) + f( x, c, d ) == 2 ) moan( "obaja\n" );
 }
 
 bloody main( dark ) {
