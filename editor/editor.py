@@ -22,7 +22,7 @@ def run_test (view):
 	if ret == 0:
 		# we are done
 		#pygame.quit ()
-		sys.exit (1)
+		sys.exit (47)
 
 if len(sys.argv) >1:
 	file_path = sys.argv[1]
@@ -33,7 +33,7 @@ file_name = os.path.basename (file_path)
 m = re.match ("^(.*)\.([a-z]+)$", file_name)
 if m == None:
 	print "could not parse file name: " + file_name
-	sys.exit (47)
+	sys.exit (74)
 language = m.group(2)
 task = m.group(1)
 print task, language
