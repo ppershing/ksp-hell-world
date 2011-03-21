@@ -1,3 +1,3 @@
-one
-both
-one
+jeden
+obaja
+jeden
