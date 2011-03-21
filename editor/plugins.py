@@ -279,7 +279,7 @@ class StaticWordHighlight(Plugin):
 		},
 		'sacred' : {
 			'color' : colors['red'],
-			'sound' : Sound ('sounds/holy.wav'),
+			'sound' : Sound ('sounds/sacred.wav'),
 		},
 		'dark' : {
 			'color' : colors['black'],
