@@ -29,7 +29,7 @@ colors = {
 	'dark' : (0, 0, 0),
 	'function' : (255, 255, 0),
 	'type' : (0, 255, 0),
-	'black' : (0, 0, ),
+	'black' : (0, 0, 0),
 	'keyword' : (0, 0, 255),
 	'operator' : (120, 255, 120),
 } 
@@ -520,5 +520,6 @@ class StaticWordHighlight(Plugin):
 
 	def render (self,view, blockno, line, wp, rect):
 		block = view.lines[line][blockno]
+		print self.word_colors[self.word]
 		text = wp.font.render (block.text, 0, self.word_colors[self.word]['color'] )
 		blit_clipped (wp.screen, text, rect)
