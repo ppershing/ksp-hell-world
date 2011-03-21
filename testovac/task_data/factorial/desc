@@ -1,5 +1,13 @@
 <html>
 <h1> Úloha: Fakt oriál.</h1>
+
+Sčítavanie síl démonov je v poriadku. Ale je evidentné, že nezodpovedá realite.
+Pokiaľ máte na mieste dvoch démonov, ich sila sa väčšinou nesčítava, ale násobí,
+lebo je to tak hrozitánskejšie. Vašou úlohou je opäť pomôcť staniviť celkovú silu organizovanej
+grupy démonov.
+
+<br>
+Vstup a výstup:
 Na vstupe máte dané číslo <var>0 ≤ N ≤ 20</var>.
 Na výstup vypíšte <var>N</var> faktoriál.
 <br>

@@ -1,5 +1,15 @@
 <html>
 <h1> Úloha: Obrátený reťazec. </h1>
+
+Obracať sa v pekle nie je jednoduché. Predsa je tam len trochu plnšie ako v nebi. Priam povedané, je
+tam celkom husto a atmosféra je úplne nažhavená. Isto vás neprekvapí, že pekelní Anjeli občas
+potrebujú preusporiadať všetkých tých ľudí z hľadiska lepšieho využitia priestoru (i.e. napchať ich
+tam ešte viac). No a také otáčanie nie je ľahké. Zvlášť v prípade, že sa tam nachádzajú aj isté
+hnusné neviditeľné indivíduá (oni by boli možno aj viditeľné, ale každý zdravý mozog sa vzoprie
+pokušeniu spracovať signál zo sietnice ich smerom).
+
+</br>
+Vstup:
 Na vstupe je práve jeden riadok ukončený koncom riadku.
 Na ňom je daný jeden reťazec dĺžky menšej ako 47, pričom pod reťazcom
 chápeme ľubovoľnú kombináciu vypísateľných znakov (a teda špeciálne aj

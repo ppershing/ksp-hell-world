@@ -1,5 +1,12 @@
 <html>
 <h1> Úloha: Fibonači. </h1>
+
+Iste poznáte úlohu o králikov. V našom prípade sa ale nemnožia exponenciálne králiky ale čosi
+omnoho, omnoho temnejšie. Radšej nechcite ani vedieť čo. A byť vami, napíšem túto úlohu rýchlo, lebo
+sa náhodou namnožia zrovna vo vašej blízkosti a ...
+
+<br>
+Vstup:
 Na vstupe máte dané číslo <var>1 ≤ N ≤ 41</var>.
 Vašou úlohou je vypísať <var>N</var>-té Fibonačiho číslo,
 pričom prvé dve sú 1 a 1.

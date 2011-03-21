@@ -7,6 +7,11 @@
 <html>
 <h1> Úloha: dva a dva je tri </h1>
 
+Iste viete, že každý démon v pekle má svoju silu. A keď sa na jednom mieste objaví niekoľko démonov,
+ich výsledná sila je súčtom síl jednotlivých démonov. Vašou úlohou je vypočítať túto silu.
+
+<br>
+Vstup:
 Na vstupe sú 2 čísla <var> -1 000 000 000 ≤ n,m ≤ 1 000 000 000 </var>.
 Vypíšte jeden riadok a na ňom číslo jediné číslo <var>n+m</var>.
 <br>
