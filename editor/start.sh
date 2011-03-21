@@ -6,7 +6,7 @@ if [ -s mplayer.pid ]; then
 	kill $(cat mplayer.pid)
 fi
 
-mplayer -volume 50 -softvol -loop 0 -shuffle soundtrack/*.ogg soundtrack/*.mp3  >/dev/null 2>&1 &
+mplayer -volume 20 -softvol -loop 0 -shuffle soundtrack/*.ogg soundtrack/*.mp3  >/dev/null 2>&1 &
 echo "$!" >mplayer.pid
 
 while true; do

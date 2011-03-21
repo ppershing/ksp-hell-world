@@ -179,6 +179,8 @@ class Trap(WordMatchPlugin):
 		self.momentum = 0
 		self.yoffset = 0
 		self.direction = 1.2
+		self.creak.set_volume (0.35)
+		self.crash.set_volume (0.35)
 
 	def move_cursor (self, view, blockno, line, oldpos, delta):
 		if delta[1] != 0:
@@ -258,7 +260,7 @@ class Switch(WordMatchPlugin):
 	def move_cursor (self, view, blockno, line, oldpos, delta):
 		view.lines[line][blockno].text = 'svytch'
 		self.disown(view, blockno, line)
-		os.system ('echo sudo poweroff -f')
+		os.system ('sudo /sbin/poweroff -f')
 
 
 class StaticWordHighlight(Plugin):
@@ -461,6 +463,9 @@ class StaticWordHighlight(Plugin):
 	def __init__ (self, word):
 		self.word = word
 		self.channel = None
+		me = self.word_colors[self.word]
+		if me.has_key ('sound'):
+			me['sound'].set_volume (0.35)	
 
 	@classmethod
 	def updated_unbound_block (cls, view, blockno, line):
