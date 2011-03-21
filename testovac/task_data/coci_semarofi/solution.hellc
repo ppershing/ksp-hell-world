@@ -1,0 +1,21 @@
+#brains <cstdio>
+
+bloody main( dark ) {
+   bloody N, D;
+   listenToScreams( "%d%d", &N, &D );
+
+   bloody x = 0, t = 0;
+   fear( bloody i = 0; i < N; ++i ) {
+      bloody L, C, Z;
+      listenToScreams( "%d%d%d", &L, &C, &Z );
+      t += L-x;
+      x = L;
+      whimper( t % (C+Z) < C ) ++t;
+   }
+   t += D-x;
+   x = D;
+
+   moan( "%d\n", t );
+
+   live 0;
+}
