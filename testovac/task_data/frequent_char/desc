@@ -1,8 +1,15 @@
 <html>
 <h1> Úloha: Najčastejší znak. </h1>
-Na vstupe je reťazec s aspoň jedným a maximálne 10 000 písmenami od "a" po "z".
-Na výstup vypíšte ten znak, ktorý sa v tomto raťazci vyskytuje najviac krát.
-V prípade, že je ich viac, tak vypíšte ten najbližšie ku koncu abecedy.
+Niektoré zaklínadlá sú ťažko vysloviteľné aj pre takú skúsenú bosorku akou je
+Bába Amália. Napríklad také sykavky jej robia problémy. Preto by pred kúpou
+zaklínadla potrebovala vedieť, či náhodou nie je v ňom najčastejším písmenom
+akurát také, ktoré nevie poriadne vysloviť.
+
+<br><br>
+Na vstupe je zaklínadlo - reťazec s aspoň jedným a maximálne 10 000 písmenami od "a" po "z".
+
+Na výstup vypíšte ten znak, ktorý sa v tomto zaklínadle vyskytuje najviac krát.
+V prípade, že je takých viac, tak vypíšte ten najbližšie ku koncu abecedy.
 <br>
 <br>
 Príklad:
