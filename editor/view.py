@@ -58,7 +58,7 @@ class Viewport:
 	def __init__ (self, width, height):
 		self.screen = pygame.display.set_mode ((width, height))
 		self.font = pygame.font.SysFont ('monospace', 16)
-		(self.char_width, self.char_height) = self.font.size ('I')
+		(self.char_width, self.char_height) = self.font.size ('O')
 		
 
 
