@@ -69,8 +69,6 @@ class Plugin:
 		pass
 
 	def disown (self, view, blockno, line):
-		print view.lines
-		print blockno, line
 		view.lines[line][blockno].manager = None
 		view.new_block (blockno, line)
 
@@ -490,14 +488,17 @@ class StaticWordHighlight(Plugin):
 			replacement = filter (lambda x: x.text != '', [block [0:pos], Block(word, cls(word)), block[pos + len(word):]])
 
 			view.lines[line] = view.lines[line][0:blockno] + replacement + view.lines[line][blockno+1:]
-			if block[0:pos].text != '':
-				view.new_block(blockno, line)
 
 			if block[pos + len(word):].text != '':
 				add = 1
 				if len(replacement)>2:
 					add = 2
 				view.new_block(blockno + add, line)
+			
+			if block[0:pos].text != '':
+				view.new_block(blockno, line)
+			break
+
 		if (pos == -1):
 			return False
 		return True
@@ -520,6 +521,5 @@ class StaticWordHighlight(Plugin):
 
 	def render (self,view, blockno, line, wp, rect):
 		block = view.lines[line][blockno]
-		print self.word_colors[self.word]
 		text = wp.font.render (block.text, 0, self.word_colors[self.word]['color'] )
 		blit_clipped (wp.screen, text, rect)

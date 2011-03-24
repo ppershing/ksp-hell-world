@@ -300,7 +300,3 @@ class ViewData:
 		else:
 			block.manager.disown (self, blockno, line)
 
-
-			
-
-		
