@@ -48,6 +48,7 @@ clock = pygame.time.Clock ()
 max_width = wp.screen.get_width()/wp.char_width
 max_height = wp.screen.get_height()/wp.char_height
 
+
 try:
 	content = map (string.rstrip, file (file_path).readlines ())
 except:
@@ -90,7 +91,7 @@ while 1:
 				text = wp.font.render ( to_print, 0, (255,255,255))
 				wp.screen.blit (text, (x*wp.char_width, y*wp.char_height))
 			else:
-				elem.manager.render (view, blockno, lineno, wp, 
+				elem.manager.render (view, blockno, view.offset[1] + lineno, wp, 
 					((data_x-view.offset[0])*wp.char_width, y*wp.char_height, wp.char_width* len(to_print), wp.char_height) )
 			x += len (to_print)
 			data_x += len(elem.text)
