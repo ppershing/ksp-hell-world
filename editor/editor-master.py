@@ -115,7 +115,7 @@ except:
 
 def witch_screen (show):
 	if show:
-		os.system("mplayer sounds/allie_scream2.wav &")
+		os.system("mplayer sounds/allie_scream.wav &")
 		witch.show_all ()
 		glib.timeout_add (2000, witch_screen, False)
 	else:
