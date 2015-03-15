@@ -1,0 +1,1 @@
+Editor with terrible effects and sounds and with C++/Pascal like language
